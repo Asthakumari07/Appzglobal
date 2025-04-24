@@ -1,0 +1,52 @@
+.clip-bottom-edge {
+  clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 15% 100%);
+  border-radius: 5;
+  position: relative;
+  margin-bottom: -20px !important;
+  z-index: 999;
+  height: 70px !important;
+}
+
+@media (min-width: 768px) {
+  .clip-bottom-edge {
+    height: 80px !important;
+    margin-bottom: -40px !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  .clip-bottom-edge {
+    height: 90px !important;
+    margin-bottom: -40px !important;
+  }
+}
+
+/* Text Animation */
+.animate-text {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  /* This creates the "cursor" effect */
+}
+
+/* This keyframe animation will handle the typing effect */
+@keyframes typing {
+  from {
+    width: 0; /* Start with 0 width */
+  }
+  to {
+    width: 100%; /* Expand to 100% width */
+  }
+}
+
+/* This keyframe animation creates the blinking cursor effect */
+@keyframes blink {
+  50% {
+    border-color: transparent; /* Cursor disappears halfway */
+  }
+}
+
+.animate-text {
+  width: 0; /* Initially set the width to 0 to hide the text */
+  animation: typing 3s steps(30) 1s forwards, blink 0.75s step-end infinite;
+}
