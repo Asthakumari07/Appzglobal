@@ -2,8 +2,10 @@ import React from "react";
 import Navbar from "../Components/Navbar/Navbar";
 import Navbar2 from "../Components/Navbar/Navbar2";
 import Footer from "../Components/Footer/Footer";
+import { useNavigate } from "react-router-dom";
 
 const VisionTrack = () => {
+  const navigate = useNavigate();
   return (
     <>
       <Navbar />
@@ -155,8 +157,9 @@ const VisionTrack = () => {
           <a
             href="javascript:void(0)"
             class="bg-yellow-500 text-blue-600 py-3 px-6 rounded-lg text-lg font-semibold hover:bg-yellow-400 transition duration-300"
+            onClick={() => navigate("/contact")}
           >
-            Request a Demo Today
+            📞 Request a Demo Today
           </a>
         </section>
       </div>

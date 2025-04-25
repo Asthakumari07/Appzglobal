@@ -1,8 +1,11 @@
 import React from "react";
 import Navbar from "../Components/Navbar/Navbar";
 import Navbar2 from "../Components/Navbar/Navbar2";
+import { useNavigate } from "react-router-dom";
+import Footer from "../Components/Footer/Footer";
 
 const SEO = () => {
+  const navigate = useNavigate();
   return (
     <>
       <Navbar />
@@ -124,7 +127,10 @@ const SEO = () => {
             right audience, improve visibility, and achieve higher conversion
             rates.
           </p>
-          <button className="text-lg font-medium text-white bg-blue-500 px-5 py-2 rounded-2xl">
+          <button
+            className="text-lg font-medium text-white bg-blue-500 px-5 py-2 rounded-2xl"
+            onClick={() => navigate("/contact")}
+          >
             📲 Contact Us Today for a Free SEO/SEM Consultation!
           </button>
         </div>

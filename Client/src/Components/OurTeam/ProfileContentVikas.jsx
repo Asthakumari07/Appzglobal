@@ -7,7 +7,7 @@ import {
 } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { IoLogoInstagram } from "react-icons/io";
-import vikashImg from "../../assets/Pexels Photo by Emmy E.png";
+import vikashImg from "../../assets/employee/VIKAS SIR 1.png";
 
 const ProfileContentVikas = () => {
   return (

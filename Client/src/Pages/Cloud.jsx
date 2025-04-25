@@ -2,8 +2,10 @@ import React from "react";
 import Navbar from "../Components/Navbar/Navbar";
 import Navbar2 from "../Components/Navbar/Navbar2";
 import Footer from "../Components/Footer/Footer";
+import { useNavigate } from "react-router-dom";
 
 const Cloud = () => {
+  const navigate = useNavigate();
   return (
     <>
       <Navbar />
@@ -87,7 +89,10 @@ const Cloud = () => {
           </div>
 
           <div className="mt-8 flex justify-center">
-            <button className="bg-blue-500 text-white px-6 py-3 rounded-xl shadow hover:bg-orange-400 transition ">
+            <button
+              className="bg-blue-500 text-white px-6 py-3 rounded-xl shadow hover:bg-orange-400 transition"
+              onClick={() => navigate("/contact")}
+            >
               📲 Request a Consultation
             </button>
           </div>

@@ -2,8 +2,10 @@ import React from "react";
 import Navbar from "../Components/Navbar/Navbar";
 import Navbar2 from "../Components/Navbar/Navbar2";
 import Footer from "../Components/Footer/Footer";
+import { useNavigate } from "react-router-dom";
 
 const AppDevelopment = () => {
+  const navigate = useNavigate();
   return (
     <>
       <Navbar />
@@ -97,7 +99,10 @@ const AppDevelopment = () => {
               Whether you're starting fresh or enhancing an existing app, Appz
               Global Tech is your trusted development partner.
             </p>
-            <button className="mt-6 px-6 py-3 bg-blue-700 text-white rounded-xl shadow hover:bg-blue-800 transition">
+            <button
+              className="mt-6 px-6 py-3 bg-blue-700 text-white rounded-xl shadow hover:bg-blue-800 transition"
+              onClick={() => navigate("/contact")}
+            >
               Contact Us to Get Started!
             </button>
           </div>

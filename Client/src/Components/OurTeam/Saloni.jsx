@@ -1,5 +1,5 @@
 import React from "react";
-import SaloniImg from "../../assets/Pexels Photo by Emmy E.png";
+import SaloniImg from "../../assets/employee/saloni 1.png";
 import {
   FaPhoneAlt,
   FaEnvelope,

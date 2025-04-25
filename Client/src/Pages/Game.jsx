@@ -2,8 +2,10 @@ import React from "react";
 import Navbar from "../Components/Navbar/Navbar";
 import Navbar2 from "../Components/Navbar/Navbar2";
 import Footer from "../Components/Footer/Footer";
+import { useNavigate } from "react-router-dom";
 
 const Game = () => {
+  const navigate = useNavigate();
   return (
     <>
       <Navbar />
@@ -153,7 +155,10 @@ const Game = () => {
             into immersive, successful games that engage and captivate players
             worldwide.
           </p>
-          <p className="text-lg font-medium text-blue-600">
+          <p
+            className="text-lg font-medium text-blue-600"
+            onClick={() => navigate("/contact")}
+          >
             📲 Contact Us Today to Start Your Game Development Journey!
           </p>
         </div>

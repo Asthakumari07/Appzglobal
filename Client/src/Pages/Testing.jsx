@@ -1,8 +1,10 @@
 import React from "react";
 import Navbar from "../Components/Navbar/Navbar";
 import Navbar2 from "../Components/Navbar/Navbar2";
+import { useNavigate } from "react-router-dom";
 
 const Testing = () => {
+  const navigate = useNavigate();
   return (
     <>
       <Navbar />
@@ -99,8 +101,11 @@ const Testing = () => {
           </div>
 
           <div className="mt-8">
-            <button className="bg-blue-700 text-white px-6 py-3 rounded-xl shadow hover:bg-blue-800 transition">
-              🧪 Schedule Your Testing Consultation
+            <button
+              className="bg-blue-700 text-white px-6 py-3 rounded-xl shadow hover:bg-blue-800 transition"
+              onClick={() => navigate("/contact")}
+            >
+              📞 Schedule Your Testing Consultation
             </button>
           </div>
         </div>

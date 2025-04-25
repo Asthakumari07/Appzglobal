@@ -2,8 +2,10 @@ import React from "react";
 import Navbar from "../Components/Navbar/Navbar";
 import Navbar2 from "../Components/Navbar/Navbar2";
 import Footer from "../Components/Footer/Footer";
+import { useNavigate } from "react-router-dom";
 
 const Library = () => {
+  const navigate = useNavigate();
   return (
     <>
       <Navbar />
@@ -86,7 +88,10 @@ const Library = () => {
             operations, and ensures efficient library management for
             institutions of any size.
           </p>
-          <button className="bg-blue-700 text-white px-6 py-2 rounded-lg text-lg hover:bg-blue-800 transition">
+          <button
+            className="bg-blue-700 text-white px-6 py-2 rounded-lg text-lg hover:bg-blue-800 transition"
+            onClick={() => navigate("/contact")}
+          >
             📞 Get a Free Demo Today
           </button>
         </div>

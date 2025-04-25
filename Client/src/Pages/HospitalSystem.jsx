@@ -2,8 +2,10 @@ import React from "react";
 import Navbar from "../Components/Navbar/Navbar";
 import Navbar2 from "../Components/Navbar/Navbar2";
 import Footer from "../Components/Footer/Footer";
+import { useNavigate } from "react-router-dom";
 
 const HospitalSystem = () => {
+  const navigate = useNavigate();
   return (
     <>
       <Navbar />
@@ -87,7 +89,10 @@ const HospitalSystem = () => {
           </div>
 
           <div className="mt-8">
-            <button className="bg-blue-700 text-white px-6 py-3 rounded-xl shadow hover:bg-blue-800 transition">
+            <button
+              className="bg-blue-700 text-white px-6 py-3 rounded-xl shadow hover:bg-blue-800 transition"
+              onClick={() => navigate("/contact")}
+            >
               🩺 Get a Free Demo Today
             </button>
           </div>

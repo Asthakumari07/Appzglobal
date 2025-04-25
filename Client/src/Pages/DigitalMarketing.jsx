@@ -2,8 +2,10 @@ import React from "react";
 import Navbar from "../Components/Navbar/Navbar";
 import Navbar2 from "../Components/Navbar/Navbar2";
 import Footer from "../Components/Footer/Footer";
+import { useNavigate } from "react-router-dom";
 
 const DigitalMarketing = () => {
+  const navigate = useNavigate();
   return (
     <>
       <Navbar />
@@ -98,8 +100,11 @@ const DigitalMarketing = () => {
             established brand aiming for digital transformation, Appz Global
             Tech has the expertise to drive results.
           </p>
-          <p className="font-semibold text-indigo-600">
-            Get in Touch for a Free Digital Marketing Consultation Today!
+          <p
+            className="font-semibold text-indigo-600"
+            onClick={() => navigate("/contact")}
+          >
+            📞 Get in Touch for a Free Digital Marketing Consultation Today!
           </p>
         </div>
       </div>

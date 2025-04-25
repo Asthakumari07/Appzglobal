@@ -2,8 +2,10 @@ import React from "react";
 import Navbar from "../Components/Navbar/Navbar";
 import Navbar2 from "../Components/Navbar/Navbar2";
 import Footer from "../Components/Footer/Footer";
+import { useNavigate } from "react-router-dom";
 
 const Oracle = () => {
+  const navigate = useNavigate();
   return (
     <>
       <Navbar />
@@ -105,7 +107,10 @@ const Oracle = () => {
             Whether you need a brand new Oracle SQL setup or want to enhance an
             existing one — we've got you covered.
           </p>
-          <p className="text-lg font-medium text-indigo-600">
+          <p
+            className="text-lg font-medium text-indigo-600"
+            onClick={() => navigate("/contact")}
+          >
             📲 Contact Us Today for a Free Consultation on Your Oracle SQL
             Development Project!
           </p>

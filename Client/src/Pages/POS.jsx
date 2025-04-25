@@ -2,8 +2,10 @@ import React from "react";
 import Navbar from "../Components/Navbar/Navbar";
 import Navbar2 from "../Components/Navbar/Navbar2";
 import Footer from "../Components/Footer/Footer";
+import { useNavigate } from "react-router-dom";
 
 const POS = () => {
+  const navigate = useNavigate();
   return (
     <>
       <Navbar />
@@ -87,7 +89,10 @@ const POS = () => {
             enterprise, Appz Global Tech’s POS System helps you manage sales and
             operations with ease.
           </p>
-          <button className="bg-blue-700 text-white px-6 py-2 rounded-lg text-lg hover:bg-blue-800 transition">
+          <button
+            className="bg-blue-700 text-white px-6 py-2 rounded-lg text-lg hover:bg-blue-800 transition"
+            onClick={() => navigate("/contact")}
+          >
             💡 Request a Demo Today
           </button>
         </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import lokeshImage from "../../assets/Pexels Photo by Emmy E.png";
+import lokeshImage from "../../assets/employee/lokesh sir 1.png";
 import {
   FaPhoneAlt,
   FaEnvelope,

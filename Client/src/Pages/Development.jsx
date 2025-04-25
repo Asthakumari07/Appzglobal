@@ -2,8 +2,10 @@ import React from "react";
 import Navbar from "../Components/Navbar/Navbar";
 import Navbar2 from "../Components/Navbar/Navbar2";
 import Footer from "../Components/Footer/Footer";
+import { useNavigate } from "react-router-dom";
 
 const Development = () => {
+  const navigate = useNavigate();
   return (
     <>
       <Navbar />
@@ -183,8 +185,11 @@ const Development = () => {
 
           {/* CTA */}
           <div className="text-center mt-12">
-            <button className="bg-blue-800 text-white px-8 py-3 rounded-xl font-semibold hover:bg-blue-900 transition">
-              Get in Touch for a Free Consultation
+            <button
+              className="bg-blue-800 text-white px-8 py-3 rounded-xl font-semibold hover:bg-blue-900 transition"
+              onClick={() => navigate("/contact")}
+            >
+              📞 Get in Touch for a Free Consultation
             </button>
           </div>
         </div>

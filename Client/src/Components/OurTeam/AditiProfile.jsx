@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../Navbar/Navbar";
 import Navbar2 from "../Navbar/Navbar2";
 import Footer from "../Footer/Footer";
-import AditiImg from "../../assets/Pexels Photo by Emmy E.png";
+import AditiImg from "../../assets/employee/AditiFinal.png";
 import {
   FaPhoneAlt,
   FaEnvelope,

@@ -78,8 +78,7 @@ const Home1 = () => {
         >
           <img
             src={gifImg}
-            alt="Animated Visual"
-            className="rounded-tr-[120px] shadow-lg"
+            className="w-64 h-auto sm:w-72 md:w-80 lg:w-96 xl:w-[450px] rounded-tr-[120px] shadow-lg"
           />
         </motion.div>
 
