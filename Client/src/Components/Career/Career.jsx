@@ -4,6 +4,7 @@ import Navbar2 from "../Navbar/Navbar2";
 import CareerCard from "./CareerCard";
 import Gallery from "./Gallery";
 import Footer3 from "../About/Footer3";
+import Footer from "../Footer/Footer";
 
 const Career = () => {
   return (
@@ -13,6 +14,7 @@ const Career = () => {
       <CareerCard />
       <Gallery />
       <Footer3 />
+      <Footer />
     </>
   );
 };

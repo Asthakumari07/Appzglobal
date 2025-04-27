@@ -1,5 +1,5 @@
 .image {
-  background-image: url("../../assets//ContactForm.png");
+  background-image: url("/assets//ContactForm.png");
   background-size: cover;
   background-position: center;
 }

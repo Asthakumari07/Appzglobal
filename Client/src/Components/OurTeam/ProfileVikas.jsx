@@ -3,6 +3,7 @@ import Navbar from "../Navbar/Navbar";
 import Navbar2 from "../Navbar/Navbar2";
 import Footer3 from "../About/Footer3";
 import ProfileContentVikas from "./ProfileContentVikas";
+import Footer from "../Footer/Footer";
 
 const ProfileVikas = () => {
   return (
@@ -11,6 +12,7 @@ const ProfileVikas = () => {
       <Navbar2 />
       <ProfileContentVikas />
       <Footer3 />
+      <Footer />
     </>
   );
 };

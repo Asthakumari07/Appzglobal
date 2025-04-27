@@ -2,37 +2,34 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import img1 from "../../assets/employee/AditiFinal.png";
-import img2 from "../../assets/employee/lokesh sir 1.png";
-import img3 from "../../assets/employee/VIKAS SIR 1.png";
-import img4 from "../../assets/employee/saloni 1.png";
+
 import { CiLinkedin } from "react-icons/ci";
 import { FaFacebook, FaSquareWhatsapp } from "react-icons/fa6";
 import { FaInstagramSquare } from "react-icons/fa";
-import backImage from "../../assets/back-image.png";
+
 import { useNavigate } from "react-router-dom";
 
 const data = [
   {
-    image: img2,
+    image: "/assets/lokesh sir 1.png",
     name: "Lokesh Kumar",
     para: "Managing Director",
     icons: [CiLinkedin, FaFacebook, FaSquareWhatsapp, FaInstagramSquare],
   },
   {
-    image: img3,
+    image: "/assets/VIKAS SIR 1.png",
     name: "Vikas Kumar",
     para: "Chief Technology Officer",
     icons: [CiLinkedin, FaFacebook, FaSquareWhatsapp, FaInstagramSquare],
   },
   {
-    image: img1,
+    image: "/assets/AditiFinal.png",
     name: "Aditi Chaudhary",
     para: "Director",
     icons: [CiLinkedin, FaFacebook, FaSquareWhatsapp, FaInstagramSquare],
   },
   {
-    image: img4,
+    image: "/assets/saloni 1.png",
     name: "Saloni Jha",
     para: "HR Manager",
     icons: [CiLinkedin, FaFacebook, FaSquareWhatsapp, FaInstagramSquare],
@@ -60,7 +57,7 @@ const HomeEmployee = () => {
     <div
       className="w-full overflow-hidden flex flex-col lg:flex-row items-center justify-between px-6 py-10 gap-10"
       style={{
-        backgroundImage: `url(${backImage})`,
+        backgroundImage: `url("/assets/back-image.png")`,
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}

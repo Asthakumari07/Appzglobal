@@ -1,5 +1,4 @@
 import React from "react";
-import img1 from "../../assets/112233.png";
 
 const DesignPara = () => {
   return (
@@ -21,7 +20,7 @@ const DesignPara = () => {
         </div>
         <div className="w-full lg:w-[50%]">
           <img
-            src={img1}
+            src="/assets/112233.png"
             alt="Clients trust visual"
             className="w-full h-auto object-contain rounded-none shadow-none border-none cursor-default rounded-tl-[100px]"
           />

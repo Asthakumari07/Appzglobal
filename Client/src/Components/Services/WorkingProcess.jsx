@@ -1,30 +1,26 @@
 import React from "react";
-import img1 from "../../assets/Brainstorming_Doc_Group_2_.png";
-import img2 from "../../assets/Strategic_Doc_Group_1_.png";
-import img3 from "../../assets/Analytics_Doc_Group_2_.png";
-import img4 from "../../assets/Launch_Doc_Group_2_.png";
 
 const data = [
   {
-    image: img1,
+    image: "/assets/Brainstorming_Doc_Group_2_.png",
     title: "Discovery",
     para: "We begin by understanding your vision, analyzing business needs, and researching market trends. Our team gathers insights to define clear project goals. This phase ensures a strong foundation for success.",
     number: "01",
   },
   {
-    image: img2,
+    image: "/assets/Strategic_Doc_Group_1_.png",
     title: "Planning",
     para: "We craft a strategic roadmap, design wireframe, and outline development milestones. Our structured planning process ensures seamless execution. Timelines and resources are optimized for efficiency.",
     number: "02",
   },
   {
-    image: img3,
+    image: "/assets/Analytics_Doc_Group_2_.png",
     title: "Execution",
     para: "Our experts develop, test, and refine the solution to meet quality standards. We ensure smooth functionality, user-centric design, and high performance. Continuous improvements are made for the best results.",
     number: "03",
   },
   {
-    image: img4,
+    image: "/assets/Launch_Doc_Group_2_.png",
     title: "Delivery",
     para: "We launch the final product with precision, ensuring flawless deployment. Post-launch support, optimization, and maintenance ensure long-term success. We help businesses scale with reliable solutions.",
     number: "04",

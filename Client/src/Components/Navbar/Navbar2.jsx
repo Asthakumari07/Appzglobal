@@ -3,24 +3,6 @@ import { CgMenuRightAlt } from "react-icons/cg";
 import { Link, useNavigate, useLocation } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 
-// Importing route-based images
-// import heroImage from "../../assets/hero section.gif";
-import serviceImage from "../../assets/ServicesPage.png";
-import aboutImage from "../../assets/About22.jpeg";
-import productsImage from "../../assets/Products.png";
-import careerImage from "../../assets/CareerPage.png";
-import portfolioImage from "../../assets/Portfolio1.png";
-import blogsImage from "../../assets/BlogNav.png";
-import teamImage from "../../assets/TeamPage.png";
-import contactImage from "../../assets/ContactImage.png";
-import partnerImage from "../../assets/Partner.png";
-import infraImage from "../../assets/infrastructure.png";
-import qualityImage from "../../assets/Quality.png";
-import modelImage from "../../assets/ModelPage.png";
-import clientImage from "../../assets/Client.png";
-import designImage from "../../assets/Quality.png";
-import staffImage from "../../assets/Staff.png";
-
 const Navbar2 = () => {
   const navigate = useNavigate();
   const location = useLocation();
@@ -38,189 +20,189 @@ const Navbar2 = () => {
         "Stay ahead with AI-powered smart solutions that drive innovation, enhance efficiency, and accelerate business growth-empowering you to thrive in a future-ready digital-world",
     },
     "/services": {
-      image: serviceImage,
+      image: "/assets/ServicesPage.png",
       title: "Explore Our Services",
       description: "We offer cutting-edge development and marketing...",
     },
     "/about": {
-      image: aboutImage,
+      image: "/assets/About22.jpeg",
       title: "About Appz Global",
       description: "Discover our journey and mission...",
     },
     "/products": {
-      image: productsImage,
+      image: "/assets/Products.png",
       title: "Our Products",
       description: "Explore our innovative products...",
     },
     "/career": {
-      image: careerImage,
+      image: "/assets/CareerPage.png",
       title: "Join Our Team",
       description: "Be part of a growing tech company...",
     },
     "/portfolio": {
-      image: portfolioImage,
+      image: "/assets/Portfolio1.png",
       title: "Our Portfolio",
       description: "Check out our work and success stories...",
     },
     "/blogs": {
-      image: blogsImage,
+      image: "/assets/BlogNav.png",
       title: "Latest Insights",
       description: "Read our blog for the latest trends and updates...",
     },
     "/team": {
-      image: teamImage,
+      image: "/assets/TeamPage.png",
       title: "Meet Our Team",
       description: "The minds behind Appz Global Tech...",
     },
     "/contact": {
-      image: contactImage,
+      image: "/assets/ContactImage.png",
       title: "Get In Touch",
       description: "We’d love to hear from you...",
     },
     "/partner": {
-      image: partnerImage,
+      image: "/assets/Partner.png",
       title: "Our Partners",
       description: "We collaborate with global leaders...",
     },
     "/infrastructure": {
-      image: infraImage,
+      image: "/assets/infrastructure.png",
       title: "Our Infrastructure",
       description: "Built on robust tech and scalable systems...",
     },
     "/quality": {
-      image: qualityImage,
+      image: "/assets/Quality.png",
       title: "Quality Standards",
       description: "Committed to delivering excellence...",
     },
     "/model": {
-      image: modelImage,
+      image: "/assets/Quality.png",
       title: "Business Model",
       description: "Flexible engagement models tailored for you...",
     },
-    "/Client": {
-      image: clientImage,
+    "/client": {
+      image: "/assets/Client.png",
       title: "Our Clients",
       description: "Trusted by businesses around the world...",
     },
     "/design": {
-      image: designImage,
+      image: "/assets/Quality.png",
       title: "Design Methodology",
       description: "Our approach to user-centric design...",
     },
     "/staff": {
-      image: staffImage,
+      image: "/assets/Staff.png",
       title: "Staff Augmentation",
     },
     "/term": {
-      image: designImage,
+      image: "/assets/Quality.png",
       title: "Term & Condition",
     },
     "/privacy": {
-      image: designImage,
+      image: "/assets/Quality.png",
       title: "Privacy Policy",
     },
     "/analytical": {
-      image: serviceImage,
+      image: "/assets/ServicesPage.png",
       title: "Analytical",
     },
     "/erpservice": {
-      image: serviceImage,
+      image: "/assets/ServicesPage.png",
       title: "ERP Services",
     },
     "/uiux": {
-      image: serviceImage,
+      image: "/assets/ServicesPage.png",
       title: "UI/UX",
     },
     "/crm": {
-      image: serviceImage,
+      image: "/assets/ServicesPage.png",
       title: "CRM",
     },
     "/testing": {
-      image: serviceImage,
+      image: "/assets/ServicesPage.png",
       title: "Testing",
     },
     "/database": {
-      image: serviceImage,
+      image: "/assets/ServicesPage.png",
       title: "Database",
     },
     "/development": {
-      image: serviceImage,
+      image: "/assets/ServicesPage.png",
       title: "Development",
     },
     "/cloud": {
-      image: serviceImage,
+      image: "/assets/ServicesPage.png",
       title: "Cloud",
     },
     "/Software-dev": {
-      image: serviceImage,
+      image: "/assets/ServicesPage.png",
       title: "Software Development",
     },
     "/digital-marketing": {
-      image: serviceImage,
+      image: "/assets/ServicesPage.png",
       title: "Digital Marketing",
     },
     "/oracle": {
-      image: serviceImage,
+      image: "/assets/ServicesPage.png",
       title: "Oracle",
     },
     "/game": {
-      image: serviceImage,
+      image: "/assets/ServicesPage.png",
       title: "Game",
     },
     "/seo": {
-      image: serviceImage,
+      image: "/assets/ServicesPage.png",
       title: "SEO",
     },
     "/mobile-app": {
-      image: serviceImage,
+      image: "/assets/ServicesPage.png",
       title: "Mobile App",
     },
     "/products/hospital-system": {
-      image: productsImage,
+      image: "/assets/ServicesPage.png",
       title: "Hospital-System",
     },
     "/products/hrms": {
-      image: productsImage,
+      image: "/assets/Products.png",
       title: "HRMS",
     },
     "/products/pos": {
-      image: productsImage,
+      image: "/assets/Products.png",
       title: "Point of sale",
     },
     "/products/library": {
-      image: productsImage,
+      image: "/assets/Products.png",
       title: "Library",
     },
     "/products/educational": {
-      image: productsImage,
+      image: "/assets/Products.png",
       title: "Educational Management",
     },
     "/products/collage-erp": {
-      image: productsImage,
+      image: "/assets/Products.png",
       title: "Collage-ERP",
     },
     "/products/parking": {
-      image: productsImage,
+      image: "/assets/Products.png",
       title: "Parking Management",
     },
     "/products/vision-track": {
-      image: productsImage,
+      image: "/assets/Products.png",
       title: "Vision Track",
     },
     "/profilelokesh": {
-      image: teamImage,
+      image: "/assets/TeamPage.png",
       title: "Lokesh Kumar",
     },
     "/profilevikas": {
-      image: teamImage,
+      image: "/assets/TeamPage.png",
       title: "Vikas Kumar",
     },
     "/profileaditi": {
-      image: teamImage,
+      image: "/assets/TeamPage.png",
       title: "Aditi",
     },
     "/saloniprofile": {
-      image: teamImage,
+      image: "/assets/TeamPage.png",
       title: "Saloni Jha",
     },
   };

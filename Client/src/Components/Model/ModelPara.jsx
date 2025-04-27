@@ -1,12 +1,11 @@
 import React from "react";
-import backImage from "../../assets/back-image.png";
 
 const ModelPara = () => {
   return (
     <>
       <div
         className="auto flex flex-col justify-center items-center p-20 bg-cover bg-center"
-        style={{ backgroundImage: `url(${backImage})` }}
+        style={{ backgroundImage: `url("/assets/back-image.png")` }}
       >
         <h1 className="text-3xl mb-5 lg:max-w-[60%] text-center font-bold">
           Flexible, Transparent & Scalable Engagement – Built Around You

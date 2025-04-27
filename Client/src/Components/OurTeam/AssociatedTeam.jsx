@@ -1,5 +1,5 @@
 import React from "react";
-import img1 from "../../assets/Pexels Photo by Emmy E.png";
+
 import {
   TiSocialFacebookCircular,
   TiSocialLinkedinCircular,
@@ -8,39 +8,39 @@ import { IoLogoInstagram } from "react-icons/io";
 
 const data = [
   {
-    image: img1,
+    image: "/assets/Pexels Photo by Emmy E.png",
     name: "Satyanshu Srivastava",
     position: "Associate Corporate Head",
   },
   {
-    image: img1,
+    image: "/assets/Pexels Photo by Emmy E.png",
     name: "Surabh Dubey",
     position: "Business Associate",
   },
   {
-    image: img1,
+    image: "/assets/Pexels Photo by Emmy E.png",
     name: "Zoobie Sabah",
     potion: "Associate Business Manager",
   },
 
   {
-    image: img1,
+    image: "/assets/Pexels Photo by Emmy E.png",
     name: "Mr. Kartik",
     position: "Business Associate",
   },
 
   {
-    image: img1,
+    image: "/assets/Pexels Photo by Emmy E.png",
     name: "Saurabh Panday",
     position: "Business Associate",
   },
   {
-    image: img1,
+    image: "/assets/Pexels Photo by Emmy E.png",
     name: "Abhishek Khare",
     position: "Associate Business Manager",
   },
   {
-    image: img1,
+    image: "/assets/Pexels Photo by Emmy E.png",
     name: "Sudhanshu",
     position: "Associate Business Head",
   },

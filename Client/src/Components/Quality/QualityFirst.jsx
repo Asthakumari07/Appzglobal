@@ -1,7 +1,4 @@
 import React from "react";
-import img from "../../assets/OUR PRINCIPLES AND VALUES.png";
-import img2 from "../../assets/Our Objective.png";
-
 const QualityFirst = () => {
   return (
     <>
@@ -25,7 +22,7 @@ const QualityFirst = () => {
           </div>
           <div className="flex justify-center">
             <img
-              src={img}
+              src="/assets/OUR PRINCIPLES AND VALUES.png"
               alt=""
               className="w-full max-w-sm shadow-md rounded-tl-[100px]"
             />
@@ -36,7 +33,7 @@ const QualityFirst = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div className="flex justify-center">
             <img
-              src={img2}
+              src="/assets/Our Objective.png"
               alt=""
               className="w-full max-w-sm shadow-md rounded-tl-[100px]"
             />

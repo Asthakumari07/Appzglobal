@@ -3,50 +3,42 @@ import Slider from "react-slick";
 import { motion } from "framer-motion";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import videoThumb from "../../assets/core services/ai.png";
-import img2 from "../../assets/core services/CRM Development.png";
-import img3 from "../../assets/core services/Custom Software Development.png";
-import img4 from "../../assets/core services/Digital Marketing Services.png";
-import img5 from "../../assets/core services/ERP Development.png";
-import img6 from "../../assets/core services/mobile app dev.png";
-import img7 from "../../assets/core services/UIUX Designing.png";
-import img8 from "../../assets/core services/website dev.png";
-import gifImg from "../../assets/second-1-min-2.gif";
+
 import { useNavigate } from "react-router-dom";
 
 const data = [
   {
     title: "Custom Software Development",
-    image: img3,
+    image: "/assets/Custom Software Development.png",
   },
   {
     title: "Mobile App Development",
-    image: img6,
+    image: "/assets/mobile app dev.png",
   },
 
   {
     title: "Website Development",
-    image: img8,
+    image: "/assets/website dev.png",
   },
   {
     title: "AI Integration",
-    image: videoThumb,
+    image: "/assets/ai.png",
   },
   {
     title: "Digital Marketing Service",
-    image: img4,
+    image: "/assets/Digital Marketing Services.png",
   },
   {
     title: "CRM Development",
-    image: img2,
+    image: "/assets/CRM Development.png",
   },
   {
     title: "ERP Development",
-    image: img5,
+    image: "/assets/ERP Development.png",
   },
   {
     title: "UI/UX Designing",
-    image: img7,
+    image: "/assets/UIUX Designing.png",
   },
 ];
 
@@ -77,7 +69,7 @@ const Home1 = () => {
           className="text-center lg:text-left max-w-md"
         >
           <img
-            src={gifImg}
+            src="/assets/ezgif-frame-001.jpg"
             className="w-64 h-auto sm:w-72 md:w-80 lg:w-96 xl:w-[450px] rounded-tr-[120px] shadow-lg"
           />
         </motion.div>

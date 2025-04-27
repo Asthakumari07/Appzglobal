@@ -1,20 +1,15 @@
 import React from "react";
 import Slider from "react-slick";
-import img1 from "../../assets/Gallery.jpeg";
-import img2 from "../../assets/Gallery5.jpeg";
-import img3 from "../../assets/Gallery2.jpeg";
-import img4 from "../../assets/Gallery3.jpeg";
-import img5 from "../../assets/Gallery4.jpeg";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const gallery = [
-  { image: img1 },
-  { image: img2 },
-  { image: img3 },
-  { image: img4 },
-  { image: img5 },
+  { image: "/assets/Gallery.jpeg" },
+  { image: "/assets/Gallery2.jpeg" },
+  { image: "/assets/Gallery3.jpeg" },
+  { image: "/assets/Gallery4.jpeg" },
+  { image: "/assets/Gallery5.jpeg" },
 ];
 
 const Gallery = () => {

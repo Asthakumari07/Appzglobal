@@ -1,46 +1,40 @@
 import React from "react";
-import img1 from "../../assets/0 6.png";
-import img2 from "../../assets/1 25.png";
-import img3 from "../../assets/2 2.png";
-import img4 from "../../assets/3 1.png";
-import img5 from "../../assets/4 1.png";
-import img6 from "../../assets/5 1.png";
-import img7 from "../../assets/logo-1 1.png";
+
 import { HiOutlineExternalLink } from "react-icons/hi";
 
 const data = [
   {
-    logo: img1,
+    logo: "/assets/0 6.png",
     para: "Fleet and logistics management system with real-time tracking and intelligent analytics.",
     link: "https://demotictechnologies.com",
   },
   {
-    logo: img2,
+    logo: "/assets/1 25.png",
     para: "Fleet and logistics management system with real-time tracking and intelligent analytics.",
     link: "https://demotictechnologies.com",
   },
   {
-    logo: img3,
+    logo: "/assets/2 2.png",
     para: "Fleet and logistics management system with real-time tracking and intelligent analytics.",
     link: "https://astuglobaltech.in",
   },
   {
-    logo: img4,
+    logo: "/assets/3 1.png",
     para: "Fleet and logistics management system with real-time tracking and intelligent analytics.",
     link: "https://sarvodayaventures.com",
   },
   {
-    logo: img5,
+    logo: "/assets/4 1.png",
     para: "Fleet and logistics management system with real-time tracking and intelligent analytics.",
     link: "https://demotictechnologies.com",
   },
   {
-    logo: img6,
+    logo: "/assets/5 1.png",
     para: "Fleet and logistics management system with real-time tracking and intelligent analytics.",
     link: "https://demotictechnologies.com",
   },
   {
-    logo: img7,
+    logo: "/assets/logo-1 1.png",
     para: "Fleet and logistics management system with real-time tracking and intelligent analytics.",
     link: "https://demotictechnologies.com",
   },

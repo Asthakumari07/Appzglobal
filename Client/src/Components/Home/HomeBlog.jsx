@@ -2,7 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import img from "../../assets/Frame 1116606683.png";
+
 import { useNavigate } from "react-router-dom";
 
 const data = [
@@ -44,7 +44,11 @@ const HomeBlog = () => {
     <div className="max-w-[90%] mx-auto py-10 px-5">
       <div className="flex flex-col md:flex-row items-center gap-10">
         <div className="flex justify-center w-full md:w-1/3">
-          <img src={img} alt="" className="h-auto w-full object-cover" />
+          <img
+            src="/assets/Frame 1116606683.png"
+            alt=""
+            className="h-auto w-full object-cover"
+          />
         </div>
 
         <div className="flex flex-col text-center md:text-left w-full md:w-2/3">

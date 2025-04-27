@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import backImage from "../../assets/Counter.jpeg";
 
 const CounterItem = ({ target, label }) => {
   const [count, setCount] = useState(0);
@@ -38,7 +37,7 @@ const HomeCounter = () => {
       <div
         className="relative w-full max-w-screen-xl text-white py-10 px-4 sm:px-10 flex flex-wrap justify-center gap-8 sm:gap-10 items-center"
         style={{
-          backgroundImage: `url(${backImage})`,
+          backgroundImage: `url("/assets/Counter.jpeg")`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}

@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../Navbar/Navbar";
 import Navbar2 from "../Navbar/Navbar2";
 import Footer from "../Footer/Footer";
-import AditiImg from "../../assets/employee/AditiFinal.png";
+
 import {
   FaPhoneAlt,
   FaEnvelope,
@@ -11,6 +11,7 @@ import {
   FaTwitter,
 } from "react-icons/fa";
 import { IoLogoInstagram } from "react-icons/io";
+import Footer3 from "../About/Footer3";
 
 const AditiProfile = () => {
   const skills = [
@@ -44,7 +45,7 @@ const AditiProfile = () => {
       <div className="bg-gray-50 min-h-screen py-10 px-4 sm:px-8 lg:px-24 text-gray-800">
         <div className="flex flex-col md:flex-row items-center gap-8 bg-blue-50 p-6 rounded-2xl shadow-lg">
           <img
-            src={AditiImg}
+            src="/assets/AditiFinal.png"
             alt="Aditi"
             className="w-60 h-60 object-cover rounded-full border-4 border-blue-900"
           />
@@ -180,6 +181,7 @@ const AditiProfile = () => {
           </div>
         </div>
       </div>
+      <Footer3 />
       <Footer />
     </>
   );

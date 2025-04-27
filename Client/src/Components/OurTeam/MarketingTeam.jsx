@@ -1,6 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
-import img1 from "../../assets/Pexels Photo by Emmy E.png";
+
 import {
   TiSocialFacebookCircular,
   TiSocialLinkedinCircular,
@@ -9,12 +9,12 @@ import { IoLogoInstagram } from "react-icons/io";
 
 const data = [
   {
-    image: img1,
+    image: "/assets/Pexels Photo by Emmy E.png",
     name: "Awnish Kumar",
     position: "Digital Marketing Manager",
   },
   {
-    image: img1,
+    image: "/assets/Pexels Photo by Emmy E.png",
     name: "Saurabh",
     position: "Digital Marketing Expert",
   },

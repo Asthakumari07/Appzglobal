@@ -1,38 +1,33 @@
 import React from "react";
-import img1 from "../../assets/customer-review_3045687 1.png";
-import img2 from "../../assets/progress_15401118 1.png";
-import img3 from "../../assets/responsive_11681311 1.png";
-import img4 from "../../assets/website_6295004 1.png";
-import img5 from "../../assets/reward_17643435 1.png";
 
 const data = [
   {
-    image: img5,
+    image: "/assets/reward_17643435 1.png",
     title: "Quality Assurance",
     para: "We implement comprehensive QA processes to identify and rectify issues early, ensuring optimal performance and reliability.",
   },
   {
-    image: img2,
+    image: "/assets/progress_15401118 1.png",
     title: "Continuous Improvement",
     para: "Our quality standards evolve to integrate best practices and emerging industry trends.",
   },
   {
-    image: img3,
+    image: "/assets/responsive_11681311 1.png",
     title: "Client Satisfaction",
     para: "We prioritize client needs and feedback, striving to exceed expectations and build long-term relationships.",
   },
   {
-    image: img4,
+    image: "/assets/website_6295004 1.png",
     title: "Testing Automation",
     para: "We implement comprehensive QA processes to identify and rectify issues early, ensuring optimal performance and reliability.",
   },
   {
-    image: img1,
+    image: "/assets/customer-review_3045687 1.png",
     title: "Gadget Capability",
     para: "We implement comprehensive QA processes to identify and rectify issues early, ensuring optimal performance and reliability.",
   },
   {
-    image: img5,
+    image: "/assets/reward_17643435 1.png",
     title: "Quality Assurance",
     para: "We implement comprehensive QA processes to identify and rectify issues early, ensuring optimal performance and reliability.",
   },

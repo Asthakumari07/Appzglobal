@@ -1,28 +1,23 @@
 import React from "react";
-import img1 from "../../assets/employee_1976016 1.png";
-import img2 from "../../assets/Workforce.png";
-import img3 from "../../assets/network.png";
-import img4 from "../../assets/Tilent.png";
-import BackImage from "../../assets/back-image.png";
 
 const data = [
   {
-    image: img1,
+    image: "/assets/employee_1976016 1.png",
     title: "Client Centric Approach",
     para: "Engagement models built around your goals",
   },
   {
-    image: img2,
+    image: "/assets/Workforce.png",
     title: "Seamless Communication",
     para: "transport updates, weekly standup, and dedicated account managers",
   },
   {
-    image: img3,
+    image: "/assets/network.png",
     title: "Scalable Teams",
     para: "Easily scale up or down based on your project's needs",
   },
   {
-    image: img4,
+    image: "/assets/Tilent.png",
     title: "Proven Expertise",
     para: "A track record of successful global delivery",
   },
@@ -32,7 +27,7 @@ const ModelCard = () => {
   return (
     <div
       className="bg-cover bg-center py-16 px-4 sm:px-8 lg:px-16"
-      style={{ backgroundImage: `url(${BackImage})` }}
+      style={{ backgroundImage: `url("/assets/back-image.png")` }}
     >
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
         {data.map((item, index) => (

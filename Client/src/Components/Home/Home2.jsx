@@ -5,19 +5,14 @@ import "slick-carousel/slick/slick-theme.css";
 import { IoIosArrowBack } from "react-icons/io";
 import { IoIosArrowForward } from "react-icons/io";
 
-import img from "../../assets/1233Group.png";
-import img1 from "../../assets/e-commerce.png";
-import img2 from "../../assets/automobile.png";
-import img3 from "../../assets/graduation.png";
-
 const data = [
-  { image: img1, title: "Transportation & Logistics" },
-  { image: img2, title: "Education" },
-  { image: img3, title: "E-commerce" },
-  { image: img, title: "Automobile" },
-  { image: img1, title: "Healthcare" },
-  { image: img2, title: "Finance" },
-  { image: img3, title: "Retail" },
+  { image: "/assets/e-commerce.png", title: "Transportation & Logistics" },
+  { image: "/assets/automobile.png", title: "Education" },
+  { image: "/assets/e-commerce.png", title: "E-commerce" },
+  { image: "/assets/1233Group.png", title: "Automobile" },
+  { image: "/assets/e-commerce.png", title: "Healthcare" },
+  { image: "/assets/automobile.png", title: "Finance" },
+  { image: "/assets/graduation.png", title: "Retail" },
 ];
 
 const PrevArrow = ({ onClick }) => (

@@ -1,26 +1,20 @@
 import React from "react";
-import img from "../../assets/Our Top Services.png";
-import img1 from "../../assets/discover.png";
-import img2 from "../../assets/design and prototyping.png";
-import img3 from "../../assets/Testing & Quality Assurance.png";
-import img4 from "../../assets/planning-strategy.png";
-import img5 from "../../assets/Development & Coding.png";
-import img6 from "../../assets/Maintenance & Support.png";
+
 import { motion } from "framer-motion";
 
 const dataLeft = [
   {
-    image: img1,
+    image: "/assets/discover.png",
     title: "Discovery & Research",
     para: "We analyze your business requirements, research industry trends, and define project goals. This stage ensures a clear vision for development.",
   },
   {
-    image: img2,
+    image: "/assets/design and prototyping.png",
     title: "Design & Prototyping",
     para: "Our UI/UX experts design intuitive interfaces, focusing on user experience. Interactive prototypes are built to visualize the app before development begins.",
   },
   {
-    image: img3,
+    image: "/assets/Testing & Quality Assurance.png",
     title: "Testing & Quality Assurance",
     para: "Rigorous testing is conducted to identify bugs, optimize performance, and enhance security. We ensure a flawless, high-quality application before launch.",
   },
@@ -28,17 +22,17 @@ const dataLeft = [
 
 const dataRight = [
   {
-    image: img4,
+    image: "/assets/planning-strategy.png",
     title: "Planning & Strategy",
     para: "A detailed roadmap, wireframes, and technical architecture are created. We establish milestones, resources, and timelines for efficient execution.",
   },
   {
-    image: img5,
+    image: "/assets/Development & Coding.png",
     title: " Development & Coding",
     para: "Our developers write clean, scalable code for both front-end and back-end. We integrate necessary APIs, databases, and functionalities to ensure seamless performance.",
   },
   {
-    image: img6,
+    image: "/assets/Maintenance & Support.png",
     title: "Maintenance & Support",
     para: "Post-launch support, updates, and optimizations are provided to enhance performance. We ensure the app stays secure, efficient, and scalable over time.",
   },
@@ -79,7 +73,7 @@ const HomeStages = () => {
 
         <div className="flex justify-center">
           <motion.img
-            src={img}
+            src="/assets/Our Top Services.png"
             alt=""
             whileHover={{ scale: 1.3 }}
             transition={{ duration: 0.3, ease: "easeInOut" }}

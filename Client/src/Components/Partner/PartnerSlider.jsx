@@ -1,14 +1,15 @@
 import React from "react";
 import Slider from "react-slick";
-import img1 from "../../assets/0 6.png";
-import img2 from "../../assets/1 25.png";
-import img3 from "../../assets/2 2.png";
-import img4 from "../../assets/3 1.png";
-import img5 from "../../assets/4 1.png";
-import img6 from "../../assets/5 1.png";
-import img7 from "../../assets/logo-1 1.png";
 
-const images = [img1, img2, img3, img4, img5, img6, img7];
+const images = [
+  "/assets/0 6.png",
+  "/assets/1 25.png",
+  "/assets/2 2.png",
+  "/assets/3 1.png",
+  "/assets/4 1.png",
+  "/assets/5 1.png",
+  "/assets/logo-1 1.png",
+];
 
 const PartnerSlider = () => {
   const settings = {

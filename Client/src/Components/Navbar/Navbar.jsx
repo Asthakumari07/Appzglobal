@@ -7,7 +7,6 @@ import {
 } from "react-icons/fa";
 import { FaSquarePinterest } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
-import logo1 from "../../assets/LogoFinal.png";
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -26,7 +25,7 @@ const Navbar = () => {
       {/* Logo */}
       <div className="mt-2 sm:mb-0 clip-bottom-edge bg-white shadow-2xl border-b border-gray-400">
         <img
-          src={logo1}
+          src="/assets/LogoFinal.png"
           alt="Appz Global Tech Logo"
           className="h-10 sm:h-12 w-50 object-contain mb-2 sm:mb-3 lg:mt-5 "
         />

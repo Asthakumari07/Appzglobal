@@ -1,28 +1,23 @@
 import React from "react";
-import img1 from "../../assets/server.png";
-import img2 from "../../assets/hours.png";
-import img3 from "../../assets/encrypted.png";
-import img4 from "../../assets/connection.png";
-import BackImage from "../../assets/back-image.png";
 
 const data = [
   {
-    image: img1,
+    image: "/assets/server.png",
     title: "Client Centric Approach",
     para: "Engagement models built around your goals",
   },
   {
-    image: img2,
+    image: "/assets/hours.png",
     title: "Seamless Communication",
     para: "transport updates, weekly standup, and dedicated account managers",
   },
   {
-    image: img3,
+    image: "/assets/encrypted.png",
     title: "Scalable Teams",
     para: "Easily scale up or down based on your project's needs",
   },
   {
-    image: img4,
+    image: "/assets/connection.png",
     title: "Proven Expertise",
     para: "A track record of successful global delivery",
   },
@@ -32,7 +27,7 @@ const CardInfrastructure = () => {
   return (
     <div
       className="bg-cover bg-center py-16 px-4 sm:px-8 lg:px-16"
-      style={{ backgroundImage: `url(${BackImage})` }}
+      style={{ backgroundImage: `url("/assets/back-image.png)` }}
     >
       <div className="flex flex-col justify-center items-center text-center gap-5">
         <h1 className="text-3xl max-w-[40%]">

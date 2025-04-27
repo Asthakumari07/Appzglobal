@@ -3,26 +3,16 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import img1 from "../../assets/ae.jpg";
-import img2 from "../../assets/ai.jpg";
-import img3 from "../../assets/android.jpeg";
-import img4 from "../../assets/angular.jpg";
-import img5 from "../../assets/apache cordova.jpg";
-import img6 from "../../assets/ios.jpeg";
-import img7 from "../../assets/In.jpg";
-import img8 from "../../assets/node js.jpg";
-import img9 from "../../assets/python.jpg";
-
 const data = [
-  { image: img1, title: "After Effects" },
-  { image: img2, title: "AI" },
-  { image: img3, title: "Android" },
-  { image: img4, title: "Angular" },
-  { image: img5, title: "Apache Cordova" },
-  { image: img6, title: "iOS" },
-  { image: img7, title: "LinkedIn SDK" },
-  { image: img8, title: "Node.js" },
-  { image: img9, title: "Python" },
+  { image: "/assets/ae.jpg", title: "After Effects" },
+  { image: "/assets/ai.jpg", title: "AI" },
+  { image: "/assets/android.jpeg", title: "Android" },
+  { image: "/assets/angular.jpg", title: "Angular" }, // fixed added /
+  { image: "/assets/apache cordova.jpg", title: "Apache Cordova" },
+  { image: "/assets/ios.jpeg", title: "iOS" },
+  { image: "/assets/In.jpg", title: "LinkedIn SDK" },
+  { image: "/assets/node js.jpg", title: "Node.js" },
+  { image: "/assets/python.jpg", title: "Python" },
 ];
 
 const sliderSettings = {

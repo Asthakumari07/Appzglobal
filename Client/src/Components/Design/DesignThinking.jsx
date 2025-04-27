@@ -1,5 +1,4 @@
 import React from "react";
-import img1 from "../../assets/Our Objective.png";
 
 const DesignThinking = () => {
   return (
@@ -40,7 +39,7 @@ const DesignThinking = () => {
           {/* Image */}
           <div className="w-full lg:w-1/2">
             <img
-              src={img1}
+              src="/assets/Our Objective.png"
               alt="Design Thinking"
               className="rounded-lg shadow-lg w-full h-auto object-cover"
             />

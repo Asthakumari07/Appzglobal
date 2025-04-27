@@ -1,47 +1,41 @@
 import React from "react";
-import img1 from "../../assets/net.jpg";
-import img2 from "../../assets/python.jpg";
-import img3 from "../../assets/react.jpg";
-import img4 from "../../assets/Java.png";
-import img5 from "../../assets/Php.png";
-import img6 from "../../assets/Wordpress.png";
-import BackImage from "../../assets/back-image.png";
+
 import { MdArrowOutward } from "react-icons/md";
 import { useNavigate } from "react-router-dom";
 
 const data = [
   {
-    image: img1,
+    image: "/assets/net.jpg",
     title: ".NET",
     para: "Experience 3+ Years",
     location: "Noida",
   },
   {
-    image: img2,
+    image: "assets/python.jpg",
     title: "Python",
     para: "Experience 3+ Years",
     location: "Noida",
   },
   {
-    image: img3,
+    image: "/assets/react.jpg",
     title: "React JS",
     para: "Experience 3+ Years",
     location: "Noida",
   },
   {
-    image: img4,
+    image: "/assets/Java.png",
     title: "Java",
     para: "Experience 3+ Years",
     location: "Noida",
   },
   {
-    image: img5,
+    image: "/assets/Php.png",
     title: "PHP",
     para: "Experience 3+ Years",
     location: "Noida",
   },
   {
-    image: img6,
+    image: "/assets/Wordpress",
     title: "Wordpress",
     para: "Experience 3+ Years",
     location: "Noida",
@@ -53,7 +47,7 @@ const CareerCard = () => {
   return (
     <div
       className="py-10 bg-cover bg-center"
-      style={{ backgroundImage: `url(${BackImage})` }}
+      style={{ backgroundImage: `url("/assets/back-image.png")` }}
     >
       <div className="text-center mb-10">
         <h1 className="text-3xl font-semibold">

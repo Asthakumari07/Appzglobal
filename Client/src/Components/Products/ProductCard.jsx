@@ -1,67 +1,58 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa";
-import img1 from "../../assets/Product1.png";
-import img2 from "../../assets/product2.png";
-import img3 from "../../assets/educational.webp";
-import img4 from "../../assets/hospital.webp";
-import img5 from "../../assets/SCHOOL-ERP-MODULES 1.png";
-import img6 from "../../assets/college 1.png";
-import img7 from "../../assets/library 1.png";
-import img8 from "../../assets/pos 1.png";
-import img9 from "../../assets/hrms 1.png";
 
 const data = [
   {
-    image: img5,
+    image: "/assets/SCHOOL-ERP-MODULES 1.png",
     title: "School ERP by Appz Global Tech",
     para: "Appz Global Tech's School ERP is a comprehensive solution...",
     link: "/products/school-erp",
   },
   {
-    image: img4,
+    image: "/assets/hospital.webp",
     title: "Hospital Management System by Appz Global Tech",
     para: "Appz Global Tech’s Hospital Management System (HMS)...",
     link: "/products/hospital-system",
   },
   {
-    image: img9,
+    image: "/assets/hrms 1.png",
     title: "HRMS by Appz Global Tech",
     para: "Appz Global Tech's HRMS is a robust, user-friendly platform...",
     link: "/products/hrms",
   },
   {
-    image: img8,
+    image: "/assets/pos 1.png",
     title: "Point of Sale (POS) System by Appz Global Tech",
     para: "Appz Global Tech’s POS System streamlines your sales...",
     link: "/products/pos",
   },
   {
-    image: img7,
+    image: "/assets/library 1.png",
     title: "Library Management System by Appz Global Tech",
     para: "Appz Global Tech’s LMS is a user-friendly solution...",
     link: "/products/library",
   },
   {
-    image: img3,
+    image: "/assets/educational.webp",
     title: "Educational Management System by Appz Global Tech",
     para: "Appz Global Tech’s EMS is a cloud-based platform...",
     link: "/products/educational",
   },
   {
-    image: img6,
+    image: "/assets/college 1.png",
     title: "College ERP by Appz Global Tech",
     para: "Appz Global Tech’s College ERP streamlines college tasks...",
     link: "/products/college-erp",
   },
   {
-    image: img1,
+    image: "/assets/Product1.png",
     title: "Parking Management Software by Appz Global Tech",
     para: "Appz Global Tech’s Parking Software optimizes vehicle tracking...",
     link: "/products/parking",
   },
   {
-    image: img2,
+    image: "/assets/product2.png",
     title: "Vision Track by Appz Global Tech",
     para: "AI-Powered Employee Monitoring & Attendance made easy...",
     link: "/products/vision-track",

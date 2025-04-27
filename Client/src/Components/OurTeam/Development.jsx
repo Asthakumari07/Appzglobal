@@ -1,16 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
-import img1 from "../../assets/Pexels Photo by Emmy E.png";
-import Narendra from "../../assets/employee/narendra sir 1 1.png";
-import Ankesh from "../../assets/employee/ankesh  2-2.png";
-import Astha from "../../assets/employee/aas 1.png";
-import sumit from "../../assets/employee/SUMIT 1.png";
-import Ganesh from "../../assets/employee/ganesh 1-2.png";
-import Abhishek from "../../assets/employee/abhishek 1-2.png";
-import Yash from "../../assets/employee/YASH 1.png";
-import Alok from "../../assets/employee/alok 1.png";
-import Kuldeep from "../../assets/employee/kuldeep 1.png";
-import srishti from "../../assets/employee/SRISHTI 1.png";
+
 import {
   TiSocialFacebookCircular,
   TiSocialLinkedinCircular,
@@ -19,55 +9,50 @@ import { IoLogoInstagram } from "react-icons/io";
 
 const data = [
   {
-    image: Narendra,
+    image: "/assets/narendra sir 1 1.png",
     name: "Narender Yadav",
     position: "Full Stack Developer",
   },
   {
-    image: Ankesh,
+    image: "/assets/ankesh  2-2.png",
     name: "Ankesh Yadav",
     position: "Mobile App Application",
   },
   {
-    image: sumit,
+    image: "/assets/SUMIT 1.png",
     name: "Sumit Yadav",
     position: "Web Developer",
   },
 
   {
-    image: Kuldeep,
+    image: "/assets/kuldeep 1.png",
     name: "Kuldeep Yadav",
     position: "Java Developer",
   },
   {
-    image: Astha,
+    image: "assets/aas 1.png",
     name: "Astha Kumari",
     position: "MERN Stack Developer",
   },
   {
-    image: Ganesh,
+    image: "/assets/ganesh 1-2.png",
     name: "Ganesh Kumar",
     position: "Php Developer",
   },
   {
-    image: Abhishek,
+    image: "/assets/abhishek 1-2.png",
     name: "Abhishek Kumar",
     position: "Python Developer",
   },
   {
-    image: Alok,
+    image: "/assets/alok 1.png",
     name: "Alok Kumar",
     position: "Mobile App Developer",
   },
   {
-    image: Yash,
+    image: "/assets/YASH 1.png",
     name: "Yash Kumar",
     position: "Python Developer",
-  },
-  {
-    image: srishti,
-    name: "Sristi Jain",
-    position: "Frontend Developer",
   },
 ];
 

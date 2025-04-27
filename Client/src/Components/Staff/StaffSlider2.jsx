@@ -3,42 +3,35 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import img1 from "../../assets/5156366 1-2.png";
-import img2 from "../../assets/4893190 1-2.png";
-import img3 from "../../assets/20943399 1-2.png";
-import img4 from "../../assets/6895861 1-2.png";
-import img5 from "../../assets/6262902 1.png";
-import img6 from "../../assets/4171344 1.png";
-
 const data = [
   {
     title: "Full Control",
-    image: img4,
+    image: "/assets/6895861 1-2.png",
     para: "We encourage you to vote for your team members and participate in the review process. Manage the success of your project and stay up to date with all the changes.",
   },
   {
     title: "Fewer Legal Problems",
-    image: img3,
+    image: "/assets/20943399 1-2.png",
     para: "As part of our IT extension services, we remain the official employer for your employees. Our company handles all legal and documentation responsibilities.",
   },
   {
     title: "Aggressive Deadline",
-    image: img2,
+    image: "/assets/4893190 1-2.png",
     para: "Improve your technical capacity while chasing tight deadlines. Our development team strives to complete projects on time.",
   },
   {
     title: "Lower Operating Costs",
-    image: img5,
+    image: "/assets/6262902 1.png",
     para: "Reduce your company's costs by eliminating the cost of office space, equipment, and taxes. Pay for what brings the most value to your business.",
   },
   {
     title: "Access to Verified Talent",
-    image: img1,
+    image: "/assets/5156366 1-2.png",
     para: "Appz Global Tech gives you instant access to a large pool of talent at affordable prices. Expand your team with certified software experts.",
   },
   {
     title: "No Recruitment Problem",
-    image: img6,
+    image: "/assets/4171344 1.png",
     para: "Our IT improvement services take the hassle out of finding and recruiting vetted development talent for your organization. We carry out the selection process and send the approved CV.",
   },
 ];

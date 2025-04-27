@@ -1,9 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import img1 from "../../assets/employee/lokesh sir 1.png";
-import img2 from "../../assets/employee/VIKAS SIR 1.png";
-import img3 from "../../assets/employee/AditiFinal.png";
-import Saloni from "../../assets/employee/saloni 1.png";
+
 import {
   TiSocialFacebookCircular,
   TiSocialLinkedinCircular,
@@ -12,7 +9,7 @@ import { IoLogoInstagram } from "react-icons/io";
 
 const data = [
   {
-    image: img1,
+    image: "/assets/lokesh sir 1.png",
     name: "Lokesh Kumar",
     position: "Managing Director",
     link: "/profilelokesh",
@@ -25,7 +22,7 @@ const data = [
     },
   },
   {
-    image: img2,
+    image: "/assets/VIKAS SIR 1.png",
     name: "Vikas Kumar",
     position: "Chief Technology Officer",
     link: "/profilevikas",
@@ -36,7 +33,7 @@ const data = [
     },
   },
   {
-    image: img3,
+    image: "/assets/AditiFinal.png",
     name: "Aditi Chaudhary",
     position: "Director",
     link: "/profileaditi",
@@ -47,7 +44,7 @@ const data = [
     },
   },
   {
-    image: Saloni,
+    image: "/assets/saloni 1.png",
     name: "Saloni Jha",
     position: "HR Manager",
     link: "/saloniprofile",

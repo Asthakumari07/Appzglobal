@@ -3,13 +3,13 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import img from "../../assets/Group 8671.png";
-import img1 from "../../assets/Group 8672.png";
-import img2 from "../../assets/Group 8673.png";
-import img3 from "../../assets/Group 8674.png";
-import img4 from "../../assets/Group 8675.png";
-
-const images = [img, img1, img2, img3, img4];
+const images = [
+  "/assets/Group 8671.png",
+  "/assets/Group 8672.png",
+  "/assets/Group 8673.png",
+  "/assets/Group 8674.png",
+  "/assets/Group 8675.png",
+];
 
 const HomeSlider = () => {
   const settings = {

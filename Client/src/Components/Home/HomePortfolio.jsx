@@ -1,29 +1,45 @@
 import React from "react";
-import img from "../../assets/Portfolio/Group 8742.png";
-import img2 from "../../assets/Group 8712.png";
-import img3 from "../../assets/Portfolio/Group 8740.png";
-import img4 from "../../assets/Portfolio/Group 8736.png";
-import img5 from "../../assets/Portfolio/Group 8737.png";
-import img6 from "../../assets/Portfolio/Group 8738.png";
-import img7 from "../../assets/Portfolio/Group 8744.png";
-import backImage from "../../assets/back-image.png";
 
 const data = [
-  { icon: img2, image: img, link: "https://nestorpharma.com" },
-  { icon: img2, image: img3, link: "https://www.nextias.com" },
-  { icon: img2, image: img4, link: "https://www.jpfunware.com" },
-  { icon: img2, image: img5, link: "https://thikedaar.com" },
-  { icon: img2, image: img6, link: "https://igniculuss.com" },
-  { icon: img2, image: img7, link: "https://nmgemandjewels.com" },
-  { icon: img2, image: img },
-  { icon: img2, image: img },
+  {
+    icon: "/assets/Group 8712.png",
+    image: "/assets/Group 8742.png",
+    link: "https://nestorpharma.com",
+  },
+  {
+    icon: "/assets/Group 8712.png",
+    image: "/assets/Group 8740.png",
+    link: "https://www.nextias.com",
+  },
+  {
+    icon: "/assets/Group 8712.png",
+    image: "/assets/Group 8736.png",
+    link: "https://www.jpfunware.com",
+  },
+  {
+    icon: "/assets/Group 8712.png",
+    image: "/assets/Group 8737.png",
+    link: "https://thikedaar.com",
+  },
+  {
+    icon: "/assets/Group 8712.png",
+    image: "/assets/Group 8738.png",
+    link: "https://igniculuss.com",
+  },
+  {
+    icon: "/assets/Group 8712.png",
+    image: "/assets/Group 8744.png",
+    link: "https://nmgemandjewels.com",
+  },
+  { icon: "/assets/Group 8712.png", image: "/assets/Group 8742.png" },
+  { icon: "/assets/Group 8712.png", image: "/assets/Group 8742.png" },
 ];
 
 const HomePortfolio = () => {
   return (
     <div
       className="py-10 bg-cover bg-center"
-      style={{ backgroundImage: `url(${backImage})` }}
+      style={{ backgroundImage: `url("/assets/back-image.png")` }}
     >
       <div className="text-center mb-10">
         <h2 className="text-3xl font-semibold">Portfolio</h2>

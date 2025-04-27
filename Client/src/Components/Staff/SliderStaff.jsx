@@ -1,19 +1,31 @@
 import React from "react";
 import Slider from "react-slick";
-import img1 from "../../assets/annual-report_17340471 1.png";
-import img2 from "../../assets/change_9124188 1.png";
-import img3 from "../../assets/new-hire_11287327 1.png";
-import img4 from "../../assets/overtime_13447857 1.png";
-import img5 from "../../assets/shopping-online_1279033 1.png";
-import img6 from "../../assets/stakeholder_10008056 1.png";
 
 const data = [
-  { image: img1, title: "24*7 man hours guaranteed" },
-  { image: img2, title: "Daily/Weekly/Monthly code delivery" },
-  { image: img3, title: "Get Daily/Weekly reports via Email" },
-  { image: img4, title: "Have a direct access to resource" },
-  { image: img5, title: "Flexible office hours as per your timezone" },
-  { image: img6, title: "Weekly/Monthly/Yearly Hiring" },
+  {
+    image: "/assets/annual-report_17340471 1.png",
+    title: "24*7 man hours guaranteed",
+  },
+  {
+    image: "/assets/change_9124188 1.png",
+    title: "Daily/Weekly/Monthly code delivery",
+  },
+  {
+    image: "/assets/new-hire_11287327 1.png",
+    title: "Get Daily/Weekly reports via Email",
+  },
+  {
+    image: "/assets/overtime_13447857 1.png",
+    title: "Have a direct access to resource",
+  },
+  {
+    image: "/assets/shopping-online_1279033 1.png",
+    title: "Flexible office hours as per your timezone",
+  },
+  {
+    image: "/assets/stakeholder_10008056 1.png",
+    title: "Weekly/Monthly/Yearly Hiring",
+  },
 ];
 
 const SliderStaff = () => {
