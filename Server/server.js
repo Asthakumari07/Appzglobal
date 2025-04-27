@@ -12,6 +12,13 @@ const cors = require("cors");
 // Middleware
 app.use(cors());
 app.use(express.json());
+const buildpath = path.join(__dirname, "../Client/dist");
+app.use(express.static(buildpath));
+app.use(
+  cors({
+    origin: "*",
+  })
+);
 app.use(express.urlencoded({ extended: true }));
 
 // Serve static files from the 'uploads' directory
