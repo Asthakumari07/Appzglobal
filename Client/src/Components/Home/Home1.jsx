@@ -9,7 +9,7 @@ import { useNavigate } from "react-router-dom";
 const data = [
   {
     title: "Custom Software Development",
-    image: "/assets/Custom Software Development.png",
+    image: "/assets/web.png",
   },
   {
     title: "Mobile App Development",

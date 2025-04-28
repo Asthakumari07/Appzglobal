@@ -17,7 +17,7 @@ const data = [
     icons: [CiLinkedin, FaFacebook, FaSquareWhatsapp, FaInstagramSquare],
   },
   {
-    image: "/assets/VIKAS SIR 1.png",
+    image: "/assets/VIKAS-SIR.jpg",
     name: "Vikas Kumar",
     para: "Chief Technology Officer",
     icons: [CiLinkedin, FaFacebook, FaSquareWhatsapp, FaInstagramSquare],
@@ -29,7 +29,7 @@ const data = [
     icons: [CiLinkedin, FaFacebook, FaSquareWhatsapp, FaInstagramSquare],
   },
   {
-    image: "/assets/saloni 1.png",
+    image: "/assets/saloni.jpg",
     name: "Saloni Jha",
     para: "HR Manager",
     icons: [CiLinkedin, FaFacebook, FaSquareWhatsapp, FaInstagramSquare],
