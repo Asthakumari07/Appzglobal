@@ -13,21 +13,6 @@ const cors = require("cors");
 app.use(cors());
 app.use(express.json());
 
-// Path to the build directory
-const buildpath = path.join(__dirname, "../Client/dist");
-
-// Serve static files from the build directory
-app.use(express.static(buildpath));
-
-// Serve static files from the 'assets' folder inside 'dist'
-app.use("/assets", express.static(path.join(buildpath, "assets")));
-
-// Enable CORS for all origins
-app.use(
-  cors({
-    origin: "*",
-  })
-);
 app.use(express.urlencoded({ extended: true }));
 
 // Routes
