@@ -21,7 +21,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-start gap-10 max-w-screen-xl mx-auto">
           {/* Contact Info */}
           <div className="flex flex-col gap-4 max-w-sm">
-            <img src="/assets/LogoFinal.png" alt="logo" className="w-40" />
+            <img src="/assets/logo-01.jpg" alt="logo" className="w-40" />
             <ul className="flex flex-col gap-3 text-left text-sm">
               <li className="flex items-center gap-2">
                 <a

@@ -11,7 +11,7 @@ import { useNavigate } from "react-router-dom";
 
 const data = [
   {
-    image: "/assets/lokesh sir 1.png",
+    image: "/assets/lokesh-011.jpg",
     name: "Lokesh Kumar",
     para: "Managing Director",
     icons: [CiLinkedin, FaFacebook, FaSquareWhatsapp, FaInstagramSquare],
@@ -23,7 +23,7 @@ const data = [
     icons: [CiLinkedin, FaFacebook, FaSquareWhatsapp, FaInstagramSquare],
   },
   {
-    image: "/assets/AditiFinal.png",
+    image: "/assets/aditifinal.jpg",
     name: "Aditi Chaudhary",
     para: "Director",
     icons: [CiLinkedin, FaFacebook, FaSquareWhatsapp, FaInstagramSquare],
@@ -57,7 +57,7 @@ const HomeEmployee = () => {
     <div
       className="w-full overflow-hidden flex flex-col lg:flex-row items-center justify-between px-6 py-10 gap-10"
       style={{
-        backgroundImage: `url("/assets/back-image.png")`,
+        backgroundImage: `url("/assets/back-image.jpg")`,
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}

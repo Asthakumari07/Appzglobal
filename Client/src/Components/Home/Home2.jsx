@@ -6,13 +6,13 @@ import { IoIosArrowBack } from "react-icons/io";
 import { IoIosArrowForward } from "react-icons/io";
 
 const data = [
-  { image: "/assets/e-commerce.png", title: "Transportation & Logistics" },
-  { image: "/assets/automobile.png", title: "Education" },
-  { image: "/assets/e-commerce.png", title: "E-commerce" },
-  { image: "/assets/1233Group.png", title: "Automobile" },
-  { image: "/assets/e-commerce.png", title: "Healthcare" },
-  { image: "/assets/automobile.png", title: "Finance" },
-  { image: "/assets/graduation.png", title: "Retail" },
+  { image: "/assets/e-commerce.jpg", title: "Transportation & Logistics" },
+  { image: "/assets/automobile.jpg", title: "Education" },
+  { image: "/assets/e-commerce.jpg", title: "E-commerce" },
+  { image: "/assets/automobile.jpg", title: "Automobile" },
+  { image: "/assets/e-commerce.jpg", title: "Healthcare" },
+  { image: "/assets/automobile.jpg", title: "Finance" },
+  { image: "/assets/graduation.jpg", title: "Retail" },
 ];
 
 const PrevArrow = ({ onClick }) => (

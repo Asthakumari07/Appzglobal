@@ -45,7 +45,7 @@ const HomeBlog = () => {
       <div className="flex flex-col md:flex-row items-center gap-10">
         <div className="flex justify-center w-full md:w-1/3">
           <img
-            src="/assets/Frame 1116606683.png"
+            src="/assets/frame-001.jpg"
             alt=""
             className="h-auto w-full object-cover"
           />

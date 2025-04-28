@@ -4,11 +4,11 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const images = [
-  "/assets/Group 8671.png",
-  "/assets/Group 8672.png",
-  "/assets/Group 8673.png",
-  "/assets/Group 8674.png",
-  "/assets/Group 8675.png",
+  "/assets/Group-8671.jpg",
+  "/assets/Group-8672.jpg",
+  "/assets/Group-8673.jpg",
+  "/assets/Group-8674.jpg",
+  "/assets/Group-8675.jpg",
 ];
 
 const HomeSlider = () => {
@@ -39,7 +39,7 @@ const HomeSlider = () => {
               <img
                 src={image}
                 alt={`Client logo ${index + 1}`}
-                className="h-16 w-auto object-contain"
+                className="h-16 w-auto object-contain rounded-xl"
               />
             </div>
           ))}

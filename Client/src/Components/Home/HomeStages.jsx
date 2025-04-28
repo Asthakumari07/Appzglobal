@@ -4,17 +4,17 @@ import { motion } from "framer-motion";
 
 const dataLeft = [
   {
-    image: "/assets/discover.png",
+    image: "/assets/discover.jpg",
     title: "Discovery & Research",
     para: "We analyze your business requirements, research industry trends, and define project goals. This stage ensures a clear vision for development.",
   },
   {
-    image: "/assets/design and prototyping.png",
+    image: "/assets/design&prototyping.jpg",
     title: "Design & Prototyping",
     para: "Our UI/UX experts design intuitive interfaces, focusing on user experience. Interactive prototypes are built to visualize the app before development begins.",
   },
   {
-    image: "/assets/Testing & Quality Assurance.png",
+    image: "/assets/TestingQualityAssurance.jpg",
     title: "Testing & Quality Assurance",
     para: "Rigorous testing is conducted to identify bugs, optimize performance, and enhance security. We ensure a flawless, high-quality application before launch.",
   },
@@ -22,17 +22,17 @@ const dataLeft = [
 
 const dataRight = [
   {
-    image: "/assets/planning-strategy.png",
+    image: "/assets/planning-strategy.jpg",
     title: "Planning & Strategy",
     para: "A detailed roadmap, wireframes, and technical architecture are created. We establish milestones, resources, and timelines for efficient execution.",
   },
   {
-    image: "/assets/Development & Coding.png",
+    image: "/assets/DevelopmentCoding.jpg",
     title: " Development & Coding",
     para: "Our developers write clean, scalable code for both front-end and back-end. We integrate necessary APIs, databases, and functionalities to ensure seamless performance.",
   },
   {
-    image: "/assets/Maintenance & Support.png",
+    image: "/assets/MaintenanceSupport.jpg",
     title: "Maintenance & Support",
     para: "Post-launch support, updates, and optimizations are provided to enhance performance. We ensure the app stays secure, efficient, and scalable over time.",
   },

@@ -2,37 +2,37 @@ import React from "react";
 
 const data = [
   {
-    icon: "/assets/Group 8712.png",
-    image: "/assets/Group 8742.png",
+    icon: "/assets/Group-8712.jpg",
+    image: "/assets/Group-8742.jpg",
     link: "https://nestorpharma.com",
   },
   {
-    icon: "/assets/Group 8712.png",
-    image: "/assets/Group 8740.png",
+    icon: "/assets/Group-8712.jpg",
+    image: "/assets/Group-8740.jpg",
     link: "https://www.nextias.com",
   },
   {
-    icon: "/assets/Group 8712.png",
-    image: "/assets/Group 8736.png",
+    icon: "/assets/Group-8712.jpg",
+    image: "/assets/Group-8736.jpg",
     link: "https://www.jpfunware.com",
   },
   {
-    icon: "/assets/Group 8712.png",
-    image: "/assets/Group 8737.png",
+    icon: "/assets/Group-8712.jpg",
+    image: "/assets/Group-8737.jpg",
     link: "https://thikedaar.com",
   },
   {
-    icon: "/assets/Group 8712.png",
-    image: "/assets/Group 8738.png",
+    icon: "/assets/Group-8712.jpg",
+    image: "/assets/Group-8738.jpg",
     link: "https://igniculuss.com",
   },
   {
-    icon: "/assets/Group 8712.png",
-    image: "/assets/Group 8744.png",
+    icon: "/assets/Group-8712.jpg",
+    image: "/assets/Group-8744.jpg",
     link: "https://nmgemandjewels.com",
   },
-  { icon: "/assets/Group 8712.png", image: "/assets/Group 8742.png" },
-  { icon: "/assets/Group 8712.png", image: "/assets/Group 8742.png" },
+  { icon: "/assets/Group-8712.jpg", image: "/assets/Group-8742.jpg" },
+  { icon: "/assets/Group-8712.jpg", image: "/assets/Group-8742.jpg" },
 ];
 
 const HomePortfolio = () => {
@@ -53,11 +53,15 @@ const HomePortfolio = () => {
                 index % 2 === 0 ? "bg-blue-800" : "bg-orange-400"
               }`}
             >
-              <img src={item.icon} alt="Icon" className="h-auto w-[70%]" />
+              <img
+                src={item.icon}
+                alt="Icon"
+                className="h-auto w-[70%] rounded-xl"
+              />
               <img
                 src={item.image}
                 alt="Project"
-                className="h-auto w-[70%] mb-4 object-contain"
+                className="h-auto w-[70%] mb-4 object-contain rounded-xl"
               />
             </div>
 

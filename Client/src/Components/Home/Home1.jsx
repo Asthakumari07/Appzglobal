@@ -9,36 +9,36 @@ import { useNavigate } from "react-router-dom";
 const data = [
   {
     title: "Custom Software Development",
-    image: "/assets/web.png",
+    image: "/assets/web.jpg",
   },
   {
     title: "Mobile App Development",
-    image: "/assets/mobile app dev.png",
+    image: "/assets/mobileapp.jpg",
   },
 
   {
     title: "Website Development",
-    image: "/assets/website dev.png",
+    image: "/assets/websitedev.jpg",
   },
   {
     title: "AI Integration",
-    image: "/assets/ai.png",
+    image: "/assets/ai-1.jpg",
   },
   {
     title: "Digital Marketing Service",
-    image: "/assets/Digital Marketing Services.png",
+    image: "/assets/digital.jpg",
   },
   {
     title: "CRM Development",
-    image: "/assets/CRM Development.png",
+    image: "/assets/crm.jpg",
   },
   {
     title: "ERP Development",
-    image: "/assets/ERP Development.png",
+    image: "/assets/erpdev.jpg",
   },
   {
     title: "UI/UX Designing",
-    image: "/assets/UIUX Designing.png",
+    image: "/assets/uiuxdesign.jpg",
   },
 ];
 
@@ -68,9 +68,13 @@ const Home1 = () => {
           transition={{ duration: 0.6 }}
           className="text-center lg:text-left max-w-md"
         >
-          <img
-            src="/assets/ezgif-frame-001.jpg"
+          <video
+            src="/assets/hero-1.mp4"
             className="w-64 h-auto sm:w-72 md:w-80 lg:w-96 xl:w-[450px] rounded-tr-[120px] shadow-lg"
+            autoPlay
+            loop
+            muted
+            playsInline
           />
         </motion.div>
 
@@ -98,7 +102,7 @@ const Home1 = () => {
                   >
                     <img
                       src={item.image}
-                      className="h-24 w-34 object-cover rounded-xl mb-4 shadow-md"
+                      className="h-25 w-25 object-cover rounded-xl mb-4 shadow-md"
                     />
                     <h3
                       className={`text-lg font-semibold ${
