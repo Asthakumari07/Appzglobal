@@ -6,8 +6,8 @@ logs
 node_modules/
 
 # Build output
-dist/
-build/
+dist
+build
 
 # OS files
 .DS_Store
