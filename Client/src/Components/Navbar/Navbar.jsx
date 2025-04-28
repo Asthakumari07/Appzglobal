@@ -25,7 +25,7 @@ const Navbar = () => {
       {/* Logo */}
       <div className="mt-2 sm:mb-0 clip-bottom-edge bg-white shadow-2xl border-b border-gray-400">
         <img
-          src="/assets/LogoFinal.png"
+          src="/assets/logo-01.jpg"
           alt="Appz Global Tech Logo"
           className="h-10 sm:h-12 w-50 object-contain mb-2 sm:mb-3 lg:mt-5 "
         />

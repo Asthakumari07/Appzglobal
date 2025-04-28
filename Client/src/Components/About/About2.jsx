@@ -5,7 +5,7 @@ const About2 = () => {
     <div className="w-full flex flex-col items-center justify-center py-10 px-10">
       <div className="flex flex-col md:flex-row items-center md:space-x-8 w-full bg-gray-100 p-6 rounded-lg shadow-md">
         <img
-          src="/assets/Frame 1116606747.png"
+          src="/assets/Frame-1116606747.png"
           alt="Appz In Brief"
           className="w-[60%] md:w-[30%] rounded-lg shadow-md"
         />
@@ -83,7 +83,7 @@ const About2 = () => {
 
       <div className="flex flex-col md:flex-row-reverse items-center md:space-x-8 w-full bg-orange-300 p-6 rounded-lg shadow-md gap-20">
         <img
-          src="/assets/Frame 1116606747-2.png"
+          src="/assets/Frame-1116606747-2.png"
           alt="Our Vision"
           className="w-[60%] md:w-[30%] rounded-lg shadow-md"
         />
@@ -121,7 +121,7 @@ const About2 = () => {
 
       <div className="flex flex-col md:flex-row items-center md:space-x-8 w-full bg-gray-100 p-6 rounded-lg shadow-md gap-20">
         <img
-          src="/assets/Frame 1116606747-3.png"
+          src="/assets/Frame-1116606747-3.png"
           alt="Our Mission"
           className="w-[60%] md:w-[30%] rounded-lg shadow-md"
         />
