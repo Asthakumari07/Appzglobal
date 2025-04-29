@@ -5,19 +5,19 @@ import { useNavigate } from "react-router-dom";
 
 const data = [
   {
-    image: "/assets/ZenBook Duo 14-2.png",
+    image: "/assets/Zenbook.jpg",
     title: "Nginx vs. Apache2: Which Web Server is Right for You?",
     para: "In the realm of web hosting, the decision between Nginx and Apache2 is pivotal. Both are formidable choices, each with its unique advantages and trade-offs.",
     date: "December 30, 2024",
   },
   {
-    image: "/assets/ZenBook Duo 14-2.png",
+    image: "/assets/Zenbook.jpg",
     title: "Top 10 JavaScript Frameworks to Watch in 2025",
     para: "As JavaScript continues to evolve, staying updated with the latest frameworks can significantly enhance your development process.",
     date: "January 10, 2025",
   },
   {
-    image: "/assets/ZenBook Duo 14-2.png",
+    image: "/assets/Zenbook.jpg",
     title: "How to Secure Your Web Application: Best Practices",
     para: "With increasing cyber threats, understanding how to secure your web apps is more important than ever. Here's what you need to know.",
     date: "February 5, 2025",

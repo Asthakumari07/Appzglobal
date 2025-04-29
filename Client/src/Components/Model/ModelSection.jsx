@@ -22,7 +22,7 @@ const ModelSection = () => {
 
           <div className="w-full lg:w-[50%]">
             <img
-              src="/assets/Fixed-Price Model.png"
+              src="/assets/Fixed-Price.jpg"
               alt="Clients trust visual"
               className="w-full h-auto object-contain rounded-none shadow-none border-none cursor-default rounded-tl-[100px]"
             />
@@ -32,7 +32,7 @@ const ModelSection = () => {
       <div className="flex flex-col lg:flex-row items-center gap-20 py-10 px-4 lg:px-16 bg-orange-100">
         <div className="flex">
           <img
-            src="/assets/Time & Material (T&M) Model.png"
+            src="/assets/TimeMaterial.jpg"
             alt="Fixed Price Model"
             className="w-full h-auto object-contain rounded-none shadow-none border-none cursor-default rounded-tr-[100px]"
           />
@@ -75,7 +75,7 @@ const ModelSection = () => {
 
           <div className="w-full lg:w-[50%]">
             <img
-              src="/assets/Dedicated Team Model.png"
+              src="/assets/DedicatedTeamModel.jpg"
               alt="Clients trust visual"
               className="w-full h-auto object-contain rounded-none shadow-none border-none cursor-default rounded-tl-[100px]"
             />

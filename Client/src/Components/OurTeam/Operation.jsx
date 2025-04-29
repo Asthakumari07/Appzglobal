@@ -8,22 +8,22 @@ import { IoLogoInstagram } from "react-icons/io";
 
 const data = [
   {
-    image: "/assets/Pexels Photo by Emmy E.png",
+    image: "/assets/Pexels-01.jpg",
     name: "Md Sarwar Alam",
     position: "HR Consultant",
   },
   {
-    image: "/assets/Pexels Photo by Emmy E.png",
+    image: "/assets/Pexels-01.jpg",
     name: "Sidharth Sharma",
     position: "HR Consultant",
   },
   {
-    image: "/assets/Pexels Photo by Emmy E.png",
+    image: "/assets/Pexels-01.jpg",
     name: "Dr. Vikash Kumar",
     position: "Chief Marketing Officer",
   },
   {
-    image: "/assets/Pexels Photo by Emmy E.png",
+    image: "/assets/Pexels-01.jpg",
     name: "Swati Chauhan",
     position: "Talent Acquisition Manager",
   },

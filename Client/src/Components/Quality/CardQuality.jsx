@@ -2,32 +2,32 @@ import React from "react";
 
 const data = [
   {
-    image: "/assets/reward_17643435 1.png",
+    image: "/assets/reward_17643435.jpg",
     title: "Quality Assurance",
     para: "We implement comprehensive QA processes to identify and rectify issues early, ensuring optimal performance and reliability.",
   },
   {
-    image: "/assets/progress_15401118 1.png",
+    image: "/assets/progress_15401118.jpg",
     title: "Continuous Improvement",
     para: "Our quality standards evolve to integrate best practices and emerging industry trends.",
   },
   {
-    image: "/assets/responsive_11681311 1.png",
+    image: "/assets/responsive_11681311.jpg",
     title: "Client Satisfaction",
     para: "We prioritize client needs and feedback, striving to exceed expectations and build long-term relationships.",
   },
   {
-    image: "/assets/website_6295004 1.png",
+    image: "/assets/website_6295004.jpg",
     title: "Testing Automation",
     para: "We implement comprehensive QA processes to identify and rectify issues early, ensuring optimal performance and reliability.",
   },
   {
-    image: "/assets/customer-review_3045687 1.png",
+    image: "/assets/customer-review_3045687.jpg",
     title: "Gadget Capability",
     para: "We implement comprehensive QA processes to identify and rectify issues early, ensuring optimal performance and reliability.",
   },
   {
-    image: "/assets/reward_17643435 1.png",
+    image: "/assets/reward_17643435.jpg",
     title: "Quality Assurance",
     para: "We implement comprehensive QA processes to identify and rectify issues early, ensuring optimal performance and reliability.",
   },
@@ -45,7 +45,7 @@ const CardQuality = () => {
             <img
               src={item.image}
               alt={item.title}
-              className="h-20 w-20 object-contain mb-4"
+              className="h-20 w-20 object-contain mb-4 rounded-xl"
             />
             <h2 className="text-xl font-semibold mb-2 lg:text-3xl xl:text-3xl">
               {item.title}

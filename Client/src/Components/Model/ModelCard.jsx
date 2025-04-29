@@ -2,22 +2,22 @@ import React from "react";
 
 const data = [
   {
-    image: "/assets/employee_1976016 1.png",
+    image: "/assets/employee_1976016.jpg",
     title: "Client Centric Approach",
     para: "Engagement models built around your goals",
   },
   {
-    image: "/assets/Workforce.png",
+    image: "/assets/Workforce.jpg",
     title: "Seamless Communication",
     para: "transport updates, weekly standup, and dedicated account managers",
   },
   {
-    image: "/assets/network.png",
+    image: "/assets/network.jpg",
     title: "Scalable Teams",
     para: "Easily scale up or down based on your project's needs",
   },
   {
-    image: "/assets/Tilent.png",
+    image: "/assets/Tilent.jpg",
     title: "Proven Expertise",
     para: "A track record of successful global delivery",
   },
@@ -27,7 +27,7 @@ const ModelCard = () => {
   return (
     <div
       className="bg-cover bg-center py-16 px-4 sm:px-8 lg:px-16"
-      style={{ backgroundImage: `url("/assets/back-image.png")` }}
+      style={{ backgroundImage: `url("/assets/back-image.jpg")` }}
     >
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
         {data.map((item, index) => (
@@ -38,7 +38,7 @@ const ModelCard = () => {
             <img
               src={item.image}
               alt={item.title}
-              className="h-25 mx-auto mb-4 object-contain"
+              className="h-25 mx-auto mb-4 object-contain rounded-xl"
             />
             <h2 className="text-xl font-semibold text-gray-800 mb-2">
               {item.title}

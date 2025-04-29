@@ -21,7 +21,7 @@ const Para = () => {
         </div>
         <div className="w-full lg:w-[50%]">
           <img
-            src="/assets/Building Trust Across the Globe.png"
+            src="/assets/Frame-1116606747-2.jpg"
             alt="Clients trust visual"
             className="w-full h-auto object-contain rounded-none shadow-none border-none cursor-default rounded-tl-[100px]"
           />

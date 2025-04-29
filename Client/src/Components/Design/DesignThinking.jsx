@@ -39,7 +39,7 @@ const DesignThinking = () => {
           {/* Image */}
           <div className="w-full lg:w-1/2">
             <img
-              src="/assets/Our Objective.png"
+              src="/assets/OurObjective.jpg"
               alt="Design Thinking"
               className="rounded-lg shadow-lg w-full h-auto object-cover"
             />

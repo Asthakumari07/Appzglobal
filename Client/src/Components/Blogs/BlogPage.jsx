@@ -4,42 +4,42 @@ import BlogCard from "./BlogsCard";
 const BlogPage = () => {
   const blogs = [
     {
-      image: "/assets/Client.png",
+      image: "/assets/Client.jpg",
       title: "How AI is Transforming Tech",
       date: "April 15, 2025",
       description:
         "Discover how artificial intelligence is driving innovation across industries and redefining the future of technology at Appz Global Tech.",
     },
     {
-      image: "/assets/Client.png",
+      image: "/assets/Client.jpg",
       title: "5 Must-Know Trends in Web Development",
       date: "April 10, 2025",
       description:
         "Explore emerging trends like micro frontends and serverless architecture that are shaping the next generation of web solutions.",
     },
     {
-      image: "/assets/Client.png",
+      image: "/assets/Client.jpg",
       title: "UX Tips That Actually Work",
       date: "April 5, 2025",
       description:
         "Learn tried-and-tested UX principles that help boost engagement, retention, and conversions — essentials we prioritize at Appz Global Tech.",
     },
     {
-      image: "/assets/Client.png",
+      image: "/assets/Client.jpg",
       title: "How AI is Transforming Tech",
       date: "April 15, 2025",
       description:
         "Discover how artificial intelligence is driving innovation across industries and redefining the future of technology at Appz Global Tech.",
     },
     {
-      image: "/assets/Client.png",
+      image: "/assets/Client.jpg",
       title: "How AI is Transforming Tech",
       date: "April 15, 2025",
       description:
         "Discover how artificial intelligence is driving innovation across industries and redefining the future of technology at Appz Global Tech.",
     },
     {
-      image: "/assets/Client.png",
+      image: "/assets/Client.jpg",
       title: "How AI is Transforming Tech",
       date: "April 15, 2025",
       description:

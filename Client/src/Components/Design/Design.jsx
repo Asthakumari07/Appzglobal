@@ -7,6 +7,8 @@ import DesignThinking from "./DesignThinking";
 import Technologies from "./Technologies";
 import Technologies3 from "./Technologies3";
 import Technologies2 from "./Technologies2";
+import Footer from "../Footer/Footer";
+import Footer3 from "../About/Footer3";
 
 const Design = () => {
   return (
@@ -19,6 +21,8 @@ const Design = () => {
       <Technologies />
       <Technologies2 />
       {/* <Technologies3 /> */}
+      <Footer3 />
+      <Footer />
     </>
   );
 };

@@ -6,32 +6,32 @@ import "slick-carousel/slick/slick-theme.css";
 const data = [
   {
     title: "Full Control",
-    image: "/assets/6895861 1-2.png",
+    image: "/assets/staff-01.jpg",
     para: "We encourage you to vote for your team members and participate in the review process. Manage the success of your project and stay up to date with all the changes.",
   },
   {
     title: "Fewer Legal Problems",
-    image: "/assets/20943399 1-2.png",
+    image: "/assets/staff-02.jpg",
     para: "As part of our IT extension services, we remain the official employer for your employees. Our company handles all legal and documentation responsibilities.",
   },
   {
     title: "Aggressive Deadline",
-    image: "/assets/4893190 1-2.png",
+    image: "/assets/staff-03.jpg",
     para: "Improve your technical capacity while chasing tight deadlines. Our development team strives to complete projects on time.",
   },
   {
     title: "Lower Operating Costs",
-    image: "/assets/6262902 1.png",
+    image: "/assets/staff-04.jpg",
     para: "Reduce your company's costs by eliminating the cost of office space, equipment, and taxes. Pay for what brings the most value to your business.",
   },
   {
     title: "Access to Verified Talent",
-    image: "/assets/5156366 1-2.png",
+    image: "/assets/staff-05.jpg",
     para: "Appz Global Tech gives you instant access to a large pool of talent at affordable prices. Expand your team with certified software experts.",
   },
   {
     title: "No Recruitment Problem",
-    image: "/assets/4171344 1.png",
+    image: "/assets/staff-06.jpg",
     para: "Our IT improvement services take the hassle out of finding and recruiting vetted development talent for your organization. We carry out the selection process and send the approved CV.",
   },
 ];

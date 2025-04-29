@@ -4,37 +4,37 @@ import { HiOutlineExternalLink } from "react-icons/hi";
 
 const data = [
   {
-    logo: "/assets/0 6.png",
+    logo: "/assets/partner-01.jpg",
     para: "Fleet and logistics management system with real-time tracking and intelligent analytics.",
     link: "https://demotictechnologies.com",
   },
   {
-    logo: "/assets/1 25.png",
+    logo: "/assets/partner-02.jpg",
     para: "Fleet and logistics management system with real-time tracking and intelligent analytics.",
     link: "https://demotictechnologies.com",
   },
   {
-    logo: "/assets/2 2.png",
+    logo: "/assets/partner-03.jpg",
     para: "Fleet and logistics management system with real-time tracking and intelligent analytics.",
     link: "https://astuglobaltech.in",
   },
   {
-    logo: "/assets/3 1.png",
+    logo: "/assets/partnert-04.jpg",
     para: "Fleet and logistics management system with real-time tracking and intelligent analytics.",
     link: "https://sarvodayaventures.com",
   },
   {
-    logo: "/assets/4 1.png",
+    logo: "/assets/partner-05.jpg",
     para: "Fleet and logistics management system with real-time tracking and intelligent analytics.",
     link: "https://demotictechnologies.com",
   },
   {
-    logo: "/assets/5 1.png",
+    logo: "/assets/partner-06.jpg",
     para: "Fleet and logistics management system with real-time tracking and intelligent analytics.",
     link: "https://demotictechnologies.com",
   },
   {
-    logo: "/assets/logo-1 1.png",
+    logo: "/assets/partner-07.jpg",
     para: "Fleet and logistics management system with real-time tracking and intelligent analytics.",
     link: "https://demotictechnologies.com",
   },

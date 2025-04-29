@@ -73,7 +73,7 @@ const HomeStages = () => {
 
         <div className="flex justify-center">
           <motion.img
-            src="/assets/Our Top Services.png"
+            src="/assets/OurTopServices.jpg"
             alt=""
             whileHover={{ scale: 1.3 }}
             transition={{ duration: 0.3, ease: "easeInOut" }}

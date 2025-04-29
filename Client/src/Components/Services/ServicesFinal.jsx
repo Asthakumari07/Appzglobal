@@ -5,14 +5,14 @@ import { useNavigate } from "react-router-dom";
 
 const data = [
   {
-    image: "/assets/cloud.png",
+    image: "/assets/cloud.jpg",
     title: "Cloud & DevOps",
     para: "Optimize your infrastructure with our Cloud & DevOps solutions. We ensure seamless deployment, scalability, and automation for faster, more efficient operations.",
     btn1: CiCirclePlus,
     link: "/cloud",
   },
   {
-    image: "/assets/Website Development.png",
+    image: "/assets/websitedev.jpg",
     title: "Website Development",
     para: "We empower our clients with dynamic, responsive website builds using PHP, Java, .NET, Wordpress, React JS, React Native, Drupal, CMS, and more — ensuring seamless performance, scalability, and user engagement.",
     btn1: CiCirclePlus,
@@ -20,28 +20,28 @@ const data = [
   },
 
   {
-    image: "/assets/noun-digital-marketing-7719755 1.png",
+    image: "/assets/non-digital.jpg",
     title: "Digital Marketing Services",
     para: "Boost your brand’s online presence with our result-driven digital marketing services. From SEO and social media to paid ads, we help you reach, engage, and convert your audience effectively.",
     btn1: CiCirclePlus,
     link: "/digital-marketing",
   },
   {
-    image: "/assets/Mobile app Development2.png",
+    image: "/assets/mobileapp.jpg",
     title: "Mobile App Development",
     para: "We build high-performance Android and iOS apps with seamless user experiences, ensuring innovation and scalability for your business.",
     btn1: CiCirclePlus,
     link: "/mobile-app",
   },
   {
-    image: "/assets/Mobile App Development.png",
+    image: "/assets/software-dev.jpg",
     title: "Software Development",
     para: "Transform your ideas into powerful digital solutions with our cutting-edge software development services. From scalable web and mobile apps to enterprise solutions, we build high-performance, user-centric software tailored to your business needs.",
     btn1: CiCirclePlus,
     link: "/software-dev",
   },
   {
-    image: "/assets/oracle.png",
+    image: "/assets/oracle.jpg",
     title: "Oracle SQL Development",
     para: "Optimize your data management with our expert Oracle SQL development services. We design efficient, scalable, and secure database solutions tailored to your business needs",
     btn1: CiCirclePlus,
@@ -49,14 +49,14 @@ const data = [
   },
 
   {
-    image: "/assets/noun-seo-7712277 1.png",
+    image: "/assets/seo.jpg",
     title: "SEO/SEM",
     para: "Boost your website’s visibility with our SEO services. We optimize your site for higher rankings, increased traffic, and better conversions.",
     btn1: CiCirclePlus,
     link: "/seo",
   },
   {
-    image: "/assets/game.png",
+    image: "/assets/game.jpg",
     title: "Game Development",
     para: "Bring your gaming ideas to life with our expert game development services. We create immersive, high-performance games for mobile, PC, and consoles with stunning visuals and smooth gameplay.",
     btn1: CiCirclePlus,
@@ -64,7 +64,7 @@ const data = [
   },
 
   {
-    image: "/assets/cloud.png",
+    image: "/assets/cloud.jpg",
     title: "Cloud & DevOps",
     para: "Optimize your infrastructure with our Cloud & DevOps solutions. We ensure seamless deployment, scalability, and automation for faster, more efficient operations.",
     btn1: CiCirclePlus,
@@ -72,42 +72,42 @@ const data = [
   },
 
   {
-    image: "/assets/database.png",
+    image: "/assets/database.jpg",
     title: "Database Administration",
     para: "Ensure optimal performance and security with our database administration services. We manage, optimize, and safeguard your databases for seamless business operations.",
     btn1: CiCirclePlus,
     link: "/database",
   },
   {
-    image: "/assets/analytical.png",
+    image: "/assets/analytical.jpg",
     title: "Analytical Solutions",
     para: "Unlock valuable insights with our analytical solutions. We leverage data-driven strategies to help you make informed decisions and drive business growth.",
     btn1: CiCirclePlus,
     link: "/analytical",
   },
   {
-    image: "/assets/testing.png",
+    image: "/assets/testing.jpg",
     title: "Software Testing",
     para: "Ensure flawless performance with our software testing services. We detect bugs, enhance quality, and optimize functionality for a seamless user experience.",
     btn1: CiCirclePlus,
     link: "/testing",
   },
   {
-    image: "/assets/erp.png",
+    image: "/assets/erp.jpg",
     title: "ERP Development",
     para: "Streamline your business operations with our custom ERP development services. We build scalable, integrated solutions to enhance efficiency, automation, and decision-making.",
     btn1: CiCirclePlus,
     link: "/erpservice",
   },
   {
-    image: "/assets/crm.png",
+    image: "/assets/crm-1.jpg",
     title: "CRM Development",
     para: "Optimize customer interactions with our custom CRM development, enhancing sales, automation, and engagement.",
     btn1: CiCirclePlus,
     link: "/crm",
   },
   {
-    image: "/assets/ui ux.png",
+    image: "/assets/ui-ux.jpg",
     title: "UI/UX Designing",
     para: "Create stunning, user-friendly designs with our UI/UX services. We craft intuitive, engaging experiences that enhance usability and drive user satisfaction.",
     btn1: CiCirclePlus,

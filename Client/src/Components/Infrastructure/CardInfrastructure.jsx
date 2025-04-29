@@ -2,22 +2,22 @@ import React from "react";
 
 const data = [
   {
-    image: "/assets/server.png",
+    image: "/assets/server.jpg",
     title: "Client Centric Approach",
     para: "Engagement models built around your goals",
   },
   {
-    image: "/assets/hours.png",
+    image: "/assets/hours.jpg",
     title: "Seamless Communication",
     para: "transport updates, weekly standup, and dedicated account managers",
   },
   {
-    image: "/assets/encrypted.png",
+    image: "/assets/encrypted.jpg",
     title: "Scalable Teams",
     para: "Easily scale up or down based on your project's needs",
   },
   {
-    image: "/assets/connection.png",
+    image: "/assets/connection.jpg",
     title: "Proven Expertise",
     para: "A track record of successful global delivery",
   },
@@ -48,7 +48,7 @@ const CardInfrastructure = () => {
             <img
               src={item.image}
               alt={item.title}
-              className="h-25 mx-auto mb-4 object-contain"
+              className="h-25 mx-auto mb-4 object-contain rounded-xl"
             />
             <h2 className="text-xl font-semibold text-gray-800 mb-2">
               {item.title}

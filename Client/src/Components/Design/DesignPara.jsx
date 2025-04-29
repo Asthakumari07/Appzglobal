@@ -20,7 +20,7 @@ const DesignPara = () => {
         </div>
         <div className="w-full lg:w-[50%]">
           <img
-            src="/assets/112233.png"
+            src="/assets/a112233.jpg"
             alt="Clients trust visual"
             className="w-full h-auto object-contain rounded-none shadow-none border-none cursor-default rounded-tl-[100px]"
           />

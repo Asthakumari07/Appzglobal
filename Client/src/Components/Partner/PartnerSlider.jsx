@@ -2,13 +2,13 @@ import React from "react";
 import Slider from "react-slick";
 
 const images = [
-  "/assets/0 6.png",
-  "/assets/1 25.png",
-  "/assets/2 2.png",
-  "/assets/3 1.png",
-  "/assets/4 1.png",
-  "/assets/5 1.png",
-  "/assets/logo-1 1.png",
+  "/assets/partner-01.jpg",
+  "/assets/partner-02.jpg",
+  "/assets/partner-03.jpg",
+  "/assets/partnert-04.jpg",
+  "/assets/partner-05.jpg",
+  "/assets/partner-06.jpg",
+  "/assets/partner-07.jpg",
 ];
 
 const PartnerSlider = () => {

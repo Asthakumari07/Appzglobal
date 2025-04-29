@@ -23,19 +23,19 @@ const data = [
     location: "Noida",
   },
   {
-    image: "/assets/Java.png",
+    image: "/assets/Java.jpg",
     title: "Java",
     para: "Experience 3+ Years",
     location: "Noida",
   },
   {
-    image: "/assets/Php.png",
+    image: "/assets/Php.jpg",
     title: "PHP",
     para: "Experience 3+ Years",
     location: "Noida",
   },
   {
-    image: "/assets/Wordpress",
+    image: "/assets/Wordpress.jpg",
     title: "Wordpress",
     para: "Experience 3+ Years",
     location: "Noida",

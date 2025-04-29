@@ -27,7 +27,7 @@ const ParaInfrastructure = () => {
 
           <div className="w-full lg:w-[50%]">
             <img
-              src="/assets/our infrastructure.png"
+              src="/assets/our-infrastructure.jpg"
               alt="Clients trust visual"
               className="w-full h-auto object-contain rounded-none shadow-none border-none cursor-default rounded-tl-[100px]"
             />

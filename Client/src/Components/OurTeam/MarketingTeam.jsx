@@ -9,12 +9,12 @@ import { IoLogoInstagram } from "react-icons/io";
 
 const data = [
   {
-    image: "/assets/Pexels Photo by Emmy E.png",
+    image: "/assets/Pexels-01.jpg",
     name: "Awnish Kumar",
     position: "Digital Marketing Manager",
   },
   {
-    image: "/assets/Pexels Photo by Emmy E.png",
+    image: "/assets/Pexels-01.jpg",
     name: "Saurabh",
     position: "Digital Marketing Expert",
   },

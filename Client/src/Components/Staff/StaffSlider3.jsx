@@ -9,37 +9,37 @@ import { IoLogoInstagram } from "react-icons/io";
 
 const data = [
   {
-    image: "/assets/narendra sir 1 1.png",
+    image: "/assets/narendra-sir.jpg",
     name: "Narender Yadav",
     position: "Full Stack Developer",
   },
   {
-    image: "/assets/ankesh  2-2.png",
+    image: "/assets/ankesh.jpg",
     name: "Ankesh Yadav",
     position: "Mobile App Developer",
   },
   {
-    image: "/assets/SUMIT 1.png",
+    image: "/assets/sumit.jpg",
     name: "Sumit Yadav",
     position: "Web Developer",
   },
   {
-    image: "/assets/aas 1.png",
+    image: "/assets/aas-1.jpg",
     name: "Astha Kumari",
     position: "MERN Stack Developer",
   },
   {
-    image: "/assets/kuldeep 1.png",
+    image: "/assets/kuldeep.jpg",
     name: "Kuldeep Yadav",
     position: "Java Developer",
   },
   {
-    image: "/assets/ganesh 1-2.png",
+    image: "/assets/ganesh.jpg",
     name: "Ganesh Kumar",
     position: "Php Developer",
   },
   {
-    image: "/assets/alok 1.png",
+    image: "/assets/alok.jpg",
     name: "Alok Kumar",
     position: "Mobile App Developer",
   },

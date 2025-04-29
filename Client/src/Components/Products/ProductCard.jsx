@@ -4,7 +4,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 const data = [
   {
-    image: "/assets/SCHOOL-ERP-MODULES 1.png",
+    image: "/assets/school-erp.jpg",
     title: "School ERP by Appz Global Tech",
     para: "Appz Global Tech's School ERP is a comprehensive solution...",
     link: "/products/school-erp",
@@ -16,19 +16,19 @@ const data = [
     link: "/products/hospital-system",
   },
   {
-    image: "/assets/hrms 1.png",
+    image: "/assets/hrms-1.jpg",
     title: "HRMS by Appz Global Tech",
     para: "Appz Global Tech's HRMS is a robust, user-friendly platform...",
     link: "/products/hrms",
   },
   {
-    image: "/assets/pos 1.png",
+    image: "/assets/pos-1.jpg",
     title: "Point of Sale (POS) System by Appz Global Tech",
     para: "Appz Global Tech’s POS System streamlines your sales...",
     link: "/products/pos",
   },
   {
-    image: "/assets/library 1.png",
+    image: "/assets/library-1.jpg",
     title: "Library Management System by Appz Global Tech",
     para: "Appz Global Tech’s LMS is a user-friendly solution...",
     link: "/products/library",
@@ -40,19 +40,19 @@ const data = [
     link: "/products/educational",
   },
   {
-    image: "/assets/college 1.png",
+    image: "/assets/college-1.jpg",
     title: "College ERP by Appz Global Tech",
     para: "Appz Global Tech’s College ERP streamlines college tasks...",
     link: "/products/college-erp",
   },
   {
-    image: "/assets/Product1.png",
+    image: "/assets/Product1.jpg",
     title: "Parking Management Software by Appz Global Tech",
     para: "Appz Global Tech’s Parking Software optimizes vehicle tracking...",
     link: "/products/parking",
   },
   {
-    image: "/assets/product2.png",
+    image: "/assets/product2.jpg",
     title: "Vision Track by Appz Global Tech",
     para: "AI-Powered Employee Monitoring & Attendance made easy...",
     link: "/products/vision-track",
