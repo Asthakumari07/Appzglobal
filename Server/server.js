@@ -32,7 +32,7 @@ app.use("/api/admin", adminRoute);
 // Start the server
 const PORT = process.env.PORT || 5000;
 connectDb().then(() => {
-  app.listen(PORT, () => {
+  app.listen(PORT, "0.0.0.0", () => {
     console.log(`Server is running at port: ${PORT}`);
   });
 });
