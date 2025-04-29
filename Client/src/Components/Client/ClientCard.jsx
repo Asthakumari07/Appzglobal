@@ -2,13 +2,13 @@ import React from "react";
 
 const data = [
   {
-    icon: "/assets/3 patti.png",
+    icon: "/assets/patti.jpg",
     name: "3 Patti Game",
     link: "https://3pattigame.example.com",
     para: "A thrilling multiplayer card game with real-time interactions and immersive gameplay.",
   },
   {
-    icon: "/assets/agt.png",
+    icon: "/assets/agt.jpg",
     name: "AGT Logistics",
     link: "https://agtplatform.example.com",
     para: "Fleet and logistics management system with real-time tracking and intelligent analytics.",

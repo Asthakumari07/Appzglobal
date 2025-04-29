@@ -3,27 +3,27 @@ import Slider from "react-slick";
 
 const data = [
   {
-    image: "/assets/annual-report_17340471 1.png",
+    image: "/assets/annual-report_17340471.jpg",
     title: "24*7 man hours guaranteed",
   },
   {
-    image: "/assets/change_9124188 1.png",
+    image: "/assets/change_9124188.jpg",
     title: "Daily/Weekly/Monthly code delivery",
   },
   {
-    image: "/assets/new-hire_11287327 1.png",
+    image: "/assets/new-hire_11287327.jpg",
     title: "Get Daily/Weekly reports via Email",
   },
   {
-    image: "/assets/overtime_13447857 1.png",
+    image: "/assets/overtime_13447857.jpg",
     title: "Have a direct access to resource",
   },
   {
-    image: "/assets/shopping-online_1279033 1.png",
+    image: "/assets/shopping-online_1279033.jpg",
     title: "Flexible office hours as per your timezone",
   },
   {
-    image: "/assets/stakeholder_10008056 1.png",
+    image: "/assets/stakeholder_10008056.jpg",
     title: "Weekly/Monthly/Yearly Hiring",
   },
 ];

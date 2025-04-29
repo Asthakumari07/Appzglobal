@@ -71,13 +71,10 @@ const Home1 = () => {
         <div className="w-full max-w-[450px] bg-white rounded-2xl shadow-lg rounded-tr-[120px]">
           {" "}
           {/* inner padding around video */}
-          <video
-            src="/assets/hero-1.mp4"
+          <img
+            src="https://github.com/Asthakumari07/marketing/blob/main/marketing.gif?raw=true"
+            alt="Marketing Video"
             className="w-full rounded-tr-[120px] shadow-md"
-            autoPlay
-            loop
-            muted
-            playsInline
           />
         </div>
       </motion.div>
