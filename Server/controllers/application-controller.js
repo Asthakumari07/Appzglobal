@@ -1,5 +1,6 @@
 const Application = require("../models/application-model");
 
+// Handle application submission with resume upload
 const submitApplication = async (req, res) => {
   try {
     const { name, email, apply, linkedin, message } = req.body;
@@ -22,4 +23,18 @@ const submitApplication = async (req, res) => {
   }
 };
 
-module.exports = { submitApplication };
+// Fetch all applications (for admin view)
+const getApplication = async (req, res) => {
+  try {
+    const applications = await Application.find().sort({ createdAt: -1 });
+    res.status(200).json(applications);
+  } catch (error) {
+    console.error("Get applications error:", error);
+    res.status(500).json({ error: "Failed to retrieve applications." });
+  }
+};
+
+module.exports = {
+  submitApplication,
+  getApplication,
+};
