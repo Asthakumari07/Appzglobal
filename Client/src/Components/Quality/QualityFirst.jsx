@@ -22,7 +22,7 @@ const QualityFirst = () => {
           </div>
           <div className="flex justify-center">
             <img
-              src="/assets/OUR PRINCIPLES AND VALUES.png"
+              src="/assets/OURPRINCIPLESANDVALUES.jpg"
               alt=""
               className="w-full max-w-sm shadow-md rounded-tl-[100px]"
             />
@@ -33,7 +33,7 @@ const QualityFirst = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div className="flex justify-center">
             <img
-              src="/assets/Our Objective.png"
+              src="/assets/Our-Objective.jpg"
               alt=""
               className="w-full max-w-sm shadow-md rounded-tl-[100px]"
             />

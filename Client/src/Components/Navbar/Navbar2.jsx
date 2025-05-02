@@ -157,8 +157,13 @@ const Navbar2 = () => {
       image: "/assets/ServicesPage.jpg",
       title: "Mobile App",
     },
+    "/products/school-erp": {
+      image: "/assets/Products.jpg",
+      title: "School ERP",
+    },
+
     "/products/hospital-system": {
-      image: "/assets/ServicesPage.jpg",
+      image: "/assets/Products.jpg",
       title: "Hospital-System",
     },
     "/products/hrms": {
@@ -204,6 +209,10 @@ const Navbar2 = () => {
     "/saloniprofile": {
       image: "/assets/TeamPage.jpg",
       title: "Saloni Jha",
+    },
+    "/blogpara": {
+      image: "/assets/BlogNav.jpg",
+      title: "blogs",
     },
   };
 

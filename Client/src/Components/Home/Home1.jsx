@@ -72,8 +72,8 @@ const Home1 = () => {
           {" "}
           {/* inner padding around video */}
           <img
-            src="https://github.com/Asthakumari07/marketing/blob/main/marketing.gif?raw=true"
-            alt="Marketing Video"
+            src="/assets/black-012.jpg"
+            alt="Marketing"
             className="w-full rounded-tr-[120px] shadow-md"
           />
         </div>

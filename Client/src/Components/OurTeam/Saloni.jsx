@@ -45,7 +45,7 @@ const Saloni = () => {
     "Technical Support Training – Samsung India (iEnergizer)",
   ];
 
-  const education = ["M.Com – IGNOU University", "B.Com – Delhi University"];
+  const education = ["BCA", "MCA"];
 
   return (
     <div className="bg-gray-50 min-h-screen py-10 px-4 sm:px-8 lg:px-24 text-gray-800">

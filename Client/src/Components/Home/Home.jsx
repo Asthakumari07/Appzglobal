@@ -13,6 +13,7 @@ import HomePortfolio from "./HomePortfolio";
 import HomeBlog from "./HomeBlog";
 import HomeTestimonial from "./HomeTestimonial";
 import ContactForm from "./ContactForm";
+import CustomWhatsAppButton from "../CustomWhatsAppButton";
 
 const Home = () => {
   return (
@@ -30,6 +31,7 @@ const Home = () => {
       <HomeBlog />
       <HomeTestimonial />
       <ContactForm />
+      <CustomWhatsAppButton />
 
       <Footer />
     </>
