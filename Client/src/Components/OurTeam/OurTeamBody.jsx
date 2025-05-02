@@ -43,17 +43,6 @@ const data = [
       instagram: "#",
     },
   },
-  {
-    image: "/assets/saloni.jpg",
-    name: "Saloni Jha",
-    position: "HR Manager",
-    link: "/saloniprofile",
-    social: {
-      facebook: "#",
-      linkedin: "#",
-      instagram: "#",
-    },
-  },
 ];
 
 const OurTeamBody = () => {

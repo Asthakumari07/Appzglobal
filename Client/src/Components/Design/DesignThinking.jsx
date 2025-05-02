@@ -1,6 +1,16 @@
 import React, { useState } from "react";
 
 const stepData = {
+  Discover: {
+    text: "We begin by understanding your business, your users, and your challenges.",
+    points: [
+      "Stakeholder Interviews",
+      "Competitor & Market Analysis",
+      "User Research & Personas",
+      "Analytics & Usability Audits",
+    ],
+    image: "/assets/validate.jpg",
+  },
   Define: {
     text: "Turning insights into clear, actionable problem statements.",
     points: [
@@ -9,7 +19,7 @@ const stepData = {
       "Problem Framing",
       "Success Metrics",
     ],
-    image: "/assets/OurObjective.jpg",
+    image: "/assets/define.jpg",
   },
   Design: {
     text: "Where ideas take shape. We focus on functionality, usability, and aesthetics.",
@@ -21,7 +31,7 @@ const stepData = {
     ],
     image: "/assets/design.jpg",
   },
-  "Develop (Design Handoff)": {
+  "Develop Design Handoff": {
     text: "Our designs are development-ready — and we work closely with engineers to ensure pixel-perfect implementation",
     points: [
       "Figma Design Handoff",
@@ -38,17 +48,17 @@ const stepData = {
       "A/B Testing",
       "Heatmaps & Analytics Reviews",
     ],
-    image: "/assets/define.jpg",
+    image: "/assets/OurObjective.jpg",
   },
 };
 
 const DesignThinking = () => {
-  const [activeStep, setActiveStep] = useState("Define");
+  const [activeStep, setActiveStep] = useState("Discover");
+
   const { text, points, image } = stepData[activeStep];
 
   return (
     <div className="py-12 px-4 sm:px-8 lg:px-16 bg-blue-900">
-      {/* Section Heading */}
       <div className="text-center mb-10">
         <h1 className="text-3xl sm:text-4xl font-bold text-white">
           Our Design Thinking Framework
@@ -58,7 +68,6 @@ const DesignThinking = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
         {/* Left Sidebar - Steps */}
         <div className="p-6 border-r border-black">
-          <h2 className="text-2xl text-white font-semibold mb-6">Discover</h2>
           <ul className="space-y-4 text-xl sm:text-2xl text-white">
             {Object.keys(stepData).map((step, idx) => (
               <li key={idx}>

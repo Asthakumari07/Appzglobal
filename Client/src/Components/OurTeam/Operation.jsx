@@ -27,6 +27,12 @@ const data = [
     name: "Swati Chauhan",
     position: "Talent Acquisition Manager",
   },
+  {
+    image: "/assets/saloni.jpg",
+    name: "Saloni Jha",
+    position: "HR Manager",
+    // link: "/saloniprofile",
+  },
 ];
 
 const Operation = () => {

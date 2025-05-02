@@ -28,12 +28,6 @@ const data = [
     para: "Director",
     icons: [CiLinkedin, FaFacebook, FaSquareWhatsapp, FaInstagramSquare],
   },
-  {
-    image: "/assets/saloni.jpg",
-    name: "Saloni Jha",
-    para: "HR Manager",
-    icons: [CiLinkedin, FaFacebook, FaSquareWhatsapp, FaInstagramSquare],
-  },
 ];
 
 const sliderSettings = {

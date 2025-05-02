@@ -4,38 +4,39 @@ import { HiOutlineExternalLink } from "react-icons/hi";
 
 const data = [
   {
+    logo: "/assets/partnert-04.jpg",
+    para: "At Appz Global Tech, we take pride in our strong partnerships with leading technology and business innovators.",
+    link: "https://astuglobaltech.in",
+  },
+  {
     logo: "/assets/partner-01.jpg",
-    para: "Fleet and logistics management system with real-time tracking and intelligent analytics.",
+    para: "At Appz Global Tech, we take pride in our strong partnerships with leading technology and business innovators.",
     link: "https://demotictechnologies.com",
   },
   {
     logo: "/assets/partner-02.jpg",
-    para: "Fleet and logistics management system with real-time tracking and intelligent analytics.",
+    para: "At Appz Global Tech, we take pride in our strong partnerships with leading technology and business innovators.",
     link: "https://demotictechnologies.com",
   },
   {
     logo: "/assets/partner-03.jpg",
-    para: "Fleet and logistics management system with real-time tracking and intelligent analytics.",
+    para: "At Appz Global Tech, we take pride in our strong partnerships with leading technology and business innovators.",
     link: "https://astuglobaltech.in",
   },
+
   {
-    logo: "/assets/partnert-04.jpg",
-    para: "Fleet and logistics management system with real-time tracking and intelligent analytics.",
+    logo: "/assets/partner-05.jpg",
+    para: "At Appz Global Tech, we take pride in our strong partnerships with leading technology and business innovators.",
     link: "https://sarvodayaventures.com",
   },
   {
-    logo: "/assets/partner-05.jpg",
-    para: "Fleet and logistics management system with real-time tracking and intelligent analytics.",
-    link: "https://demotictechnologies.com",
-  },
-  {
     logo: "/assets/partner-06.jpg",
-    para: "Fleet and logistics management system with real-time tracking and intelligent analytics.",
+    para: "At Appz Global Tech, we take pride in our strong partnerships with leading technology and business innovators.",
     link: "https://demotictechnologies.com",
   },
   {
     logo: "/assets/partner-07.jpg",
-    para: "Fleet and logistics management system with real-time tracking and intelligent analytics.",
+    para: "At Appz Global Tech, we take pride in our strong partnerships with leading technology and business innovators.",
     link: "https://demotictechnologies.com",
   },
 ];

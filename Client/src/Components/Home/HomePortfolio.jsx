@@ -31,8 +31,16 @@ const data = [
     image: "/assets/Group-8744.jpg",
     link: "https://nmgemandjewels.com",
   },
-  { icon: "/assets/Group-8712.jpg", image: "/assets/Group-8742.jpg" },
-  { icon: "/assets/Group-8712.jpg", image: "/assets/Group-8742.jpg" },
+  {
+    icon: "/assets/Group-8712.jpg",
+    image: "/assets/Group-8742.jpg",
+    link: "https://nestorpharma.com",
+  },
+  {
+    icon: "/assets/Group-8712.jpg",
+    image: "/assets/Group-8742.jpg",
+    link: "https://nestorpharma.com",
+  },
 ];
 
 const HomePortfolio = () => {
