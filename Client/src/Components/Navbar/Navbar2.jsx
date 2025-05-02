@@ -311,7 +311,7 @@ const Navbar2 = () => {
                 ["Our Infrastructure", "/infrastructure"],
                 ["Quality", "/quality"],
                 ["Business Engagement Model", "/model"],
-                ["Client", "/Client"],
+                ["Client", "/client"],
                 ["Design Methodology", "/design"],
                 ["Staff Augmentation", "/staff"],
               ].map(([label, path]) => (

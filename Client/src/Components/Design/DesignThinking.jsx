@@ -1,6 +1,51 @@
-import React from "react";
+import React, { useState } from "react";
+
+const stepData = {
+  Define: {
+    text: "Turning insights into clear, actionable problem statements.",
+    points: [
+      "User Journey Mapping",
+      "Information Architecture",
+      "Problem Framing",
+      "Success Metrics",
+    ],
+    image: "/assets/OurObjective.jpg",
+  },
+  Design: {
+    text: "Where ideas take shape. We focus on functionality, usability, and aesthetics.",
+    points: [
+      "Wireframes & Interactive Prototypes",
+      "UI Design Systems",
+      "Microinteractions & Animations",
+      "Accessibility & Responsive Design",
+    ],
+    image: "/assets/design.jpg",
+  },
+  "Develop (Design Handoff)": {
+    text: "Our designs are development-ready — and we work closely with engineers to ensure pixel-perfect implementation",
+    points: [
+      "Figma Design Handoff",
+      "Design Tokens & Components",
+      "Developer Collaboration & QA Support",
+    ],
+    image: "/assets/develop.jpg",
+  },
+  "Validate & Iterate": {
+    text: "We test, refine, and optimize to ensure continuous improvement post-launch.",
+    points: [
+      "Usability Testing",
+      "Feedback Loops",
+      "A/B Testing",
+      "Heatmaps & Analytics Reviews",
+    ],
+    image: "/assets/define.jpg",
+  },
+};
 
 const DesignThinking = () => {
+  const [activeStep, setActiveStep] = useState("Define");
+  const { text, points, image } = stepData[activeStep];
+
   return (
     <div className="py-12 px-4 sm:px-8 lg:px-16 bg-blue-900">
       {/* Section Heading */}
@@ -10,25 +55,23 @@ const DesignThinking = () => {
         </h1>
       </div>
 
-      {/* Main Content */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
         {/* Left Sidebar - Steps */}
         <div className="p-6 border-r border-black">
+          <h2 className="text-2xl text-white font-semibold mb-6">Discover</h2>
           <ul className="space-y-4 text-xl sm:text-2xl text-white">
-            {[
-              "Discover",
-              "Define",
-              "Design",
-              "Develop Design Handoff",
-              "Validate & Iterate",
-            ].map((step, idx) => (
+            {Object.keys(stepData).map((step, idx) => (
               <li key={idx}>
-                <a
-                  href="#"
-                  className="hover:underline hover:text-blue-300 transition duration-300"
+                <button
+                  onClick={() => setActiveStep(step)}
+                  className={`transition duration-300 ${
+                    activeStep === step
+                      ? "text-blue-300 underline"
+                      : "hover:underline hover:text-blue-300"
+                  }`}
                 >
                   ➤ {step}
-                </a>
+                </button>
               </li>
             ))}
           </ul>
@@ -39,8 +82,8 @@ const DesignThinking = () => {
           {/* Image */}
           <div className="w-full lg:w-1/2">
             <img
-              src="/assets/OurObjective.jpg"
-              alt="Design Thinking"
+              src={image}
+              alt={activeStep}
               className="rounded-lg shadow-lg w-full h-auto object-cover"
             />
           </div>
@@ -48,14 +91,12 @@ const DesignThinking = () => {
           {/* Text Description */}
           <div className="w-full lg:w-1/2 flex flex-col justify-center">
             <h2 className="text-xl sm:text-2xl font-semibold text-white mb-4">
-              We begin by understanding your business, your users, and your
-              challenges.
+              {text}
             </h2>
             <ul className="list-disc pl-5 text-white space-y-2 text-base sm:text-lg">
-              <li>Stakeholder Interviews</li>
-              <li>Competitor & Market Analysis</li>
-              <li>User Research & Personas</li>
-              <li>Analytics & Usability Audits</li>
+              {points.map((point, i) => (
+                <li key={i}>{point}</li>
+              ))}
             </ul>
           </div>
         </div>
