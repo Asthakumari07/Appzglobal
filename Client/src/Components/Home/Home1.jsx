@@ -105,7 +105,7 @@ const Home1 = () => {
                 >
                   <img
                     src={item.image}
-                    className="h-25 w-25 object-cover rounded-xl mb-4 shadow-md"
+                    className="h-20 w-20 object-cover rounded-xl mb-4 shadow-md"
                   />
                   <h3
                     className={`text-lg font-semibold ${

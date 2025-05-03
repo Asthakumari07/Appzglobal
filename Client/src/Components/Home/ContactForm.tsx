@@ -76,7 +76,7 @@ const ContactForm: React.FC = () => {
             name="name"
             value={Values.name}
             onChange={change}
-            className="p-3 border-b-2 border-white placeholder-white text-white bg-transparent"
+            className="p-3 border-b-2 border-white placeholder-white text-white bg-transparent font-bold"
           />
           <input
             type="email"
@@ -84,7 +84,7 @@ const ContactForm: React.FC = () => {
             name="email"
             value={Values.email}
             onChange={change}
-            className="p-3 border-b-2 border-white placeholder-white text-white bg-transparent"
+            className="p-3 border-b-2 border-white placeholder-white text-white bg-transparent font-bold"
           />
           <input
             type="tel"
@@ -92,7 +92,7 @@ const ContactForm: React.FC = () => {
             name="number"
             value={Values.number}
             onChange={change}
-            className="p-3 border-b-2 border-white placeholder-white text-white bg-transparent"
+            className="p-3 border-b-2 border-white placeholder-white text-white bg-transparent font-bold"
           />
           <input
             type="text"
@@ -100,7 +100,7 @@ const ContactForm: React.FC = () => {
             name="website"
             value={Values.website}
             onChange={change}
-            className="p-3 border-b-2 border-white placeholder-white text-white bg-transparent"
+            className="p-3 border-b-2 border-white placeholder-white text-white bg-transparent font-bold"
           />
         </div>
 
@@ -109,13 +109,13 @@ const ContactForm: React.FC = () => {
           name="feedback"
           value={Values.feedback}
           onChange={change}
-          className="p-3 border-b-2 border-white mt-4 text-white placeholder-white bg-transparent"
+          className="p-3 border-b-2 border-white mt-4 text-white placeholder-white bg-transparent font-bold"
         ></textarea>
 
         <div className="flex justify-center">
           <button
             type="submit"
-            className="mt-4 py-3 px-6 text-white rounded-xl hover:bg-blue-700 transition-all bg-orange-400 shadow shadow-orange-400"
+            className="mt-4 py-3 px-6 text-white rounded-xl hover:bg-blue-700 transition-all bg-orange-400 shadow shadow-orange-400 font-bold"
           >
             Submit Now
           </button>

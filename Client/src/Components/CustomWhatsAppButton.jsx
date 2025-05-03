@@ -1,25 +1,79 @@
-// src/components/CustomWhatsAppButton.js
-import React, { useState } from "react";
-import { FaWhatsapp } from "react-icons/fa"; // WhatsApp icon
+// src/components/FloatingContactButtons.jsx
+import React, { useState, useEffect } from "react";
+import { FaWhatsapp, FaPhone, FaComments } from "react-icons/fa";
 
-const CustomWhatsAppButton = () => {
-  const [isHovered, setIsHovered] = useState(false);
+const FloatingContactButtons = () => {
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 640);
+  const [isOpen, setIsOpen] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => setIsMobile(window.innerWidth < 640);
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  if (isMobile) {
+    return (
+      <div className="fixed bottom-6 left-6 z-50">
+        {isOpen && (
+          <div className="flex flex-col items-start mb-3 space-y-3">
+            <a
+              href="https://wa.me/918459974712"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center px-4 py-2 rounded-full bg-green-500 text-white shadow hover:bg-green-600 transition"
+            >
+              <FaWhatsapp className="mr-2" />
+              WhatsApp
+            </a>
+            <a
+              href="tel:+918459974712"
+              className="flex items-center px-4 py-2 rounded-full bg-blue-500 text-white shadow hover:bg-blue-600 transition"
+            >
+              <FaPhone className="mr-2" />
+              Call Us
+            </a>
+          </div>
+        )}
+        <button
+          onClick={() => setIsOpen(!isOpen)}
+          className="w-14 h-14 flex items-center justify-center rounded-full bg-green-500 text-white shadow hover:bg-blue-600"
+        >
+          <FaComments className="text-2xl" />
+        </button>
+      </div>
+    );
+  }
 
   return (
-    <a
-      href="https://wa.me/918459974712" // 🔁 Replace with your number
-      className="fixed bottom-6 left-6 bg-green-500 text-white px-5 py-3 rounded-full shadow-lg z-50 flex items-center space-x-3 hover:bg-green-600 transition-all duration-300"
-      target="_blank"
-      rel="noopener noreferrer"
-      onMouseEnter={() => setIsHovered(true)}
-      onMouseLeave={() => setIsHovered(false)}
-    >
-      <FaWhatsapp className="w-6 h-6" />
-      <span className="text-lg">
-        {isHovered ? "May I help you?" : "Chat with us"}
-      </span>
-    </a>
+    <>
+      <div className="fixed bottom-6 left-6 z-50">
+        <div className="flex flex-col items-start space-y-3">
+          <a
+            href="https://wa.me/918459974712"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center px-4 py-2 rounded-full bg-green-500 text-white shadow hover:bg-green-600 transition"
+          >
+            <FaWhatsapp className="mr-2" />
+            WhatsApp
+          </a>
+        </div>
+      </div>
+
+      <div className="fixed bottom-6 right-6 z-50">
+        <div className="flex flex-col items-end space-y-3">
+          <a
+            href="tel:+918459974712"
+            className="flex items-center px-4 py-2 rounded-full bg-blue-500 text-white shadow hover:bg-blue-600 transition"
+          >
+            <FaPhone className="mr-2" />
+            Call Us
+          </a>
+        </div>
+      </div>
+    </>
   );
 };
 
-export default CustomWhatsAppButton;
+export default FloatingContactButtons;

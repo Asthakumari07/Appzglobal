@@ -9,15 +9,16 @@ import Slider from "react-slick/lib/slider";
 import HomeSlider from "../Home/HomeSlider";
 import Footer from "../Footer/Footer";
 import HomePortfolio from "../Home/HomePortfolio";
+import PortfolioMobile from "./PortfolioMobile";
 
 const Portfolio = () => {
   return (
     <>
       <Navbar />
       <Navbar2 />
-      {/* <Portfolio1 /> */}
       <HomePortfolio />
       <BlogPortfolio />
+      <PortfolioMobile />
       <HomeSlider />
       <Footer3 />
       <Footer />
