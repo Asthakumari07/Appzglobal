@@ -4,7 +4,7 @@ const data = [
   {
     icon: "/assets/Group-8712.jpg",
     image: "/assets/Group-8742.jpg",
-    name: "Nestor pharmaceuticals",
+    name: "Nestor pharma",
     link: "https://nestorpharma.com",
   },
   {
@@ -16,7 +16,7 @@ const data = [
   {
     icon: "/assets/Group-8712.jpg",
     image: "/assets/Group-8736.jpg",
-    name: "JP Funware & Technologies",
+    name: "JP Funware",
     link: "https://www.jpfunware.com",
   },
   {
@@ -46,13 +46,13 @@ const data = [
   {
     icon: "/assets/Group-8712.jpg",
     image: "/assets/Group-8742.jpg",
-    name: "Nestor pharmaceuticals",
+    name: "Nestor pharma",
     link: "https://nestorpharma.com",
   },
   {
     icon: "/assets/Group-8712.jpg",
     image: "/assets/Group-8742.jpg",
-    name: "Nestor pharmaceuticals",
+    name: "Nestor pharma",
     link: "https://nestorpharma.com",
   },
 ];
@@ -82,7 +82,7 @@ const HomePortfolio = () => {
                   className="h-auto w-full rounded-xl"
                 />
                 {/* Simulated text inside search bar on image */}
-                <div className="absolute top-[2px] left-1/2 transform -translate-x-1/2 w-[80%] text-sm text-gray-600 text-center font-semibold">
+                <div className="absolute top-[-2px] lg:top-[2px] left-1/2 transform -translate-x-1/2 w-[80%] text-sm text-gray-600 text-center lg:font-semibold">
                   {item.name}
                 </div>
               </div>

@@ -59,7 +59,7 @@ const PortfolioMobile = () => {
                   className="h-auto w-full rounded-xl"
                 />
                 {/* Simulated text inside search bar on image */}
-                <div className="absolute top-[2px] left-1/2 transform -translate-x-1/2 w-[80%] text-sm text-gray-600 text-center font-semibold">
+                <div className="absolute top-[-2px] lg:top-[2px] left-1/2 transform -translate-x-1/2 w-[80%] text-sm text-gray-600 text-center font-semibold">
                   {item.name}
                 </div>
               </div>
