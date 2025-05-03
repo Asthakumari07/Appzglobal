@@ -161,16 +161,6 @@ const AditiProfile = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
           <div>
             <h2 className="text-2xl font-semibold text-orange-500 mb-4">
-              Certifications
-            </h2>
-            <ul className="list-disc ml-6 space-y-2 text-gray-700">
-              {certifications.map((item, index) => (
-                <li key={index}>{item}</li>
-              ))}
-            </ul>
-          </div>
-          <div>
-            <h2 className="text-2xl font-semibold text-orange-500 mb-4">
               Education
             </h2>
             <ul className="list-disc ml-6 space-y-2 text-gray-700">

@@ -86,26 +86,57 @@ const ProfileContentVikas = () => {
           cities with 5,000+ users.
         </p>
 
-        <h4 className="text-xl font-semibold text-orange-600">Key Skills</h4>
+        <h4 className="text-xl font-semibold text-orange-600">
+          Technical Skills
+        </h4>
         <ul className="list-disc list-inside pl-4 space-y-1">
-          <li>Web Technologies and Database Management</li>
+          <li>Programming experience in Java, Python, C, and C++</li>
           <li>
-            Cybersecurity Expert (IBM Certified) and Agile Development Leader
+            Certified Application Security Engineer (IBM AppScan, Burp Suite,
+            Nmap, OWASP Top 10, Vulnerability Scanning)
+          </li>
+          <li>
+            Certified Security Intelligence Engineer (OSINT, IBM QRadar, Threat
+            Intelligence, Event Management, Cyber Forensics)
+          </li>
+          <li>Linux</li>
+          <li>Web Technologies (HTML, CSS, JavaScript, MySQL), WordPress</li>
+          <li>
+            Networking, Packet Inspection, TCP/IP, DNS, CDN, Encryption
+            Algorithms
           </li>
           <li>Risk Management, Cloud Computing, and Digital Marketing</li>
           <li>
             Certified Scrum Master with a focus on high-performance team
             leadership
           </li>
+          <li>IBM QRadar Security Analytics</li>
+          <li>Google Digital Marketing Certification</li>
         </ul>
 
         <h4 className="text-xl font-semibold text-orange-600">
           Certifications
         </h4>
+        <p className="mb-2">
+          <span className="font-semibold text-blue-700">Certifications :</span>{" "}
+          <a
+            href="https://www.credly.com/users/vikash-kumar.e4e1cf58/badges"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 underline"
+          >
+            www.credly.com/users/vikash-kumar.e4e1cf58/badges
+          </a>
+        </p>
         <ul className="list-disc list-inside pl-4 space-y-1">
-          <li>IBM QRadar Security Analytics</li>
-          <li>Google Digital Marketing Certification</li>
-          <li>Risk Management Certification from IBM Institute, Berlin</li>
+          <li>Security Intelligence Engineer - Explorer</li>
+          <li>Security Intelligence Engineer - Mastery</li>
+          <li>Application Security Engineer - Explorer</li>
+          <li>Application Security Engineer - Mastery</li>
+          <li>
+            The Fundamentals of Digital Marketing - <strong>Google</strong>
+          </li>
+          <li>Risk Management - IBMI (Germany)</li>
         </ul>
 
         <h4 className="text-xl font-semibold text-orange-600">Education</h4>
