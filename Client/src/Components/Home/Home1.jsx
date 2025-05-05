@@ -60,7 +60,10 @@ const sliderSettings = {
 const Home1 = () => {
   const navigate = useNavigate();
   return (
-    <div className="w-full overflow-hidden flex flex-col lg:flex-row items-center justify-between px-6 py-10 gap-10 bg-gradient-to-br from-white via-blue-50 to-orange-50">
+    <div
+      className="w-full overflow-hidden flex flex-col lg:flex-row items-center justify-between px-6 py-10 gap-10"
+      style={{ backgroundImage: `url("/assets/back-image.png")` }}
+    >
       {/* Left Side: Video (40%) */}
       <motion.div
         initial={{ opacity: 0, x: -50 }}
