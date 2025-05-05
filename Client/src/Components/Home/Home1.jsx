@@ -62,7 +62,7 @@ const Home1 = () => {
   return (
     <div
       className="w-full overflow-hidden flex flex-col lg:flex-row items-center justify-between px-6 py-10 gap-10"
-      style={{ backgroundImage: `url("/assets/back-image.png")` }}
+      style={{ backgroundImage: `url("/assets/back-image.jpg")` }}
     >
       {/* Left Side: Video (40%) */}
       <motion.div
