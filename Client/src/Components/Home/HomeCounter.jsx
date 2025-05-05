@@ -43,9 +43,9 @@ const HomeCounter = () => {
         }}
       >
         <CounterItem target="500" label="Satisfied Customers" />
-        <CounterItem target="9" label="Years of Experience" />
+        <CounterItem target="11" label="Years of Experience" />
         <CounterItem target="10" label="Products" />
-        <CounterItem target="5" label="Expert Engineers" />
+        <CounterItem target="50" label="Expert Engineers" />
       </div>
     </div>
   );

@@ -20,7 +20,7 @@ const Design = () => {
       <DesignThinking />
       <Technologies />
       <Technologies2 />
-      {/* <Technologies3 /> */}
+      <Technologies3 />
       <Footer3 />
       <Footer />
     </>

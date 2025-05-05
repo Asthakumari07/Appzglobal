@@ -4,15 +4,14 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const data = [
-  { image: "/assets/ae.jpg", title: "After Effects" },
-  { image: "/assets/ai.jpg", title: "AI" },
-  { image: "/assets/android.jpeg", title: "Android" },
-  { image: "assets/angular.jpg", title: "Angular" },
-  { image: "/assets/apache cordova.jpg", title: "Apache Cordova" },
-  { image: "/assets/ios.jpeg", title: "iOS" },
-  { image: "/assets/In.jpg", title: "LinkedIn SDK" },
-  { image: "/assets/node js.jpg", title: "Node.js" },
-  { image: "/assets/python.jpg", title: "Python" },
+  { image: "/assets/design1.jpg", title: "After Effects" },
+  { image: "/assets/design2.jpg", title: "AI" },
+  { image: "/assets/design3.jpg", title: "Android" },
+  { image: "assets/design4.jpg", title: "Angular" },
+  { image: "/assets/design5.jpg", title: "Apache Cordova" },
+  { image: "/assets/design6.jpg", title: "iOS" },
+  { image: "/assets/design7.jpg", title: "LinkedIn SDK" },
+  { image: "/assets/design8.jpg", title: "Node.js" },
 ];
 
 const sliderSettings = {
@@ -32,22 +31,15 @@ const sliderSettings = {
 
 const Technologies2 = () => {
   return (
-    <div className="py-12 px-4 sm:px-8 lg:px-16 bg-white overflow-hidden">
-      {/* Title */}
-      <div className="text-center mb-10">
-        <h1 className="text-5xl sm:text-5xl font-bold text-gray-800">
-          <span className="text-orange-500">Technologies</span> We Use
-        </h1>
-      </div>
-
+    <div className="py-12 px-4 sm:px-8 lg:px-16 bg-blue-900 overflow-hidden">
       {/* Intro */}
       <div className="text-left mb-10 max-w-2xl">
-        <h2 className="text-3xl sm:text-4xl font-bold text-gray-800">
-          Mobile App Development
+        <h2 className="text-3xl sm:text-4xl font-bold text-white">
+          Web App Development
         </h2>
-        <p className="mt-4 text-gray-600 text-base sm:text-lg">
-          As your trusted partner, we build human-centric iOS and Android apps
-          using cutting-edge technologies, from native to cross-platform.
+        <p className="mt-4 text-white text-base sm:text-lg">
+          Our expert team delivers flawless, scalable web applications using
+          top-tier development tools for a lasting impact.
         </p>
       </div>
 

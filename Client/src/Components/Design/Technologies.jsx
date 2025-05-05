@@ -4,15 +4,15 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const data = [
-  { image: "/assets/ae.jpg", title: "After Effects" },
-  { image: "/assets/ai.jpg", title: "AI" },
-  { image: "/assets/android.jpeg", title: "Android" },
-  { image: "assets/angular.jpg", title: "Angular" },
-  { image: "/assets/apache cordova.jpg", title: "Apache Cordova" },
-  { image: "/assets/ios.jpeg", title: "iOS" },
-  { image: "/assets/In.jpg", title: "LinkedIn SDK" },
-  { image: "/assets/node js.jpg", title: "Node.js" },
-  { image: "/assets/python.jpg", title: "Python" },
+  { image: "/assets/design11.jpg", title: "After Effects" },
+  { image: "/assets/design12.jpg", title: "AI" },
+  { image: "/assets/design13.jpg", title: "Android" },
+  { image: "assets/design14.jpg", title: "Angular" },
+  { image: "/assets/design15.jpg", title: "Apache Cordova" },
+  { image: "/assets/design16.jpg", title: "iOS" },
+  { image: "/assets/design17.jpg", title: "LinkedIn SDK" },
+  { image: "/assets/design18.jpg", title: "Node.js" },
+  { image: "/assets/design19.jpg", title: "Python" },
 ];
 
 const sliderSettings = {
