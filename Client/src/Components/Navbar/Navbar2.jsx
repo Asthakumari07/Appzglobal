@@ -248,6 +248,11 @@ const Navbar2 = () => {
     "/saloniprofile": {
       image: "/assets/TeamPage.jpg",
       title: "Saloni Jha",
+      description: "HR leader and key contributor at Appz Global Tech.",
+    },
+    "/profilenarendra": {
+      image: "/assets/TeamPage.jpg",
+      title: "Narendra Yadav",
       description: "Tech leader and key contributor at Appz Global Tech.",
     },
     "/blogpara": {

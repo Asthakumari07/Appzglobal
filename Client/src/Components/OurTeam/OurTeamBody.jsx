@@ -43,6 +43,28 @@ const data = [
       instagram: "#",
     },
   },
+  {
+    image: "/assets/saloni.jpg",
+    name: "Saloni Jha",
+    position: "HR Manager",
+    link: "/saloniprofile",
+    social: {
+      facebook: "#",
+      linkedin: "#",
+      instagram: "#",
+    },
+  },
+  {
+    image: "/assets/narendra-sir.jpg",
+    name: "Narender Yadav",
+    position: "Tech Lead",
+    link: "/profilenarendra",
+    social: {
+      facebook: "#",
+      linkedin: "#",
+      instagram: "#",
+    },
+  },
 ];
 
 const OurTeamBody = () => {
@@ -54,7 +76,7 @@ const OurTeamBody = () => {
         </h1>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-1">
         {data.map((item, index) => {
           const bgTop = index % 2 === 0 ? "bg-orange-100" : "bg-blue-100";
           const bgBottom = index % 2 === 0 ? "bg-orange-400" : "bg-blue-900";

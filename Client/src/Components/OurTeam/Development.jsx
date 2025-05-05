@@ -9,11 +9,6 @@ import { IoLogoInstagram } from "react-icons/io";
 
 const data = [
   {
-    image: "/assets/narendra-sir.jpg",
-    name: "Narender Yadav",
-    position: "Full Stack Developer",
-  },
-  {
     image: "/assets/ankesh.jpg",
     name: "Ankesh Yadav",
     position: "Mobile App Application",

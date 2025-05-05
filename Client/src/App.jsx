@@ -22,6 +22,7 @@ import ProfileLokesh from "./Components/OurTeam/ProfileLokesh";
 import ProfileVikas from "./Components/OurTeam/ProfileVikas";
 import SaloniProfile from "./Components/OurTeam/SaloniProfile";
 import AditiProfile from "./Components/OurTeam/AditiProfile";
+import ProfileNarendra from "./Components/OurTeam/Naredra";
 import Design from "./Components/Design/Design";
 import Staff from "./Components/Staff/Staff";
 
@@ -85,6 +86,7 @@ function App() {
           <Route path="/profilevikas" element={<ProfileVikas />} />
           <Route path="/saloniprofile" element={<SaloniProfile />} />
           <Route path="/profileaditi" element={<AditiProfile />} />
+          <Route path="/profilenarendra" element={<ProfileNarendra />} />
           // Services
           <Route path="/analytical" element={<Analytical />} />
           <Route path="/erpservice" element={<ERPServices />} />

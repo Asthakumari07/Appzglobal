@@ -4,31 +4,31 @@ const data = [
   {
     icon: "/assets/patti.jpg",
     name: "3 Patti Game",
-    link: "https://3pattigame.example.com",
+    link: "https://3pattigame.com",
     para: "A thrilling multiplayer card game with real-time interactions and immersive gameplay.",
   },
   {
     icon: "/assets/agt.jpg",
-    name: "AGT Logistics",
-    link: "https://agtplatform.example.com",
+    name: "AGT Coders",
+    link: "https://agtcoders.com",
     para: "Fleet and logistics management system with real-time tracking and intelligent analytics.",
   },
   {
     icon: "/assets/igniculuss-logo-1.jpg",
     name: "Igniculus",
-    link: "https://igniculus.io",
+    link: "https://igniculuss.com/",
     para: "A blockchain-based asset management platform with seamless digital contract integration.",
   },
   {
     icon: "/assets/ludo online.jpg",
     name: "Ludo Online",
-    link: "https://ludoonline.example.com",
+    link: "https://ludoonline.com",
     para: "An interactive online Ludo game with real-time matchmaking and exciting animations.",
   },
   {
     icon: "/assets/needtoassis.jpg",
     name: "Need to Assist",
-    link: "https://needtoassist.example.com",
+    link: "https://needtoassist.com/",
     para: "A volunteer help platform connecting individuals in need with helpers in their area.",
   },
   {
@@ -40,13 +40,13 @@ const data = [
   {
     icon: "/assets/next-ias.webp",
     name: "Next IAS",
-    link: "https://nextias.example.com",
+    link: "https://nextias.com",
     para: "An online learning platform with live classes, test series, and detailed performance tracking.",
   },
   {
     icon: "/assets/NMGemsJewels.jpg",
     name: "NM Gems & Jewels",
-    link: "https://nmgems.example.com",
+    link: "https://nmgemandjewels.com/",
     para: "E-commerce platform for premium gems and handcrafted jewelry with AR try-on features.",
   },
   {
@@ -64,25 +64,25 @@ const data = [
   {
     icon: "/assets/RajCareInnovation.jpg",
     name: "Synergy Innovation",
-    link: "https://synergyinnovation.example.com",
+    link: "https://www.rcinfovision.in/",
     para: "Innovation consultancy platform for industry collaborations and digital product launches.",
   },
   {
     icon: "/assets/thikedaar.jpg",
     name: "Thikedaar",
-    link: "https://thikedaar.com",
+    link: "https://thikedaar.in",
     para: "Construction project management and contractor hiring system for residential and commercial spaces.",
   },
   {
     icon: "/assets/university-network-logo.png-12.jpg",
     name: "University Network",
-    link: "https://universitynetwork.com",
+    link: "https://universitynetwork.in/",
     para: "Student community and collaboration platform connecting top universities and talent.",
   },
   {
     icon: "/assets/XL!!.avif",
     name: "XL Games",
-    link: "https://xlgames.example.com",
+    link: "https://xlgames.com",
     para: "Online gaming platform offering casino-style games with global tournaments and prizes.",
   },
 ];
