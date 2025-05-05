@@ -67,11 +67,11 @@ const Application = () => {
     try {
       // Send form data to backend (example URL)
       const response = await axios.post(
-        "https://appzglobaltech.com/api/application", // Ensure this matches the backend route
+        "https://appzglobaltech.com/api/application",
         formData,
         {
           headers: {
-            "Content-Type": "multipart/form-data", // Proper content type for form data
+            "Content-Type": "multipart/form-data",
           },
         }
       );
