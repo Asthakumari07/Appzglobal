@@ -67,7 +67,7 @@ const Application = () => {
     try {
       // Send form data to backend (example URL)
       const response = await axios.post(
-        "http://13.203.214.159:5000/api/application", // Ensure this matches the backend route
+        "https://appzglobaltech.com/api/application", // Ensure this matches the backend route
         formData,
         {
           headers: {

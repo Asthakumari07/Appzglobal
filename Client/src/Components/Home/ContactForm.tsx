@@ -34,7 +34,7 @@ const ContactForm: React.FC = () => {
     try {
       // Send POST request to backend
       const response = await axios.post(
-        "http://13.203.214.159:5000/api/auth/register",
+        "https://appzglobaltech.com/api/auth/register",
         Values
       );
 
