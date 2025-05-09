@@ -12,14 +12,18 @@ const cors = require("cors");
 const app = express();
 
 // Middleware
+// app.use(cors("*"));
 app.use(
   cors({
-    origin: ["https://appzglobaltech.com", "http://appzglobaltech.com"],
-
+    origin: [
+      "https://appzglobaltech.com", // Production domain (HTTPS)
+      "http://appzglobaltech.com", // HTTP version (if used)
+    ],
     methods: ["GET", "POST"],
-    credentials: true,
+    credentials: true, // If you need to support cookies/session
   })
 );
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 

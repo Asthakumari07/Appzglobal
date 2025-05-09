@@ -6,7 +6,7 @@ const FeedbackData = () => {
 
   useEffect(() => {
     axios
-      .get("https://appzglobaltech.com:5000/api/admin/users")
+      .get("https://appzglobaltech.com/api/admin/users")
       .then((res) => setData(res.data))
       .catch((err) => console.error(err));
   }, []);
