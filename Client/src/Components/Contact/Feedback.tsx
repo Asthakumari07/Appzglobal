@@ -29,7 +29,7 @@ const Feedback: React.FC = () => {
 
     try {
       const res = await axios.post(
-        "https://appzglobaltech.com:5000/api/form/contact",
+        "http://appzglobaltech.com:5000/api/form/contact",
         Values
       );
       alert(res.data.message);
