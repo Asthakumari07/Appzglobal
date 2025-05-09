@@ -1,4 +1,5 @@
 const express = require("express");
+const http = require("http");
 const path = require("path");
 const authRouter = require("./router/auth-router");
 const contactRoute = require("./router/contact-router");
@@ -13,7 +14,8 @@ const app = express();
 // Middleware
 app.use(
   cors({
-    origin: "http://appzglobaltech.com:5000", // Ensure this matches your frontend URL
+    origin: ["https://appzglobaltech.com", "http://appzglobaltech.com"],
+
     methods: ["GET", "POST"],
     credentials: true,
   })
