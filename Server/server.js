@@ -13,7 +13,7 @@ const app = express();
 // Middleware
 app.use(
   cors({
-    origin: "https://appzglobaltech.com", // Ensure this matches your frontend URL
+    origin: "https://appzglobaltech.com:5000", // Ensure this matches your frontend URL
     methods: ["GET", "POST"],
     credentials: true,
   })

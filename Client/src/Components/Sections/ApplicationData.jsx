@@ -6,7 +6,7 @@ const ApplicationData = () => {
 
   useEffect(() => {
     axios
-      .get("https://appzglobaltech.com/api/admin/applications")
+      .get("https://appzglobaltech.com:5000/api/admin/applications")
       .then((res) => setData(res.data))
       .catch((err) => console.error(err));
   }, []);

@@ -6,7 +6,7 @@ const ContactData = () => {
 
   useEffect(() => {
     axios
-      .get("https://appzglobaltech.com/api/admin/contacts")
+      .get("https://appzglobaltech.com:5000/api/admin/contacts")
       .then((res) => setData(res.data))
       .catch((err) => console.error(err));
   }, []);
