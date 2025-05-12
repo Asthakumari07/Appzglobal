@@ -46,7 +46,7 @@ const BlogPortfolio = () => {
             <p className="text-gray-600 text-sm mt-2">{item.para}</p>
             <div className="flex items-center justify-between mt-4">
               <button
-                className="text-blue-600 border px-4 py-1 rounded-3xl hover:bg-blue-700 hover:text-white transition"
+                className="text-blue-600 border px-4 py-1 rounded-3xl hover:bg-blue-700 hover:text-white transition cursor-pointer"
                 onClick={() => navigate("/blogs")}
               >
                 Read More
@@ -62,7 +62,7 @@ const BlogPortfolio = () => {
 
       <button
         onClick={() => navigate("/blogs")}
-        className="mt-10 px-6 py-2 font-bold text-blue-700 border rounded-lg hover:bg-blue-700 hover:text-white transition"
+        className="mt-10 px-6 py-2 font-bold text-blue-700 border rounded-lg hover:bg-blue-700 hover:text-white transition cursor-pointer"
       >
         VIEW MORE
       </button>

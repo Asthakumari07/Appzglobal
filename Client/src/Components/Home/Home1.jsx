@@ -100,7 +100,7 @@ const Home1 = () => {
               <div key={index} className="px-4">
                 <motion.div
                   whileHover={{ scale: 1.05 }}
-                  className={`h-50 mt-10 shadow-lg rounded-xl p-6 flex flex-col items-center text-center transition-shadow duration-300 gap-3 ${
+                  className={`h-50 mt-10 shadow-lg rounded-xl p-6 flex flex-col items-center text-center transition-shadow duration-300 gap-3 cursor-pointer ${
                     isEven
                       ? "bg-blue-500 text-white"
                       : "bg-orange-300 text-black"
@@ -128,7 +128,7 @@ const Home1 = () => {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             type="button"
-            className="font-bold text-blue-800 border border-blue-800 hover:border-b-[3px] hover:border-r-[3px] hover:border-orange-400 hover:bg-blue-800 hover:text-white rounded-xl transition w-36 h-12 transition-all mr-10"
+            className="font-bold text-blue-800 border border-blue-800 hover:border-b-[3px] hover:border-r-[3px] hover:border-orange-400 hover:bg-blue-800 hover:text-white rounded-xl transition w-36 h-12 transition-all mr-10 cursor-pointer"
             onClick={() => navigate("/services")}
           >
             Learn More

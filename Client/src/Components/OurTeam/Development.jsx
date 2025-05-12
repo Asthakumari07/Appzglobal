@@ -60,7 +60,7 @@ const Development = () => {
         </h1>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 cursor-pointer">
         {data.map((item, index) => {
           const bgTop = index % 2 === 0 ? "bg-orange-100" : "bg-blue-100";
           const bgBottom = index % 2 === 0 ? "bg-orange-400" : "bg-blue-900";

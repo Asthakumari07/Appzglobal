@@ -85,7 +85,7 @@ const ProductCard = () => {
               <button
                 type="button"
                 onClick={() => navigate(item.link)}
-                className="text-blue-800 mb-3 ml-10 flex justify-center items-center gap-1 text-xl"
+                className="text-blue-800 mb-3 ml-10 flex justify-center items-center gap-1 text-xl cursor-pointer"
               >
                 Know More
                 <FaArrowRight />

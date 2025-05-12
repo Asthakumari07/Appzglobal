@@ -15,7 +15,7 @@ const Footer3 = () => {
         </p>
         <button
           type="button"
-          className="mt-6 px-3 py-3 bg-lime-400 hover:bg-green-700 hover:text-white font-semibold rounded-lg transition w-35"
+          className="mt-6 px-3 py-3 bg-lime-400 hover:bg-green-700 hover:text-white font-semibold rounded-lg transition w-35 cursor-pointer"
           onClick={() => navigate("/contact")}
         >
           Contact Us

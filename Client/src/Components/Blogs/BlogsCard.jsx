@@ -14,7 +14,7 @@ const BlogCard = ({ image, title, date, description }) => {
         </h2>
         <p className="text-gray-600 text-sm line-clamp-3">{description}</p>
         <button
-          className="text-blue-600 font-medium mt-2 hover:underline self-start"
+          className="text-blue-600 font-medium mt-2 hover:underline self-start cursor-pointer"
           onClick={() => navigate("/blogpara")}
         >
           Read More →

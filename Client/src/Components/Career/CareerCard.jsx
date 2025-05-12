@@ -77,7 +77,7 @@ const CareerCard = () => {
             </div>
             <div className="flex justify-end">
               <button
-                className="text-lg border border-blue-800 text-blue-800 px-8 py-2 rounded-3xl transition flex items-center gap-2 font-bold"
+                className="text-lg border border-blue-800 text-blue-800 px-8 py-2 rounded-3xl transition flex items-center gap-2 font-bold cursor-pointer"
                 onClick={() => navigate("/application")}
               >
                 Apply Now <MdArrowOutward />

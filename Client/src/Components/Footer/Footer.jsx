@@ -211,7 +211,7 @@ const Footer = () => {
               />
               <button
                 type="button"
-                className="mt-2 p-2 font-bold text-blue-800 border border-blue-800 rounded-xl hover:bg-blue-800 hover:text-white"
+                className="mt-2 p-2 font-bold text-blue-800 border border-blue-800 rounded-xl hover:bg-blue-800 hover:text-white cursor-pointer"
                 onClick={() => navigate("/contact")}
               >
                 Submit Now

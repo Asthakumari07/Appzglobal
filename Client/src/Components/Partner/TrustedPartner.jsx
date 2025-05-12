@@ -74,7 +74,7 @@ const TrustedPartner = () => {
                 href={item.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-auto"
+                className="mt-auto cursor-pointer"
                 title="Visit Website"
               >
                 <div className="flex items-center gap-2 bg-blue-800 text-white px-4 py-2 rounded-md hover:bg-blue-900 transition duration-200">

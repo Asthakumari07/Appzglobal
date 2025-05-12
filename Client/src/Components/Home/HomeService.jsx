@@ -83,7 +83,7 @@ const HomeService = () => {
         {data.map((item, index) => (
           <div
             key={index}
-            className="group bg-white rounded-2xl shadow-md p-6 flex flex-col items-center text-center hover:shadow-2xl hover:scale-105 duration-500  hover:bg-gradient-to-br hover:from-orange-100 hover:via-white hover:to-blue-100 hover:border-b-[3px] hover:border-r-[3px] border-blue-500 "
+            className="group bg-white rounded-2xl shadow-md p-6 flex flex-col items-center text-center hover:shadow-2xl hover:scale-105 duration-500  hover:bg-gradient-to-br hover:from-orange-100 hover:via-white hover:to-blue-100 hover:border-b-[3px] hover:border-r-[3px] border-blue-500"
           >
             <img
               src={item.image}
@@ -100,7 +100,7 @@ const HomeService = () => {
             </p>
 
             <button
-              className="mt-6 text-orange-400 hover:text-orange-500 transition"
+              className="mt-6 text-orange-400 hover:text-orange-500 transition cursor-pointer"
               onClick={() => navigate(item.link)}
             >
               <item.btn1 size={24} />
@@ -114,7 +114,7 @@ const HomeService = () => {
           type="button"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
-          className="px-6 py-3 font-bold text-blue-800 border border-blue-800 hover:border-b-[3px] hover:border-r-[3px] hover:border-orange-400 hover:bg-blue-800 hover:text-white rounded-xl transition"
+          className="px-6 py-3 font-bold text-blue-800 border border-blue-800 hover:border-b-[3px] hover:border-r-[3px] hover:border-orange-400 hover:bg-blue-800 hover:text-white rounded-xl transition cursor-pointer"
           onClick={() => navigate("/services")}
         >
           VIEW MORE

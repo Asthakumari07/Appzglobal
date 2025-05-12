@@ -157,7 +157,7 @@ const ServicesFinal = () => {
             </p>
 
             <button
-              className="mt-6 text-orange-400 hover:text-orange-500 transition"
+              className="mt-6 text-orange-400 hover:text-orange-500 transition cursor-pointer"
               onClick={() => navigate(item.link)}
             >
               <item.btn1 size={24} />

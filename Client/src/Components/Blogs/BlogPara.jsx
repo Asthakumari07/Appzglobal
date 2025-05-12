@@ -164,7 +164,7 @@ const BlogPara = () => {
         </p>
         <a
           href="tel:+918459974712"
-          className="inline-block bg-blue-600 text-white px-6 py-3 rounded-xl shadow hover:bg-blue-700 transition"
+          className="inline-block bg-blue-600 text-white px-6 py-3 rounded-xl shadow hover:bg-blue-700 transition cursor-pointer"
         >
           👉 Contact Us Today
         </a>

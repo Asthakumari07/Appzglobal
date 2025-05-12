@@ -71,7 +71,7 @@ const HomeBlog = () => {
                   >
                     <p className="text-sm">{item.para}</p>
                     <button
-                      className="mt-4 border border-white rounded-3xl px-4 py-2 font-semibold hover:bg-white hover:text-blue-800 transition-all"
+                      className="mt-4 border border-white rounded-3xl px-4 py-2 font-semibold hover:bg-white hover:text-blue-800 transition-all cursor-pointer"
                       onClick={() => navigate("/blogs")}
                     >
                       {item.button}

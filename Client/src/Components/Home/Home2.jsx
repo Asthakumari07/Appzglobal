@@ -55,7 +55,7 @@ const Home2 = () => {
   };
 
   return (
-    <div className="relative mx-auto py-10 w-[90%]">
+    <div className="relative mx-auto py-10 w-[90%] ">
       <h2 className="text-2xl font-bold text-center mb-6">
         <span className="text-orange-500">Industries</span> We Work With
       </h2>

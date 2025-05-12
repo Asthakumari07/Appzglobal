@@ -74,9 +74,7 @@ const DesignThinking = () => {
                 <button
                   onClick={() => setActiveStep(step)}
                   className={`transition duration-300 ${
-                    activeStep === step
-                      ? "text-blue-300 underline"
-                      : "hover:underline hover:text-blue-300"
+                    activeStep === step ? "text-orange-200" : "cursor-pointer"
                   }`}
                 >
                   ➤ {step}

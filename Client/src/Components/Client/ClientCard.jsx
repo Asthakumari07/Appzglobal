@@ -107,7 +107,7 @@ const ClientCard = () => {
               href={client.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block mt-2 text-blue-600 hover:underline text-sm"
+              className="inline-block mt-2 text-blue-600 hover:underline text-sm cursor-pointer"
             >
               Visit Website
             </a>
