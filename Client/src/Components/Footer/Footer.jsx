@@ -13,6 +13,7 @@ import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
 import { AiOutlinePinterest } from "react-icons/ai";
 import { CiLinkedin } from "react-icons/ci";
+import { FaBagShopping } from "react-icons/fa6";
 const Footer = () => {
   const navigate = useNavigate();
   return (
@@ -50,6 +51,26 @@ const Footer = () => {
                 </a>
                 <a href="tel:+917017386311">+91-7017386311</a>
               </li>
+              <li className="flex flex-col items-start gap-2">
+                <p className="text-sm text-gray-600 flex flex-row item-center gap-2">
+                  <FaBagShopping /> Jobs & Internships, call our HR team :
+                </p>
+                <div className="flex flex-row gap-1 ml-5">
+                  <a
+                    href="tel:+918178615121"
+                    className="hover:text-blue-600 hover:underline transition"
+                  >
+                    +91-8178615121
+                  </a>
+                  <a
+                    href="tel:+919220353712"
+                    className="hover:text-blue-600 hover:underline transition"
+                  >
+                    +91-9220353712
+                  </a>
+                </div>
+              </li>
+
               <li className="flex items-center gap-2">
                 <a
                   href="mailto:info@appzglobaltech.com"

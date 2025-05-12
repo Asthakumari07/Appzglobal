@@ -39,6 +39,11 @@ const data = [
     para: "At Appz Global Tech, we take pride in our strong partnerships with leading technology and business innovators.",
     link: "https://demotictechnologies.com",
   },
+  {
+    logo: "/assets/logo-form.jpg",
+    para: "At Appz Global Tech, we take pride in our strong partnerships with leading technology and business innovators.",
+    link: "https://technoledgeindia.com/index.html",
+  },
 ];
 
 const TrustedPartner = () => {

@@ -16,9 +16,9 @@ const AdminLogin = ({ onLogin }) => {
 
     // Simple hardcoded check — replace with real auth later
     if (
-      formData.name === "admin" &&
-      formData.email === "admin@appzglobal.com" &&
-      formData.password === "admin123"
+      formData.name === "appzglobal" &&
+      formData.email === "vikashkumarappzglobaltech@gmail.com" &&
+      formData.password === "Appz@123**"
     ) {
       onLogin(); // switch to dashboard
     } else {
