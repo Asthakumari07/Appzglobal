@@ -58,6 +58,7 @@ import Privacy from "./Components/PrivacyPolicy/PrivacyPolicy";
 import Term from "./Components/TermCondition/Term";
 
 import Login from "./Components/Form";
+import Login2 from "./Components/Form2";
 
 function App() {
   return (
@@ -117,6 +118,7 @@ function App() {
           <Route path="/products/vision-track" element={<VisionTrack />} />
           <Route path="/application" element={<Application />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/login2" element={<Login2 />} />
           <Route path="/blogpara" element={<BlogPara />} />
           <Route path="/privacy" element={<Privacy />} />
           <Route path="/term" element={<Term />} />

@@ -33,7 +33,7 @@ const Footer = () => {
               <li className="flex items-center gap-2">
                 <a
                   href="https://maps.app.goo.gl/a3JmY4v26jeruCQp7"
-                  className="flex items-center gap-2"
+                  className="flex items-center gap-2 hover:text-blue-600"
                 >
                   <CiLocationOn /> G-39, 2nd Floor, G-Block, Sector-63,
                   Noida-201301
@@ -49,22 +49,27 @@ const Footer = () => {
                 >
                   <BiPhoneCall /> +91-8459974712,
                 </a>
-                <a href="tel:+917017386311">+91-7017386311</a>
+                <a
+                  href="tel:+917017386311"
+                  className="flex items-center gap-2 hover:text-blue-600 transition"
+                >
+                  +91-7017386311
+                </a>
               </li>
-              <li className="flex flex-col items-start gap-2">
-                <p className="text-sm text-gray-600 flex flex-row item-center gap-2">
+              <li className="flex flex-col items-start gap-1">
+                <p className="text-sm text-black p-1 flex flex-row items-center gap-2 bg-lime-400 hover:bg-green-700 hover:text-white">
                   <FaBagShopping /> Jobs & Internships, call our HR team :
                 </p>
-                <div className="flex flex-row gap-1 ml-5">
+                <div className="flex flex-row gap-4 ml-5">
                   <a
                     href="tel:+918178615121"
-                    className="hover:text-blue-600 hover:underline transition"
+                    className="text-blue-600 hover:underline transition hover:text-blue-800"
                   >
                     +91-8178615121
                   </a>
                   <a
                     href="tel:+919220353712"
-                    className="hover:text-blue-600 hover:underline transition"
+                    className="text-blue-600 hover:underline transition hover:text-blue-800"
                   >
                     +91-9220353712
                   </a>
@@ -80,11 +85,11 @@ const Footer = () => {
                 </a>
               </li>
 
-              <li className="flex items-center gap-2">
+              <li className="flex items-center gap-2 hover:text-blue-600">
                 <FiChrome />
                 <a
                   href="https://appzglobaltech.com"
-                  className="hover:underline break-all"
+                  className="hover:underline break-all hover:text-blue-600"
                 >
                   https://appzgloabaltech.com/
                 </a>

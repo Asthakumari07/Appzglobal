@@ -146,8 +146,11 @@ const Application = () => {
             <option value="">Select a position</option>
             <option value="frontend">Frontend Developer</option>
             <option value="backend">Backend Developer</option>
+            <option value="flutter">Flutter Developer</option>
+            <option value="java">Java Developer</option>
+            <option value="mern">Mern Stack Developer</option>
             <option value="designer">UI/UX Designer</option>
-            <option value="pm">Project Manager</option>
+            <option value="Project Manager">Project Manager</option>
           </select>
         </div>
 
