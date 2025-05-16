@@ -40,7 +40,7 @@ const ApplicationData = () => {
               <strong>Resume:</strong>{" "}
               {app.resume ? (
                 <a
-                  href={`https://appzglobaltech.com/uploads/${app.resume}`}
+                  href={`http://13.203.214.159:5000/uploads/${app.resume}`}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
