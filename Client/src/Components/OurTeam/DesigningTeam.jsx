@@ -43,7 +43,7 @@ const DesigningTeam = () => {
                   <img
                     src={item.image}
                     alt={item.name}
-                    className="h-65 w-52 object-cover"
+                    className="h-65 w-65 object-cover"
                   />
                 </div>
 

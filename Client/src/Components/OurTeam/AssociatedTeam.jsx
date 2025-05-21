@@ -13,12 +13,12 @@ const data = [
     position: "Associate Corporate Head",
   },
   {
-    image: "/assets/Pexels-01.jpg",
+    image: "/assets/sauravdubey.jpg",
     name: "Surabh Dubey",
     position: "Business Associate",
   },
   {
-    image: "/assets/Pexels-01.jpg",
+    image: "/assets/zoobie.jpg",
     name: "Zoobie Sabah",
     position: "Associate Business Manager",
   },
@@ -40,7 +40,7 @@ const data = [
     position: "Associate Business Manager",
   },
   {
-    image: "/assets/Pexels-01.jpg",
+    image: "/assets/sudhanshu.jpg",
     name: "Sudhanshu",
     position: "Associate Business Head",
   },
@@ -69,7 +69,7 @@ const AssociateTeam = () => {
                   <img
                     src={item.image}
                     alt={item.name}
-                    className="h-65 w-52 object-cover"
+                    className="h-65 w-65 object-cover"
                   />
                 </div>
 

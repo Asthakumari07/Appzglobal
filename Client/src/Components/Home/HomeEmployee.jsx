@@ -11,15 +11,15 @@ import { useNavigate } from "react-router-dom";
 
 const data = [
   {
-    image: "/assets/lokesh-011.jpg",
-    name: "Lokesh Kumar",
-    para: "Managing Director",
-    icons: [CiLinkedin, FaFacebook, FaSquareWhatsapp, FaInstagramSquare],
-  },
-  {
     image: "/assets/VIKAS-SIR.jpg",
     name: "Vikas Kumar",
     para: "Chief Technology Officer",
+    icons: [CiLinkedin, FaFacebook, FaSquareWhatsapp, FaInstagramSquare],
+  },
+  {
+    image: "/assets/lokesh-011.jpg",
+    name: "Lokesh Kumar",
+    para: "Managing Director",
     icons: [CiLinkedin, FaFacebook, FaSquareWhatsapp, FaInstagramSquare],
   },
   {
@@ -85,7 +85,7 @@ const HomeEmployee = () => {
                   <img
                     src={item.image}
                     alt={item.name}
-                    className="h-70 w-48 object-cover"
+                    className="h-70 w-67 object-cover"
                   />
                 </div>
                 <h3 className="text-lg font-semibold mt-2">{item.name}</h3>

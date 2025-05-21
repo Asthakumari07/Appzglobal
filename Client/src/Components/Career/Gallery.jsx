@@ -5,11 +5,20 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const gallery = [
+  { image: "/assets/image01.jpeg" },
   { image: "/assets/Gallery.jpeg" },
+  { image: "/assets/image02.jpeg" },
   { image: "/assets/Gallery2.jpeg" },
+  { image: "/assets/image03.jpeg" },
+  { image: "/assets/image10.jpeg" },
   { image: "/assets/Gallery3.jpeg" },
+  { image: "/assets/image04.jpeg" },
   { image: "/assets/Gallery4.jpeg" },
+  { image: "/assets/image09.jpeg" },
+  { image: "/assets/image08.jpeg" },
   { image: "/assets/Gallery5.jpeg" },
+  { image: "/assets/image06.jpeg" },
+  { image: "/assets/image07.jpeg" },
 ];
 
 const Gallery = () => {

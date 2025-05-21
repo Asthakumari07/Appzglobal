@@ -3,36 +3,48 @@ import ApplicationData from "./Sections/ApplicationData";
 
 const DashboardLayout2 = ({ onLogout }) => {
   return (
-    <div className="min-h-screen flex font-sans">
+    <div className="min-h-screen flex font-sans bg-gray-50">
       {/* Sidebar */}
-      <div className="w-64 bg-blue-800 text-white p-6 flex flex-col justify-between">
+      <aside className="w-64 bg-blue-900 text-white p-6 flex flex-col justify-between shadow-lg">
         <div>
-          <h1 className="text-2xl font-bold mb-8">Appz Global Admin</h1>
-          <ul className="space-y-4">
-            <li>
-              <button
-                className="w-full text-left font-medium text-yellow-300 cursor-default"
-                disabled
-              >
-                Applications
-              </button>
-            </li>
-          </ul>
+          <h1 className="text-3xl font-extrabold text-center mb-10">
+            Appz Admin
+          </h1>
+          <nav>
+            <ul className="space-y-4">
+              <li>
+                <button
+                  className="w-full text-left py-2 px-3 rounded-lg bg-white text-black font-medium cursor-default"
+                  disabled
+                >
+                  Applications
+                </button>
+              </li>
+              {/* Future items here */}
+            </ul>
+          </nav>
         </div>
 
-        {/* Logout Button */}
-        <button
-          onClick={onLogout}
-          className="mt-10 w-full text-left font-medium text-red-300 hover:text-white"
-        >
-          Logout
-        </button>
-      </div>
+        {/* Logout */}
+        <div>
+          <button
+            onClick={onLogout}
+            className="w-full mt-6 py-2 px-3 rounded-lg bg-white text-black font-semibold hover:bg-red-700 transition"
+          >
+            Logout
+          </button>
+        </div>
+      </aside>
 
       {/* Main Content */}
-      <div className="flex-1 bg-gray-100 p-6">
-        <ApplicationData />
-      </div>
+      <main className="flex-1 p-8 overflow-y-auto">
+        <h2 className="text-2xl font-semibold text-gray-700 mb-6">
+          Application Dashboard
+        </h2>
+        <div className="bg-white p-6 rounded-xl shadow-md">
+          <ApplicationData />
+        </div>
+      </main>
     </div>
   );
 };
