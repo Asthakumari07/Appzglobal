@@ -59,8 +59,6 @@ import Term from "./Components/TermCondition/Term";
 
 import Login from "./Components/Form";
 import Login2 from "./Components/Form2";
-import Chat from "./Components/Chat/Chat";
-
 function App() {
   return (
     <>
@@ -123,7 +121,6 @@ function App() {
           <Route path="/blogpara" element={<BlogPara />} />
           <Route path="/privacy" element={<Privacy />} />
           <Route path="/term" element={<Term />} />
-          <Route path="/chat" element={<Chat />} />
         </Routes>
       </Router>
     </>
