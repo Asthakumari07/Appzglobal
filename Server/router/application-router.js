@@ -1,9 +1,10 @@
 const express = require("express");
 const router = express.Router();
-const upload = require("../utils/upload"); // path to your multer config
+const upload = require("../utils/upload"); // your multer config
 const {
   submitApplication,
   getApplication,
+  updateApplication, // <-- import the new controller
 } = require("../controllers/application-controller");
 
 // POST: Submit a job application with resume upload
@@ -16,7 +17,10 @@ router.post("/", (req, res, next) => {
   });
 });
 
-// GET: Retrieve all submitted applications (optional)
+// GET: Retrieve all submitted applications
 router.get("/", getApplication);
+
+// PUT: Update application position and experience
+router.put("/:id", updateApplication); // <-- add this route
 
 module.exports = router;

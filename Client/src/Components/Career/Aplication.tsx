@@ -1,25 +1,58 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import axios from "axios";
 
+interface FormValues {
+  name: string;
+  email: string;
+  apply: string;
+  experience: string;
+  linkedin: string;
+  resume: File | null;
+  message: string;
+  agree: boolean;
+}
+
 const Application = () => {
-  const [formValues, setFormValues] = useState({
+  const [formValues, setFormValues] = useState<FormValues>({
     name: "",
     email: "",
     apply: "",
+    experience: "",
     linkedin: "",
-    resume: null as File | null,
+    resume: null,
     message: "",
     agree: false,
   });
 
-  // Handle changes in form fields
+  const [positions, setPositions] = useState<string[]>([]);
+  const [experienceLevels, setExperienceLevels] = useState<string[]>([]);
+
+  // Fetch options on mount
+  useEffect(() => {
+    const fetchOptions = async () => {
+      try {
+        const resPositions = await axios.get(
+          "https://appzglobaltech.com/api/job-positions"
+        );
+        setPositions(resPositions.data.positions || []);
+
+        const resExperience = await axios.get(
+          "https://appzglobaltech.com/api/experience-levels"
+        );
+        setExperienceLevels(resExperience.data.experience || []);
+      } catch (error) {
+        console.error("Error fetching options", error);
+      }
+    };
+    fetchOptions();
+  }, []);
+
   const handleChange = (
     e: React.ChangeEvent<
       HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement
     >
   ) => {
     const target = e.target;
-
     const { name, value } = target;
 
     if (target instanceof HTMLInputElement && target.type === "file") {
@@ -43,39 +76,43 @@ const Application = () => {
     }
   };
 
-  // Handle form submission
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
-    // Check if the user agrees to terms and privacy policy
     if (!formValues.agree) {
       alert("You must agree to the terms and privacy policy.");
       return;
     }
 
-    // Create FormData object to handle file upload and form fields
     const formData = new FormData();
     formData.append("name", formValues.name);
     formData.append("email", formValues.email);
     formData.append("apply", formValues.apply);
+    formData.append("experience", formValues.experience);
     formData.append("linkedin", formValues.linkedin);
     formData.append("message", formValues.message);
     if (formValues.resume) {
-      formData.append("resume", formValues.resume); // Append the resume file
+      formData.append("resume", formValues.resume);
     }
 
     try {
-      // Send form data to backend (example URL)
-      const response = await axios.post(
-        "https://appzglobaltech.com/api/application",
-        formData,
-        {
-          headers: {
-            "Content-Type": "multipart/form-data",
-          },
-        }
-      );
+      await axios.post("https://appzglobaltech.com/api/application", formData, {
+        headers: {
+          "Content-Type": "multipart/form-data",
+        },
+      });
       alert("Application submitted successfully!");
+      // Optionally clear form
+      setFormValues({
+        name: "",
+        email: "",
+        apply: "",
+        experience: "",
+        linkedin: "",
+        resume: null,
+        message: "",
+        agree: false,
+      });
     } catch (error) {
       console.error(error);
       alert("Something went wrong. Please try again.");
@@ -144,13 +181,35 @@ const Application = () => {
             className="w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:ring-blue-500 focus:border-blue-500"
           >
             <option value="">Select a position</option>
-            <option value="frontend">Frontend Developer</option>
-            <option value="backend">Backend Developer</option>
-            <option value="flutter">Flutter Developer</option>
-            <option value="java">Java Developer</option>
-            <option value="mern">Mern Stack Developer</option>
-            <option value="designer">UI/UX Designer</option>
-            <option value="Project Manager">Project Manager</option>
+            {positions.map((pos) => (
+              <option key={pos} value={pos}>
+                {pos}
+              </option>
+            ))}
+          </select>
+        </div>
+
+        <div>
+          <label
+            htmlFor="experience"
+            className="block mb-1 text-sm font-medium text-gray-700"
+          >
+            Experience Level
+          </label>
+          <select
+            name="experience"
+            id="experience"
+            value={formValues.experience}
+            onChange={handleChange}
+            required
+            className="w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:ring-blue-500 focus:border-blue-500"
+          >
+            <option value="">Select experience</option>
+            {experienceLevels.map((exp) => (
+              <option key={exp} value={exp}>
+                {exp}
+              </option>
+            ))}
           </select>
         </div>
 
