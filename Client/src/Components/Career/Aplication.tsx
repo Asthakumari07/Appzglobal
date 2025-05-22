@@ -31,15 +31,11 @@ const Application = () => {
   useEffect(() => {
     const fetchOptions = async () => {
       try {
-        const resPositions = await axios.get(
-          "https://appzglobaltech.com/api/job-positions"
+        const res = await axios.get(
+          "https://appzglobaltech.com/api/form-settings"
         );
-        setPositions(resPositions.data.positions || []);
-
-        const resExperience = await axios.get(
-          "https://appzglobaltech.com/api/experience-levels"
-        );
-        setExperienceLevels(resExperience.data.experience || []);
+        setPositions(res.data.positions || []);
+        setExperienceLevels(res.data.experience || []);
       } catch (error) {
         console.error("Error fetching options", error);
       }
