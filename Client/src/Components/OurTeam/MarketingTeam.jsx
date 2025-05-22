@@ -14,7 +14,7 @@ const data = [
     position: "Digital Marketing Manager",
   },
   {
-    image: "/assets/saurab.jpg",
+    image: "/assets/saurab-01.jpg",
     name: "Saurabh",
     position: "Digital Marketing Expert",
   },

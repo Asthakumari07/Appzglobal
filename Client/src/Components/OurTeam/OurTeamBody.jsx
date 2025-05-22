@@ -9,7 +9,7 @@ import { IoLogoInstagram } from "react-icons/io";
 
 const data = [
   {
-    image: "/assets/lokesh-011.jpg",
+    image: "/assets/lokesh.jpg",
     name: "Lokesh Kumar",
     position: "Managing Director",
     link: "/profilelokesh",
@@ -22,7 +22,7 @@ const data = [
     },
   },
   {
-    image: "/assets/VIKAS-SIR.jpg",
+    image: "/assets/VIKAS-SIR-01.jpg",
     name: "Vikas Kumar",
     position: "Chief Technology Officer",
     link: "/profilevikas",
@@ -33,7 +33,7 @@ const data = [
     },
   },
   {
-    image: "/assets/aditifinal.jpg",
+    image: "/assets/aditifinal-01.jpg",
     name: "Aditi Chaudhary",
     position: "Director",
     link: "/profileaditi",
@@ -44,7 +44,7 @@ const data = [
     },
   },
   {
-    image: "/assets/saloni.jpg",
+    image: "/assets/saloni-01.jpg",
     name: "Saloni Jha",
     position: "HR Manager",
     link: "/saloniprofile",
@@ -55,7 +55,7 @@ const data = [
     },
   },
   {
-    image: "/assets/narendra-sir.jpg",
+    image: "/assets/narendra-sir-01.jpg",
     name: "Narender Yadav",
     position: "Tech Lead",
     link: "/profilenarendra",

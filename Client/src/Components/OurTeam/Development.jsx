@@ -25,7 +25,7 @@ const data = [
     position: "Java Developer",
   },
   {
-    image: "assets/aas-1.jpg",
+    image: "assets/Astha.jpg",
     name: "Astha Kumari",
     position: "MERN Stack Developer",
   },
@@ -40,14 +40,19 @@ const data = [
     position: "Python Developer",
   },
   {
-    image: "/assets/alok.jpg",
+    image: "/assets/alok-01.jpg",
     name: "Alok Kumar",
     position: "Mobile App Developer",
   },
   {
-    image: "/assets/YASH-1.jpg",
+    image: "/assets/YASH-01.jpg",
     name: "Yash Kumar",
     position: "Python Developer",
+  },
+  {
+    image: "/assets/javed.jpg",
+    name: "Javed Akhtar",
+    position: "Software QA tester",
   },
 ];
 

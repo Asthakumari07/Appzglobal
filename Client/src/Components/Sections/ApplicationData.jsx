@@ -122,7 +122,8 @@ const ApplicationData = () => {
                 </div>
               </div>
             ) : (
-              <>
+              {
+                /* <>
                 <p>
                   <strong>Position:</strong> {app.apply || "N/A"}
                 </p>
@@ -135,7 +136,8 @@ const ApplicationData = () => {
                 >
                   Edit
                 </button>
-              </>
+              </> */
+              }
             )}
 
             <p>

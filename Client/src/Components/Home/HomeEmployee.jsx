@@ -11,19 +11,19 @@ import { useNavigate } from "react-router-dom";
 
 const data = [
   {
-    image: "/assets/VIKAS-SIR.jpg",
+    image: "/assets/VIKAS-SIR-01.jpg",
     name: "Vikas Kumar",
     para: "Chief Technology Officer",
     icons: [CiLinkedin, FaFacebook, FaSquareWhatsapp, FaInstagramSquare],
   },
   {
-    image: "/assets/lokesh-011.jpg",
+    image: "/assets/lokesh.jpg",
     name: "Lokesh Kumar",
     para: "Managing Director",
     icons: [CiLinkedin, FaFacebook, FaSquareWhatsapp, FaInstagramSquare],
   },
   {
-    image: "/assets/aditifinal.jpg",
+    image: "/assets/aditifinal-01.jpg",
     name: "Aditi Chaudhary",
     para: "Director",
     icons: [CiLinkedin, FaFacebook, FaSquareWhatsapp, FaInstagramSquare],
