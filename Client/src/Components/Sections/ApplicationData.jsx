@@ -26,7 +26,8 @@ const ApplicationData = () => {
   };
 
   const handleInputChange = (e) => {
-    setEditedFields({ ...editedFields, [e.target.name]: e.target.value });
+    const { name, value } = e.target;
+    setEditedFields({ ...editedFields, [name]: value });
   };
 
   const handleSave = async (id) => {
@@ -42,6 +43,7 @@ const ApplicationData = () => {
       fetchApplications(); // Refresh data
     } catch (err) {
       console.error("Error updating:", err);
+      alert("Failed to update. Please try again.");
     }
   };
 
@@ -64,26 +66,47 @@ const ApplicationData = () => {
             </p>
 
             {editingId === app._id ? (
-              <>
-                <div className="flex flex-col gap-2 mb-2">
-                  <input
-                    type="text"
+              <div className="flex flex-col gap-2 mb-2">
+                {/* Position dropdown */}
+                <label>
+                  <strong>Position:</strong>
+                  <select
                     name="position"
                     value={editedFields.position}
                     onChange={handleInputChange}
-                    placeholder="Edit Position"
-                    className="border p-2 rounded"
-                  />
+                    className="w-full mt-1 border p-2 rounded"
+                  >
+                    <option value="">-- Select Position --</option>
+                    <option value="Frontend Developer">
+                      Frontend Developer
+                    </option>
+                    <option value="Backend Developer">Backend Developer</option>
+                    <option value="Flutter Developer">Flutter Developer</option>
+                    <option value="Java Developer">Java Developer</option>
+                    <option value="MERN Stack Developer">
+                      MERN Stack Developer
+                    </option>
+                    <option value="UI/UX Designer">UI/UX Designer</option>
+                    <option value="Project Manager">Project Manager</option>
+                  </select>
+                </label>
+
+                {/* Experience input */}
+                <label>
+                  <strong>Experience:</strong>
                   <input
-                    type="text"
+                    type="number"
                     name="experience"
                     value={editedFields.experience}
                     onChange={handleInputChange}
-                    placeholder="Edit Experience"
-                    className="border p-2 rounded"
+                    className="w-full mt-1 border p-2 rounded"
+                    placeholder="Years of experience"
+                    min="0"
                   />
-                </div>
-                <div className="flex gap-2">
+                </label>
+
+                {/* Save/Cancel buttons */}
+                <div className="flex gap-2 mt-2">
                   <button
                     onClick={() => handleSave(app._id)}
                     className="bg-green-600 text-white px-4 py-1 rounded"
@@ -92,19 +115,19 @@ const ApplicationData = () => {
                   </button>
                   <button
                     onClick={handleCancel}
-                    className="bg-gray-400 text-white px-4 py-1 rounded"
+                    className="bg-gray-500 text-white px-4 py-1 rounded"
                   >
                     Cancel
                   </button>
                 </div>
-              </>
+              </div>
             ) : (
               <>
                 <p>
                   <strong>Position:</strong> {app.apply || "N/A"}
                 </p>
                 <p>
-                  <strong>Experience:</strong> {app.experience || "N/A"}
+                  <strong>Experience:</strong> {app.experience || "N/A"} years
                 </p>
                 <button
                   onClick={() => handleEdit(app)}
@@ -128,6 +151,7 @@ const ApplicationData = () => {
                   href={`http://13.203.214.159:5000/uploads/${app.resume}`}
                   target="_blank"
                   rel="noopener noreferrer"
+                  className="text-blue-600 underline"
                 >
                   View Resume
                 </a>

@@ -1,5 +1,6 @@
 import React from "react";
 import ApplicationData from "./Sections/ApplicationData";
+import FormSettingsEditor from "./Sections/FormSettingEditer";
 
 const DashboardLayout2 = ({ onLogout }) => {
   return (
@@ -20,7 +21,7 @@ const DashboardLayout2 = ({ onLogout }) => {
                   Applications
                 </button>
               </li>
-              {/* Future items here */}
+              {/* Add more nav items here if needed */}
             </ul>
           </nav>
         </div>
@@ -41,9 +42,14 @@ const DashboardLayout2 = ({ onLogout }) => {
         <h2 className="text-2xl font-semibold text-gray-700 mb-6">
           Application Dashboard
         </h2>
-        <div className="bg-white p-6 rounded-xl shadow-md">
+
+        {/* Applications List */}
+        <div className="bg-white p-6 rounded-xl shadow-md mb-10">
           <ApplicationData />
         </div>
+
+        {/* Form Settings Editor for HR */}
+        <FormSettingsEditor />
       </main>
     </div>
   );
