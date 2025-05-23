@@ -9,48 +9,55 @@ import { IoLogoInstagram } from "react-icons/io";
 
 const data = [
   {
-    image: "/assets/ankesh.jpg",
+    image: "/assets/ankesh-01.jpg",
     name: "Ankesh Yadav",
-    position: "Mobile App Application",
+    position: "Mobile App Developer",
   },
   {
-    image: "/assets/sumit.jpg",
+    image: "/assets/uttam-01.jpg",
+    name: "Uttam Shah",
+    position: "Mobile App Developer",
+  },
+  {
+    image: "/assets/kuldeep-01.jpg",
+    name: "Kuldeep Yadav",
+    position: "Java Developer",
+  },
+  {
+    image: "/assets/sumit-01.jpg",
     name: "Sumit Yadav",
     position: "Web Developer",
   },
 
-  {
-    image: "/assets/kuldeep.jpg",
-    name: "Kuldeep Yadav",
-    position: "Java Developer",
-  },
   {
     image: "assets/Astha.jpg",
     name: "Astha Kumari",
     position: "MERN Stack Developer",
   },
   {
-    image: "/assets/ganesh.jpg",
-    name: "Ganesh Kumar",
-    position: "Php Developer",
-  },
-  {
-    image: "/assets/abhishek.jpg",
+    image: "/assets/abhishek-01.jpg",
     name: "Abhishek Kumar",
     position: "Python Developer",
   },
   {
-    image: "/assets/alok-01.jpg",
-    name: "Alok Kumar",
-    position: "Mobile App Developer",
+    image: "/assets/ganesh-01.jpg",
+    name: "Ganesh Kumar",
+    position: "Php Developer",
   },
   {
     image: "/assets/YASH-01.jpg",
     name: "Yash Kumar",
     position: "Python Developer",
   },
+
   {
-    image: "/assets/javed.jpg",
+    image: "/assets/alok-01.jpg",
+    name: "Alok Kumar",
+    position: "Mobile App Developer",
+  },
+
+  {
+    image: "/assets/javed-01.jpg",
     name: "Javed Akhtar",
     position: "Software QA tester",
   },

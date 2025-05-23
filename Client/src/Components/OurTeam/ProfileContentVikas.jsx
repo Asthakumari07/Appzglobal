@@ -13,7 +13,7 @@ const ProfileContentVikas = () => {
     <div className="bg-gray-50 text-gray-800 py-10 px-6 lg:px-20">
       <div className="flex flex-col md:flex-row items-center gap-8 bg-blue-50 p-6 rounded-2xl shadow-lg">
         <img
-          src="/assets/VIKAS-SIR.jpg"
+          src="/assets/VIKAS-SIR-01.jpg"
           alt="Vikash Kumar"
           className="w-60 h-60 object-cover rounded-full border-4 border-blue-900"
         />

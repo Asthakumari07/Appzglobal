@@ -45,7 +45,7 @@ const AditiProfile = () => {
       <div className="bg-gray-50 min-h-screen py-10 px-4 sm:px-8 lg:px-24 text-gray-800">
         <div className="flex flex-col md:flex-row items-center gap-8 bg-blue-50 p-6 rounded-2xl shadow-lg">
           <img
-            src="/assets/aditifinal.jpg"
+            src="/assets/aditifinal-01.jpg"
             alt="Aditi"
             className="w-60 h-60 object-cover rounded-full border-4 border-blue-900"
           />
