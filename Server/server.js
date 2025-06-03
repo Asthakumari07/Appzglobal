@@ -71,7 +71,7 @@ const app = express();
 app.use(
   cors({
     origin: ["https://appzglobaltech.com", "http://appzglobaltech.com"],
-    methods: ["GET", "POST"],
+    methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"], // add OPTIONS
     credentials: true,
   })
 );
