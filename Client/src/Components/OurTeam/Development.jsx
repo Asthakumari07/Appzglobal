@@ -55,6 +55,16 @@ const data = [
     name: "Alok Kumar",
     position: "Mobile App Developer",
   },
+  {
+    image: "/assets/ritik2.jpg",
+    name: "Ritik Chauhan",
+    position: "Mobile App Developer",
+  },
+  {
+    image: "/assets/devi-01.jpg",
+    name: "Debidatta Barik",
+    position: "Java Developer",
+  },
 
   {
     image: "/assets/javed-01.jpg",

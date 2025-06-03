@@ -1,8 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
 import ApplicationData from "./Sections/ApplicationData";
 import FormSettingsEditor from "./Sections/FormSettingEditer";
+import JobPostData from "./Sections/JobPostData";
 
 const DashboardLayout2 = ({ onLogout }) => {
+  const [activeTab, setActiveTab] = useState("applications");
+
+  const renderSection = () => {
+    switch (activeTab) {
+      case "applications":
+        return <ApplicationData />;
+      case "jobPosts":
+        return <JobPostData />;
+      case "formSettings":
+        return <FormSettingsEditor />;
+      default:
+        return null;
+    }
+  };
+
   return (
     <div className="min-h-screen flex font-sans bg-gray-50">
       {/* Sidebar */}
@@ -15,13 +31,40 @@ const DashboardLayout2 = ({ onLogout }) => {
             <ul className="space-y-4">
               <li>
                 <button
-                  className="w-full text-left py-2 px-3 rounded-lg bg-white text-black font-medium cursor-default"
-                  disabled
+                  onClick={() => setActiveTab("applications")}
+                  className={`w-full text-left py-2 px-3 rounded-lg font-medium ${
+                    activeTab === "applications"
+                      ? "bg-white text-black"
+                      : "hover:bg-blue-700"
+                  }`}
                 >
                   Applications
                 </button>
               </li>
-              {/* Add more nav items here if needed */}
+              <li>
+                <button
+                  onClick={() => setActiveTab("jobPosts")}
+                  className={`w-full text-left py-2 px-3 rounded-lg font-medium ${
+                    activeTab === "jobPosts"
+                      ? "bg-white text-black"
+                      : "hover:bg-blue-700"
+                  }`}
+                >
+                  Job Posts
+                </button>
+              </li>
+              <li>
+                <button
+                  onClick={() => setActiveTab("formSettings")}
+                  className={`w-full text-left py-2 px-3 rounded-lg font-medium ${
+                    activeTab === "formSettings"
+                      ? "bg-white text-black"
+                      : "hover:bg-blue-700"
+                  }`}
+                >
+                  Form Settings
+                </button>
+              </li>
             </ul>
           </nav>
         </div>
@@ -40,16 +83,16 @@ const DashboardLayout2 = ({ onLogout }) => {
       {/* Main Content */}
       <main className="flex-1 p-8 overflow-y-auto">
         <h2 className="text-2xl font-semibold text-gray-700 mb-6">
-          Application Dashboard
+          {activeTab === "applications"
+            ? "Application Dashboard"
+            : activeTab === "jobPosts"
+            ? "Manage Job Posts"
+            : "Edit Form Settings"}
         </h2>
 
-        {/* Applications List */}
-        <div className="bg-white p-6 rounded-xl shadow-md mb-10">
-          <ApplicationData />
+        <div className="bg-white p-6 rounded-xl shadow-md">
+          {renderSection()}
         </div>
-
-        {/* Form Settings Editor for HR */}
-        <FormSettingsEditor />
       </main>
     </div>
   );
