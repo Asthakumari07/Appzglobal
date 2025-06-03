@@ -1,4 +1,4 @@
-const mongoose = require("mongoose");
+import mongoose from "mongoose";
 
 const formSettingsSchema = new mongoose.Schema({
   positions: [String],
@@ -7,4 +7,4 @@ const formSettingsSchema = new mongoose.Schema({
 
 const FormSettings = mongoose.model("FormSettings", formSettingsSchema);
 
-module.exports = FormSettings;
+export default FormSettings;

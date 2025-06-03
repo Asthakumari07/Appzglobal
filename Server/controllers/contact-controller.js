@@ -1,8 +1,8 @@
-const Contact = require("../models/contact-model");
+import Contact from "../models/contact-model.js";
 
 const contactForm = async (req, res) => {
   try {
-    console.log("Contact form data received:", req.body); // Log the request body
+    console.log("Contact form data received:", req.body);
 
     const { name, number, email, message } = req.body;
 
@@ -10,7 +10,6 @@ const contactForm = async (req, res) => {
       return res.status(400).json({ message: "All fields are required" });
     }
 
-    // Create a new contact entry in the database
     const result = await Contact.create({ name, number, email, message });
 
     return res.status(200).json({ message: "Message sent successfully" });
@@ -20,4 +19,4 @@ const contactForm = async (req, res) => {
   }
 };
 
-module.exports = contactForm;
+export default contactForm;

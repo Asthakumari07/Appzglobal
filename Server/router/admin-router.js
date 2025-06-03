@@ -1,10 +1,9 @@
-const express = require("express");
-
-const {
+import express from "express";
+import {
   getAllUsers,
   getAllContacts,
   getAllApplications,
-} = require("../controllers/admin-controller");
+} from "../controllers/admin-controller.js";
 
 const router = express.Router();
 
@@ -12,4 +11,4 @@ router.route("/users").get(getAllUsers);
 router.route("/contacts").get(getAllContacts);
 router.route("/applications").get(getAllApplications);
 
-module.exports = router;
+export default router;

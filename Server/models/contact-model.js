@@ -1,4 +1,4 @@
-const mongoose = require("mongoose");
+import mongoose from "mongoose";
 
 const contactSchema = new mongoose.Schema({
   name: { type: String, required: true },
@@ -7,6 +7,6 @@ const contactSchema = new mongoose.Schema({
   message: { type: String, required: true },
 });
 
-const Contact = mongoose.model("Contact", contactSchema); // will save in "contacts" collection
+const Contact = mongoose.model("Contact", contactSchema); // collection: "contacts"
 
-module.exports = Contact;
+export default Contact;

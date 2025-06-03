@@ -1,8 +1,8 @@
-const User = require("../models/user-model");
-const Contact = require("../models/contact-model");
-const Application = require("../models/application-model");
+import User from "../models/user-model.js";
+import Contact from "../models/contact-model.js";
+import Application from "../models/application-model.js";
 
-const getAllUsers = async (req, res, next) => {
+export const getAllUsers = async (req, res, next) => {
   try {
     const users = await User.find();
     if (!users.length) {
@@ -14,7 +14,7 @@ const getAllUsers = async (req, res, next) => {
   }
 };
 
-const getAllContacts = async (req, res, next) => {
+export const getAllContacts = async (req, res, next) => {
   try {
     const contacts = await Contact.find();
     if (!contacts.length) {
@@ -26,7 +26,7 @@ const getAllContacts = async (req, res, next) => {
   }
 };
 
-const getAllApplications = async (req, res, next) => {
+export const getAllApplications = async (req, res, next) => {
   try {
     const applications = await Application.find();
     if (!applications.length) {
@@ -36,10 +36,4 @@ const getAllApplications = async (req, res, next) => {
   } catch (error) {
     next(error);
   }
-};
-
-module.exports = {
-  getAllUsers,
-  getAllContacts,
-  getAllApplications,
 };

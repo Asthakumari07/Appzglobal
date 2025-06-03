@@ -1,7 +1,7 @@
-const Application = require("../models/application-model");
+import Application from "../models/application-model.js";
 
 // Handle application submission with resume upload
-const submitApplication = async (req, res) => {
+export const submitApplication = async (req, res) => {
   try {
     const { name, email, apply, linkedin, message, experience } = req.body;
     const resume = req.file ? req.file.filename : null;
@@ -25,7 +25,7 @@ const submitApplication = async (req, res) => {
 };
 
 // Fetch all applications (for admin view)
-const getApplication = async (req, res) => {
+export const getApplication = async (req, res) => {
   try {
     const applications = await Application.find().sort({ createdAt: -1 });
     res.status(200).json(applications);
@@ -35,8 +35,8 @@ const getApplication = async (req, res) => {
   }
 };
 
-// ✅ New: Update application (position and experience)
-const updateApplication = async (req, res) => {
+// Update application (position and experience)
+export const updateApplication = async (req, res) => {
   try {
     const { id } = req.params;
     const { apply, experience } = req.body;
@@ -58,10 +58,4 @@ const updateApplication = async (req, res) => {
     console.error("Update application error:", error);
     res.status(500).json({ error: "Failed to update application" });
   }
-};
-
-module.exports = {
-  submitApplication,
-  getApplication,
-  updateApplication,
 };

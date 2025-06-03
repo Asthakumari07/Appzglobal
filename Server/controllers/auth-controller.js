@@ -1,6 +1,6 @@
-const User = require("../models/user-model");
+import User from "../models/user-model.js";
 
-const home = async (req, res) => {
+export const home = async (req, res) => {
   try {
     res.status(200).send("Welcome to this page for login");
   } catch (error) {
@@ -9,26 +9,22 @@ const home = async (req, res) => {
   }
 };
 
-const register = async (req, res) => {
+export const register = async (req, res) => {
   try {
-    // Log the request body for debugging
     console.log(req.body);
 
-    // Destructure the incoming request body
     const { name, email, number, website, feedback } = req.body;
 
-    // Validate if all fields are present
     if (!name || !email || !number || !website || !feedback) {
       return res.status(400).json({ msg: "All fields are required" });
     }
 
-    // Check if a user already exists with the provided email
+    // Optional: uncomment if you want to check existing email
     // const userExist = await User.findOne({ email });
     // if (userExist) {
     //   return res.status(400).json({ msg: "Email already exists" });
     // }
 
-    // Create a new user
     const userCreated = await User.create({
       name,
       email,
@@ -37,14 +33,11 @@ const register = async (req, res) => {
       feedback,
     });
 
-    // Send a success message with a user-friendly message
     res.status(200).json({ message: "Message sent successfully!" });
   } catch (error) {
-    console.log(error); // Log error for debugging
+    console.log(error);
     res
       .status(500)
       .json({ msg: "Something went wrong. Please try again later." });
   }
 };
-
-module.exports = { home, register };

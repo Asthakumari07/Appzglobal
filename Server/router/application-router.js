@@ -1,11 +1,12 @@
-const express = require("express");
-const router = express.Router();
-const upload = require("../utils/upload"); // your multer config
-const {
+import express from "express";
+import upload from "../utils/upload.js"; // make sure upload.js uses ES modules too
+import {
   submitApplication,
   getApplication,
-  updateApplication, // <-- import the new controller
-} = require("../controllers/application-controller");
+  updateApplication,
+} from "../controllers/application-controller.js";
+
+const router = express.Router();
 
 // POST: Submit a job application with resume upload
 router.post("/", (req, res, next) => {
@@ -21,6 +22,6 @@ router.post("/", (req, res, next) => {
 router.get("/", getApplication);
 
 // PUT: Update application position and experience
-router.put("/:id", updateApplication); // <-- add this route
+router.put("/:id", updateApplication);
 
-module.exports = router;
+export default router;

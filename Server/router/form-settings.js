@@ -1,6 +1,7 @@
-const express = require("express");
+import express from "express";
+import FormSettings from "../models/FormSetting.js";
+
 const router = express.Router();
-const FormSettings = require("../models/FormSetting");
 
 // Get current form settings
 router.get("/form-settings", async (req, res) => {
@@ -32,4 +33,4 @@ router.put("/form-settings", async (req, res) => {
   }
 });
 
-module.exports = router;
+export default router;
