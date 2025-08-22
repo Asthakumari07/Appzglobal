@@ -1,91 +1,88 @@
 import React from "react";
 
-import {
-  TiSocialFacebookCircular,
-  TiSocialLinkedinCircular,
-} from "react-icons/ti";
-import { IoLogoInstagram } from "react-icons/io";
-
 const data = [
   {
-    image: "/assets/Pexels-01.jpg",
-    name: "Satyanshu Srivastava",
-    position: "Associate Corporate Head",
+    image: "/assets/LokeshSir.jpg",
+    name: "Lokesh Kumar",
+    position: "Managing Director",
   },
   {
-    image: "/assets/sauravdubey.jpg",
-    name: "Surabh Dubey",
-    position: "Business Associate",
-  },
-  {
-    image: "/assets/zoobie.jpg",
-    name: "Zoobie Sabah",
-    position: "Associate Business Manager",
+    image: "/assets/aditifinal-01.jpg",
+    name: "Aditi Chaudhary",
+    position: "Director",
   },
 
   {
-    image: "/assets/Pexels-01.jpg",
-    name: "Mr. Kartik",
-    position: "Business Associate",
+    image: "/assets/Gitansh2.jpg",
+    name: "Gitansh",
+    position: "Chief Technology Officer",
+  },
+  {
+    image: "/assets/AaqibNew.jpg",
+    name: "MD Aaqib",
+    position: "Chief Revenue Officer",
+  },
+  {
+    image: "/assets/Shekhar.jpg",
+    name: "C Shekher",
+    position: "Vice President, Sales & Marketing",
   },
 
   {
-    image: "/assets/Pexels-01.jpg",
-    name: "Saurabh Panday",
-    position: "Business Associate",
+    image: "/assets/SaloniNew1.jpg",
+    name: "Saloni Jha",
+    position: "General Manager",
   },
   {
-    image: "/assets/Pexels-01.jpg",
-    name: "Abhishek Khare",
-    position: "Associate Business Manager",
+    image: "/assets/NarendraNew2.jpg",
+    name: "Narendra Kumar",
+    position: "Floor Manager",
   },
   {
-    image: "/assets/sudhanshu.jpg",
-    name: "Sudhanshu",
-    position: "Associate Business Head",
+    image: "/assets/Astha.jpg",
+    name: "Astha Kumari",
+    position: "Tech Analyst",
   },
 ];
 
 const AssociateTeam = () => {
+  const topRow = data.slice(0, 5); // first 5 members
+  const bottomRow = data.slice(5); // remaining 3 members
+
+  const Card = ({ item }) => (
+    <div className="flex flex-col items-center w-48 bg-white rounded-xl shadow-md p-6 hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
+      <div className="relative">
+        <img
+          src={item.image}
+          alt={item.name}
+          className="w-32 h-32 rounded-full object-cover shadow-md transform hover:scale-105 transition duration-300"
+        />
+        {/* optional small gradient border */}
+        <div className="absolute inset-0 rounded-full ring-2 ring-transparent hover:ring-blue-400 transition" />
+      </div>
+      <h2 className="text-lg font-semibold text-gray-800 mt-4">{item.name}</h2>
+      <p className="text-sm text-gray-500">{item.position}</p>
+    </div>
+  );
+
   return (
-    <div className="py-10 px-4 sm:px-8 lg:px-16 bg-gray-50 overflow-hidden">
-      <div className="flex text-left mb-10 px-4">
-        <h1 className="text-3xl sm:text-4xl font-bold text-gray-800">
-          Associate Business Manager
-        </h1>
+    <div className="py-12 px-6 sm:px-12 lg:px-20 bg-gradient-to-b from-gray-50 to-gray-100">
+      <h1 className="text-3xl sm:text-4xl font-bold text-center text-gray-800 mb-12">
+        Meet the Team
+      </h1>
+
+      {/* Top Row - 5 cards */}
+      <div className="flex justify-center flex-wrap gap-10 mb-12">
+        {topRow.map((item, index) => (
+          <Card key={index} item={item} />
+        ))}
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 cursor-pointer">
-        {data.map((item, index) => {
-          const bgTop = index % 2 === 0 ? "bg-orange-100" : "bg-blue-100";
-          const bgBottom = index % 2 === 0 ? "bg-orange-400" : "bg-blue-900";
-
-          return (
-            <div key={index} className="px-3">
-              <div className="w-full min-w-0 max-w-[260px] mx-auto overflow-hidden rounded-tr-[50px] rounded-bl-[50px] shadow-lg transition-transform hover:scale-105 duration-300">
-                <div
-                  className={`flex justify-center items-center h-64 ${bgTop}`}
-                >
-                  <img
-                    src={item.image}
-                    alt={item.name}
-                    className="h-65 w-65 object-cover"
-                  />
-                </div>
-
-                <div className={`${bgBottom} text-white px-6 py-4 text-center`}>
-                  <h2 className="text-lg font-bold">{item.name}</h2>
-                  <p className="text-sm mb-3">{item.position}</p>
-                  <div className="flex gap-4 text-xl justify-center">
-                    <TiSocialFacebookCircular />
-                    <TiSocialLinkedinCircular />
-                    <IoLogoInstagram />
-                  </div>
-                </div>
-              </div>
-            </div>
-          );
-        })}
+      {/* Bottom Row - 3 cards */}
+      <div className="flex justify-center flex-wrap gap-10">
+        {bottomRow.map((item, index) => (
+          <Card key={index} item={item} />
+        ))}
       </div>
     </div>
   );

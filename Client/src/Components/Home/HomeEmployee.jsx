@@ -10,14 +10,14 @@ import { FaInstagramSquare } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 
 const data = [
+  // {
+  //   image: "/assets/VIKAS-SIR-01.jpg",
+  //   name: "Vikas Kumar",
+  //   para: "Chief Technology Officer",
+  //   icons: [CiLinkedin, FaFacebook, FaSquareWhatsapp, FaInstagramSquare],
+  // },
   {
-    image: "/assets/VIKAS-SIR-01.jpg",
-    name: "Vikas Kumar",
-    para: "Chief Technology Officer",
-    icons: [CiLinkedin, FaFacebook, FaSquareWhatsapp, FaInstagramSquare],
-  },
-  {
-    image: "/assets/lokesh.jpg",
+    image: "/assets/LokeshSir.jpg",
     name: "Lokesh Kumar",
     para: "Managing Director",
     icons: [CiLinkedin, FaFacebook, FaSquareWhatsapp, FaInstagramSquare],
@@ -26,6 +26,18 @@ const data = [
     image: "/assets/aditifinal-01.jpg",
     name: "Aditi Chaudhary",
     para: "Director",
+    icons: [CiLinkedin, FaFacebook, FaSquareWhatsapp, FaInstagramSquare],
+  },
+  {
+    image: "/assets/SaloniNew1.jpg",
+    name: "Saloni Jha",
+    para: "Director",
+    icons: [CiLinkedin, FaFacebook, FaSquareWhatsapp, FaInstagramSquare],
+  },
+  {
+    image: "/assets/Gitansh2.jpg",
+    name: "Gitansh",
+    para: "Corporate Tech Officer",
     icons: [CiLinkedin, FaFacebook, FaSquareWhatsapp, FaInstagramSquare],
   },
 ];
@@ -85,19 +97,19 @@ const HomeEmployee = () => {
                   <img
                     src={item.image}
                     alt={item.name}
-                    className="h-70 w-67 object-cover"
+                    className="h-75 w-67 object-cover"
                   />
                 </div>
                 <h3 className="text-lg font-semibold mt-2">{item.name}</h3>
                 <p className="text-gray-600 text-sm">{item.para}</p>
-                <div className="flex gap-3 mt-2 mb-4">
+                {/* <div className="flex gap-3 mt-2 mb-4">
                   {item.icons.map((Icon, idx) => (
                     <Icon
                       key={idx}
                       className="text-blue-600 text-2xl hover:text-blue-800 cursor-pointer"
                     />
                   ))}
-                </div>
+                </div> */}
               </div>
             </div>
           ))}
@@ -106,5 +118,4 @@ const HomeEmployee = () => {
     </div>
   );
 };
-
 export default HomeEmployee;

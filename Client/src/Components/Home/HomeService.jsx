@@ -9,56 +9,56 @@ const data = [
     image: "/assets/websitedev.jpg",
     title: "Website Development",
     para: "We empower our clients with dynamic, responsive website builds using PHP, Java, .NET, Wordpress, React JS, React Native, Drupal, CMS, and more — ensuring seamless performance, scalability, and user engagement.",
-    btn1: CiCirclePlus,
+    btn1: "See more",
     link: "/development",
   },
   {
     image: "/assets/mobileapp.jpg",
     title: "Mobile app Development",
     para: "We build high-performance Android and iOS apps with seamless user experiences, ensuring innovation and scalability for your business.",
-    btn1: CiCirclePlus,
+    btn1: "See more",
     link: "mobile-app",
   },
   {
     image: "/assets/software-dev.jpg",
     title: "Software Development",
     para: "Transform your ideas into powerful digital solutions with our cutting-edge software development services. From scalable web and mobile apps to enterprise solutions, we build high-performance, user-centric software tailored to your business needs.",
-    btn1: CiCirclePlus,
+    btn1: "See more",
     link: "software-dev",
   },
   {
     image: "/assets/non-digital.jpg",
     title: "Digital Marketing Services",
     para: "Boost your brand’s online presence with our result-driven digital marketing services. From SEO and social media to paid ads, we help you reach, engage, and convert your audience effectively.",
-    btn1: CiCirclePlus,
+    btn1: "See more",
     link: "/digital-marketing",
   },
   {
     image: "/assets/oracle.jpg",
     title: "Oracle SQL Development",
     para: "Optimize your data management with our expert Oracle SQL development services. We design efficient, scalable, and secure database solutions tailored to your business needs",
-    btn1: CiCirclePlus,
+    btn1: "See more",
     link: "/oracle",
   },
   {
     image: "/assets/marketing.jpg",
     title: "Affiliated Marketing Services",
     para: "Optimize your data management with our expert Oracle SQL development services. We design efficient, scalable, and secure database solutions tailored to your business needs.",
-    btn1: CiCirclePlus,
+    btn1: "See more",
     link: "/digital-marketing",
   },
   {
     image: "/assets/seo.jpg",
     title: "SEO/SEM",
     para: "Boost your website’s visibility with our SEO services. We optimize your site for higher rankings, increased traffic, and better conversions.",
-    btn1: CiCirclePlus,
+    btn1: "See more",
     link: "/seo",
   },
   {
     image: "/assets/game.jpg",
     title: "Game Development",
     para: "Bring your gaming ideas to life with our expert game development services. We create immersive, high-performance games for mobile, PC, and consoles with stunning visuals and smooth gameplay.",
-    btn1: CiCirclePlus,
+    btn1: "See more",
     link: "game",
   },
 ];
@@ -100,10 +100,10 @@ const HomeService = () => {
             </p>
 
             <button
-              className="mt-6 text-orange-400 hover:text-orange-500 transition cursor-pointer"
+              className="mt-6 px-2 py-2 text-orange-400 font-semibold rounded-lg shadow-md hover:bg-orange-100 transition"
               onClick={() => navigate(item.link)}
             >
-              <item.btn1 size={24} />
+              {item.btn1}
             </button>
           </div>
         ))}

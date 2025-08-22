@@ -9,7 +9,7 @@ import { IoLogoInstagram } from "react-icons/io";
 
 const data = [
   {
-    image: "/assets/lokesh.jpg",
+    image: "/assets/LokeshSir.jpg",
     name: "Lokesh Kumar",
     position: "Managing Director",
     link: "/profilelokesh",
@@ -21,17 +21,17 @@ const data = [
       linkdin: "https://www.linkedin.com/in/lokesh-kumar-227853154/",
     },
   },
-  {
-    image: "/assets/VIKAS-SIR-01.jpg",
-    name: "Vikas Kumar",
-    position: "Chief Technology Officer",
-    link: "/profilevikas",
-    social: {
-      facebook: "#",
-      linkedin: "https://www.linkedin.com/in/vikash-kumar-461b1912a/",
-      instagram: "#",
-    },
-  },
+  // {
+  //   image: "/assets/VIKAS-SIR-01.jpg",
+  //   name: "Vikas Kumar",
+  //   position: "Chief Technology Officer",
+  //   link: "/profilevikas",
+  //   social: {
+  //     facebook: "#",
+  //     linkedin: "https://www.linkedin.com/in/vikash-kumar-461b1912a/",
+  //     instagram: "#",
+  //   },
+  // },
   {
     image: "/assets/aditifinal-01.jpg",
     name: "Aditi Chaudhary",
@@ -43,28 +43,28 @@ const data = [
       instagram: "#",
     },
   },
-  {
-    image: "/assets/saloni-01.jpg",
-    name: "Saloni Jha",
-    position: "HR Manager",
-    link: "/saloniprofile",
-    social: {
-      facebook: "#",
-      linkedin: "#",
-      instagram: "#",
-    },
-  },
-  {
-    image: "/assets/narendra-sir-01.jpg",
-    name: "Narender Yadav",
-    position: "Tech Lead",
-    link: "/profilenarendra",
-    social: {
-      facebook: "#",
-      linkedin: "#",
-      instagram: "#",
-    },
-  },
+  // {
+  //   image: "/assets/SaloniNew1.jpg",
+  //   name: "Saloni Jha",
+  //   position: "HR Manager",
+  //   link: "/saloniprofile",
+  //   social: {
+  //     facebook: "#",
+  //     linkedin: "#",
+  //     instagram: "#",
+  //   },
+  // },
+  // {
+  //   image: "/assets/NarendraNew2.jpg",
+  //   name: "Narender Yadav",
+  //   position: "Tech Lead",
+  //   link: "/profilenarendra",
+  //   social: {
+  //     facebook: "#",
+  //     linkedin: "#",
+  //     instagram: "#",
+  //   },
+  // },
 ];
 
 const OurTeamBody = () => {
@@ -76,7 +76,7 @@ const OurTeamBody = () => {
         </h1>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-1">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-1">
         {data.map((item, index) => {
           const bgTop = index % 2 === 0 ? "bg-orange-100" : "bg-blue-100";
           const bgBottom = index % 2 === 0 ? "bg-orange-400" : "bg-blue-900";
@@ -91,16 +91,13 @@ const OurTeamBody = () => {
                     <img
                       src={item.image}
                       alt={item.name}
-                      className="h-65 w-62 object-cover"
+                      className="w-full h-full object-cover rounded-tr-[50px]"
                     />
                   </div>
-
-                  <div
-                    className={`${bgBottom} text-white px-6 py-4 text-center`}
-                  >
-                    <h2 className="text-lg font-bold">{item.name}</h2>
-                    <p className="text-sm mb-3">{item.position}</p>
-                    <div className="flex gap-4 text-2xl justify-center">
+                  <div className={`${bgBottom} text-white text-center py-4`}>
+                    <h3 className="font-bold">{item.name}</h3>
+                    <p>{item.position}</p>
+                    <div className="flex justify-center space-x-4 mt-2">
                       <a
                         href={item.social.facebook}
                         target="_blank"

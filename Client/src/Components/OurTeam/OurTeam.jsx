@@ -9,18 +9,20 @@ import Development from "./Development";
 import DesigningTeam from "./DesigningTeam";
 import MarketingTeam from "./MarketingTeam";
 import Footer from "../Footer/Footer";
+import OurTeamNew from "./OurTeamNew";
 
 const OurTeam = () => {
   return (
     <>
       <Navbar />
       <Navbar2 />
-      <OurTeamBody />
+      {/* <OurTeamNew /> */}
+      {/* <OurTeamBody /> */}
       <AssociateTeam />
-      <Operation />
-      <Development />
-      <DesigningTeam />
-      <MarketingTeam />
+      {/* <Operation /> */}
+      {/* <Development /> */}
+      {/* <DesigningTeam /> */}
+      {/* <MarketingTeam /> */}
       <Footer3 />
       <Footer />
     </>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom"; // Import Link
 
 const data = [
   {
@@ -39,21 +40,21 @@ const data = [
   },
   {
     icon: "/assets/Group-8712.jpg",
-    image: "/assets/Group-8742.jpg",
-    name: "Nestor pharmaceuticals",
-    link: "https://nestorpharma.com",
+    image: "/assets/manpower.jpg",
+    name: "Manpower App",
+    link: "https://nmgemandjewels.com",
   },
   {
     icon: "/assets/Group-8712.jpg",
-    image: "/assets/Group-8742.jpg",
-    name: "Nestor pharma",
-    link: "https://nestorpharma.com",
+    image: "/assets/portfoliomobile.jpg",
+    name: "Portfolio Mobile",
+    link: "https://nmgemandjewels.com",
   },
   {
     icon: "/assets/Group-8712.jpg",
-    image: "/assets/Group-8742.jpg",
-    name: "Nestor pharma",
-    link: "https://nestorpharma.com",
+    image: "/assets/transportation.jpg",
+    name: "Transportation App",
+    link: "https://nmgemandjewels.com",
   },
 ];
 
@@ -81,7 +82,7 @@ const HomePortfolio = () => {
                   alt="Icon"
                   className="h-auto w-full rounded-xl"
                 />
-                {/* Simulated text inside search bar on image */}
+                {/* Project Name */}
                 <div className="absolute top-[-2px] lg:top-[2px] left-1/2 transform -translate-x-1/2 w-[80%] text-sm text-gray-600 text-center lg:font-semibold">
                   {item.name}
                 </div>
@@ -89,7 +90,7 @@ const HomePortfolio = () => {
               <img
                 src={item.image}
                 alt="Project"
-                className="h-auto w-[70%] mb-4 object-contain rounded-xl"
+                className="h-auto w-[70%] mb-4 object-contain rounded-xl transition-transform duration-500 hover:scale-175"
               />
             </div>
 
@@ -116,6 +117,16 @@ const HomePortfolio = () => {
             )}
           </div>
         ))}
+      </div>
+
+      {/* Button to go to full portfolio page */}
+      <div className="text-center mt-12">
+        <Link
+          to="/portfolio"
+          className="px-8 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold rounded-lg shadow-lg hover:opacity-90 transition"
+        >
+          View Full Portfolio
+        </Link>
       </div>
     </div>
   );

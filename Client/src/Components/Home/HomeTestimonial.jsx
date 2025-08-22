@@ -118,5 +118,4 @@ const HomeTestimonial = () => {
     </div>
   );
 };
-
 export default HomeTestimonial;

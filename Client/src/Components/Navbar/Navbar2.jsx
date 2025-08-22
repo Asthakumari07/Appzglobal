@@ -16,7 +16,7 @@ const Navbar2 = () => {
   const routeContent = {
     "/": {
       image: heroImage,
-      title: "Our Future is here",
+      title: "We Grow With You",
       description:
         "Stay ahead with AI-powered smart solutions that drive innovation, enhance efficiency, and accelerate business growth-empowering you to thrive in a future-ready digital-world",
     },
