@@ -29,9 +29,9 @@ const data = [
     icons: [CiLinkedin, FaFacebook, FaSquareWhatsapp, FaInstagramSquare],
   },
   {
-    image: "/assets/SaloniNew1.jpg",
-    name: "Saloni Jha",
-    para: "General Manager",
+    image: "/assets/AaqibNew.jpg",
+    name: "MD Aaqib",
+    para: "Chief Revenue Officer",
     icons: [CiLinkedin, FaFacebook, FaSquareWhatsapp, FaInstagramSquare],
   },
   {
