@@ -31,13 +31,13 @@ const data = [
   {
     image: "/assets/SaloniNew1.jpg",
     name: "Saloni Jha",
-    para: "Director",
+    para: "General Manager",
     icons: [CiLinkedin, FaFacebook, FaSquareWhatsapp, FaInstagramSquare],
   },
   {
     image: "/assets/Gitansh2.jpg",
     name: "Gitansh",
-    para: "Corporate Tech Officer",
+    para: "Chief Technology Officer",
     icons: [CiLinkedin, FaFacebook, FaSquareWhatsapp, FaInstagramSquare],
   },
 ];
