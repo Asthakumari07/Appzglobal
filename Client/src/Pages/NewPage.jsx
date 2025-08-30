@@ -9,7 +9,6 @@ import Benefits from "./Benefits";
 import ContactForm from "../Components/Home/ContactForm";
 import Footer3 from "../Components/About/Footer3";
 import BlogFAQSection from "./BlogFAQSection";
-import { Helmet } from "react-helmet-async"; // ✅ Import Helmet
 
 const points = [
   {
@@ -47,24 +46,6 @@ const NewPage = () => {
   const navigate = useNavigate();
   return (
     <>
-      {/* ✅ SEO Metadata */}
-      <Helmet>
-        <title>
-          Custom Software Development Solutions | Appz Global Technology
-        </title>
-        <meta
-          name="description"
-          content="Explore Appz Global Technology’s custom software development services. We build scalable, secure, and enterprise-grade digital solutions for businesses in India, USA, and worldwide."
-        />
-        <meta name="robots" content="INDEX, FOLLOW" />
-        <link rel="canonical" href="https://appzglobaltech.com/software/new" />
-        <meta name="author" content="AGT" />
-        <meta
-          name="keywords"
-          content="custom software development, enterprise software solutions, web application development, software development consulting, mobile app development, software development company in Noida, India, USA"
-        />
-        <html lang="en-US" />
-      </Helmet>
       <Navbar />
       <Navbar2 />
 
