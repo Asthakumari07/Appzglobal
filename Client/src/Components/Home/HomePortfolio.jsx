@@ -40,19 +40,19 @@ const data = [
   },
   {
     icon: "/assets/Group-8712.jpg",
-    image: "/assets/manpower.jpg",
+    image: "/assets/Manpower.jpg",
     name: "Manpower App",
     link: "https://nmgemandjewels.com",
   },
   {
     icon: "/assets/Group-8712.jpg",
-    image: "/assets/portfoliomobile.jpg",
+    image: "/assets/Portfolio.jpg",
     name: "Portfolio Mobile",
     link: "https://nmgemandjewels.com",
   },
   {
     icon: "/assets/Group-8712.jpg",
-    image: "/assets/transportation.jpg",
+    image: "/assets/lisofy.jpg",
     name: "Transportation App",
     link: "https://nmgemandjewels.com",
   },
@@ -73,7 +73,7 @@ const HomePortfolio = () => {
           <div key={index} className="flex flex-col items-center">
             <div
               className={`rounded-xl shadow-md p-6 flex flex-col items-center text-center hover:shadow-lg transition-shadow gap-5 ${
-                index % 2 === 0 ? "bg-blue-800" : "bg-orange-400"
+                index % 2 === 0 ? "bg-blue-500" : "bg-orange-300"
               }`}
             >
               <div className="relative w-[70%]">

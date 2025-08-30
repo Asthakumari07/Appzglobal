@@ -30,13 +30,19 @@ const data = [
   },
   {
     image: "/assets/AaqibNew.jpg",
-    name: "MD Aaqib",
+    name: "MD Aqib",
     para: "Chief Revenue Officer",
     icons: [CiLinkedin, FaFacebook, FaSquareWhatsapp, FaInstagramSquare],
   },
   {
+    image: "/assets/Shekhar.jpg",
+    name: "Chandrashekhar Soni",
+    para: "Vice President",
+    icons: [CiLinkedin, FaFacebook, FaSquareWhatsapp, FaInstagramSquare],
+  },
+  {
     image: "/assets/Gitansh2.jpg",
-    name: "Gitansh",
+    name: "Gitansh Kumar",
     para: "Chief Technology Officer",
     icons: [CiLinkedin, FaFacebook, FaSquareWhatsapp, FaInstagramSquare],
   },

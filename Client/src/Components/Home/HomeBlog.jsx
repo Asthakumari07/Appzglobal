@@ -66,7 +66,7 @@ const HomeBlog = () => {
                 <div key={index} className="px-4">
                   <div
                     className={`h-60 shadow-lg p-6 rounded-lg border bg-blue-800 text-white text-center hover:shadow-xl transition-shadow rounded-tl-[40px]
-                    ${index % 2 === 0 ? "bg-blue-800" : "bg-orange-400"}
+                    ${index % 2 === 0 ? "bg-blue-800" : "bg-orange-300"}
                     `}
                   >
                     <p className="text-sm">{item.para}</p>

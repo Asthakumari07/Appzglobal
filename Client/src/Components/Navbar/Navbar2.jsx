@@ -3,6 +3,7 @@ import { CgMenuRightAlt } from "react-icons/cg";
 import { Link, useNavigate, useLocation } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import { FiLogIn } from "react-icons/fi";
+import { FaArrowRight } from "react-icons/fa";
 
 const Navbar2 = () => {
   const navigate = useNavigate();
@@ -156,7 +157,7 @@ const Navbar2 = () => {
       description: "Scalable cloud solutions for your growing business.",
     },
     "/Software-dev": {
-      image: "/assets/ServicesPage.jpg",
+      image: "/assets/ServiceNew.jpg",
       title: "Software Development",
       description: "Bespoke software development services to fit your needs.",
     },
@@ -165,6 +166,15 @@ const Navbar2 = () => {
       title: "Digital Marketing",
       description: "Boost your online presence with our marketing strategies.",
     },
+    "/software/new": {
+      image: "/assets/ServiceNew.jpeg",
+      title: "SOFTWARE DEVELOPMENT SERVICES",
+      description:
+        "Start Future-Ready Digital Solutions With Our Software Expertise",
+      para: "In today's fast-moving digital world, markets need more than just software, they want scalable, secure, and high-performing software development services that give growth.",
+      button: "Book Now <FaArrowRight />",
+    },
+
     "/oracle": {
       image: "/assets/ServicesPage.jpg",
       title: "Oracle SQL Development",

@@ -38,7 +38,7 @@ const data = [
     title: "Software Development",
     para: "Transform your ideas into powerful digital solutions with our cutting-edge software development services. From scalable web and mobile apps to enterprise solutions, we build high-performance, user-centric software tailored to your business needs.",
     btn1: CiCirclePlus,
-    link: "/software-dev",
+    link: "/software/new",
   },
   {
     image: "/assets/oracle.jpg",

@@ -19,13 +19,13 @@ const data = [
   },
   {
     image: "/assets/AaqibNew.jpg",
-    name: "MD Aaqib",
+    name: "Mohammad Aqib Ansari",
     position: "Chief Revenue Officer",
   },
   {
     image: "/assets/Shekhar.jpg",
-    name: "C Shekher",
-    position: "Vice President, Sales & Marketing",
+    name: "Chandrashekhar Soni",
+    position: "Vice President",
   },
 
   {
@@ -36,12 +36,12 @@ const data = [
   {
     image: "/assets/NarendraNew2.jpg",
     name: "Narendra Kumar",
-    position: "Floor Manager",
+    position: "Technical Head",
   },
   {
     image: "/assets/Astha.jpg",
     name: "Astha Kumari",
-    position: "Tech Analyst",
+    position: "Head Of Department - Research & Development",
   },
 ];
 
@@ -60,8 +60,10 @@ const AssociateTeam = () => {
         {/* optional small gradient border */}
         <div className="absolute inset-0 rounded-full ring-2 ring-transparent hover:ring-blue-400 transition" />
       </div>
-      <h2 className="text-lg font-semibold text-gray-800 mt-4">{item.name}</h2>
-      <p className="text-sm text-gray-500">{item.position}</p>
+      <h2 className="text-lg font-semibold text-gray-800 mt-4 text-center">
+        {item.name}
+      </h2>
+      <p className="text-sm text-gray-500 text-center">{item.position}</p>
     </div>
   );
 
