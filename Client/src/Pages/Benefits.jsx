@@ -32,9 +32,9 @@ const benefits = [
 export default function Benefits() {
   return (
     <section className="py-14 px-6 bg-white text-center">
-      <h2 className="text-2xl md:text-3xl font-bold mb-2">
+      <h3 className="text-2xl md:text-3xl font-bold mb-2">
         BENEFITS OF OUR SOFTWARE DEVELOPMENT SERVICES
-      </h2>
+      </h3>
       <p className="text-gray-600 mb-10 max-w-2xl mx-auto">
         Partnering with us gives your business a competitive edge:
       </p>

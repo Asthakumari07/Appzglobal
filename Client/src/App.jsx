@@ -123,7 +123,7 @@ function App() {
           <Route path="/blogpara" element={<BlogPara />} />
           <Route path="/privacy" element={<Privacy />} />
           <Route path="/term" element={<Term />} />
-          <Route path="/software/new" element={<SoftwareNewPage />} />
+          <Route path="/software/Development" element={<SoftwareNewPage />} />
         </Routes>
       </Router>
     </>

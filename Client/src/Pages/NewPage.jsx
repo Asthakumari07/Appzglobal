@@ -9,6 +9,8 @@ import Benefits from "./Benefits";
 import ContactForm from "../Components/Home/ContactForm";
 import Footer3 from "../Components/About/Footer3";
 import BlogFAQSection from "./BlogFAQSection";
+import { Helmet } from "react-helmet-async";
+import HomeStages from "../Components/Home/HomeStages";
 
 const points = [
   {
@@ -46,6 +48,34 @@ const NewPage = () => {
   const navigate = useNavigate();
   return (
     <>
+      {/* SEO Meta Tags */}
+      <Helmet>
+        <title>Software Development Services | Appz Global Tech</title>
+        <meta
+          name="description"
+          content="Appz Global Tech offers scalable and secure software development services, including enterprise solutions, web apps, mobile apps, and consulting to help businesses grow globally."
+        />
+        <meta
+          name="keywords"
+          content="software development, enterprise solutions, web applications, mobile apps, software consulting, Appz Global Tech"
+        />
+        <meta name="author" content="Appz Global Tech" />
+        <meta
+          property="og:title"
+          content="Software Development Services | Appz Global Tech"
+        />
+        <meta
+          property="og:description"
+          content="Transform your vision into reality with Appz Global Tech’s custom software development, enterprise solutions, and mobile app services."
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="/assets/FirstImage.jpeg" />
+        <meta
+          property="og:url"
+          content="https://appzglobaltech.com/software/Development"
+        />
+      </Helmet>
+
       <Navbar />
       <Navbar2 />
 
@@ -71,7 +101,7 @@ const NewPage = () => {
             development services that give growth.
           </p>
           <p className="text-xl leading-relaxed text-gray-700 mb-4">
-            At Appz Global Technology, we are not just innovative,
+            At Appz Global Tech Pvt. Ltd., we are not just innovative,
             result-oriented software solutions that build B2B business,
             eCommerce businesses, and SMEs to stay top-notch in the global
             market, the USA, and across the world.
@@ -109,9 +139,9 @@ const NewPage = () => {
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-8 items-center backdrop-blur-sm p-8">
           {/* Left Content */}
           <div>
-            <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
+            <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
               Custom Software Development Services
-            </h2>
+            </h3>
             <p className="text-gray-700 mb-4 text-xl">
               Every business is with a new vision and new goal and so are its
               software needs. Our AGT custom software development services are
@@ -124,10 +154,10 @@ const NewPage = () => {
                 Solutions oriented for eCommerce, healthcare, fintech, and many
                 more
               </li>
+              <li>
+                Future-ready architectures that adapt to evolving business needs
+              </li>
             </ul>
-            <p className="text-gray-700 text-xl">
-              Future-ready architectures that adapt to evolving business needs
-            </p>
           </div>
 
           {/* Right Image */}
@@ -156,9 +186,9 @@ const NewPage = () => {
 
           {/* Right Content */}
           <div>
-            <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
+            <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
               Enterprise Software Development
-            </h2>
+            </h3>
             <p className="text-gray-700 leading-relaxed mb-4 text-xl">
               We build robust enterprise solutions that streamline operations,
               improve workflows, and enhance decision-making.
@@ -178,14 +208,14 @@ const NewPage = () => {
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-8 items-center backdrop-blur-sm p-8">
           {/* Left Content */}
           <div>
-            <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
+            <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
               Web Application Development
-            </h2>
+            </h3>
             <p className="text-gray-700 mb-4 text-xl">
               From standard to dynamic eCommerce platforms to SaaS-based
-              products, Appz Global Technology software development agency in
-              Noida provides responsive, scalable, and bug-free web applications
-              that give seamless user experiences.
+              products, Appz Global Tech Pvt. Ltd. software development agency
+              in Noida provides responsive, scalable, and bug-free web
+              applications that give seamless user experiences.
             </p>
           </div>
 
@@ -215,9 +245,9 @@ const NewPage = () => {
 
           {/* Right Content */}
           <div>
-            <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
+            <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
               Mobile Application Development
-            </h2>
+            </h3>
             <p className="text-gray-700 leading-relaxed mb-4 text-xl">
               We deliver feature-oriented mobile apps for iOS and Android that
               help your business reach a global brand.
@@ -238,9 +268,9 @@ const NewPage = () => {
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-8 items-center backdrop-blur-sm p-8">
           {/* Left Content */}
           <div>
-            <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
+            <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
               Software Development Consulting Services
-            </h2>
+            </h3>
             <p className="text-gray-700 mb-4 text-xl">
               We know you don’t know where to start? Our software development
               consulting services help businesses design the right tech
@@ -294,13 +324,14 @@ const NewPage = () => {
         </div>
       </div>
       <Industries />
-      <div className="flex justify-center">
+      {/* <div className="flex justify-center">
         <img
           src="/assets/Proccess.jpeg"
           alt="Why Choose Us"
           className="rounded-2xl shadow-lg w-full max-w-6xl"
         />
-      </div>
+      </div> */}
+      <HomeStages />
       <Benefits />
       <BlogFAQSection />
       <ContactForm />

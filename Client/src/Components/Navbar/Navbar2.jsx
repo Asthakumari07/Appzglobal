@@ -163,10 +163,11 @@ const Navbar2 = () => {
     },
     "/digital-marketing": {
       image: "/assets/ServicesPage.jpg",
-      title: "Digital Marketing",
-      description: "Boost your online presence with our marketing strategies.",
+      title: "Digital Marketing Services",
+      description:
+        "Achieve top brand visibility with strategic digital marketing services in India. Appz Global Tech Pvt. Ltd., a trusted industry leader, offers a complete package of Digital Marketing—all in one place.",
     },
-    "/software/new": {
+    "/software/Development": {
       image: "/assets/ServiceNew.jpeg",
       title: "SOFTWARE DEVELOPMENT SERVICES",
       description:
@@ -325,7 +326,7 @@ const Navbar2 = () => {
         onClick={() => setIsOpen(!isOpen)}
       >
         <CgMenuRightAlt size={34} />
-        <h1 className="font-bold hidden lg:block">Menu</h1>
+        <h2 className="font-bold hidden lg:block text-xl">Menu</h2>
       </button>
 
       <AnimatePresence>

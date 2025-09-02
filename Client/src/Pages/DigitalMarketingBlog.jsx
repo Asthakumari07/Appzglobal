@@ -1,24 +1,26 @@
 import { useState } from "react";
-import { ChevronDown, ChevronUp } from "lucide-react";
+import { ChevronDown, ChevronUp, HelpCircle } from "lucide-react";
 
 const faqs = [
   {
-    question: "What types of software development services do you provide?",
+    question: "What specializations does Appz Global Tech have? ",
     answer:
-      "AGT offers you end-to-end software development services, adding custom software development, enterprise applications, mobile app development, web app development, and consulting services. Our expert is also proficient in making scalable eCommerce and B2B solutions offered to your industry.",
+      "AGT is not limited to one sector, as we have had the chance to work with diverse industries globally. For example, the healthcare, finance, eCommerce, logistics, education, and manufacturing sectors all benefit from our assistance.",
   },
   {
-    question: "Why should I choose AGT for software development in Noida?",
+    question: "Does AGT provide custom digital solutions? ",
     answer:
-      "With a top-notch software development company in Noida, we understand global expertise with local presence. We work with agile methodologies, for cost-effective solutions, and offer high-quality software for businesses across India, USA & globally. A proven track record makes us a trusted partner for startups and SME’s.",
+      "Yes, AGT offers you all digital solutions that are made to meet your specific business goals.",
   },
   {
-    question: "How much does custom software development cost?",
+    question:
+      "How can I understand which digital service is best for your customer?",
     answer:
-      "Custom software pricing varies by project scope, features, technology, and delivery time. We give you a flexible engagement method to suit different business needs. You can book a free consultation with our experts to get a customised cost estimate for your project.",
+      "First, visit our Digital Marketing Webpage, where you can get an idea about our past work and industry experience. Then book a free consultation with our consulting team. Once they understand your requirement, they will automatically connect you with our experts, who will work closely with you to understand your needs and help you identify the best method.",
   },
   {
-    question: "How is Appz Global Tech different from other services?",
+    question:
+      "How is Appz Global Tech different from other Digital Marketing services?",
     answer:
       "Yes, your question is absolutely right. We have been here for the last 10 years because of our customer-first approach, strong business expertise, proven results, and focus on long-term growth.",
   },
@@ -29,7 +31,7 @@ const faqs = [
   },
 ];
 
-export default function BlogFAQSection() {
+export default function DigitalMarketingBlog() {
   const [openIndex, setOpenIndex] = useState(null);
 
   const toggleFAQ = (index) => {
@@ -40,9 +42,9 @@ export default function BlogFAQSection() {
     <section className="bg-gradient-to-br from-blue-50 to-indigo-100 py-20 px-6">
       <div className="max-w-5xl mx-auto">
         {/* Blog Section Heading */}
-        {/* <h2 className="text-4xl font-extrabold text-center mb-12 text-gray-800">
+        <h2 className="text-4xl font-extrabold text-center mb-12 text-gray-800">
           Blog Section
-        </h2> */}
+        </h2>
 
         {/* FAQ Heading */}
         <h3 className="text-2xl font-semibold mb-8 text-gray-700 text-center">
@@ -64,10 +66,7 @@ export default function BlogFAQSection() {
                 className="flex justify-between items-center w-full px-6 py-4 text-left"
               >
                 <div className="flex items-center gap-3">
-                  {/* Q1, Q2, Q3 instead of icon */}
-                  <span className="bg-indigo-500 text-white font-bold px-3 py-1 rounded-full">
-                    Q{index + 1}
-                  </span>
+                  <HelpCircle className="w-6 h-6 text-indigo-500" />
                   <span className="font-medium text-lg text-gray-900">
                     {faq.question}
                   </span>

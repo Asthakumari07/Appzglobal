@@ -40,7 +40,7 @@ const data = [
   },
   {
     icon: "/assets/Group-8712.jpg",
-    image: "/assets/Manpower.jpg",
+    image: "/assets/ManpowerImage.jpg",
     name: "Manpower App",
     link: "https://nmgemandjewels.com",
   },

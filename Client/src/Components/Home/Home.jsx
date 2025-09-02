@@ -14,12 +14,38 @@ import HomeBlog from "./HomeBlog";
 import HomeTestimonial from "./HomeTestimonial";
 import ContactForm from "./ContactForm";
 import CustomWhatsAppButton from "../CustomWhatsAppButton";
+import { Helmet } from "react-helmet-async";
+import Navbar3 from "../Navbar/Navbar3";
+import HeroSection from "./HeroSection";
 
 const Home = () => {
   return (
     <>
+      <Helmet>
+        <title>
+          Digital Transformation Company: AI & ML Solutions | Appz Global Tech
+        </title>
+        <meta
+          name="description"
+          content="Discover top-notch digital transformation solutions. Our company leverages AI, ML, App and eCommerce strategies to elevate your business today!"
+        />
+        <link rel="canonical" href="https://appzglobaltech.com/" />
+        <meta property="og:url" content="https://appzglobaltech.com/" />
+        <meta
+          property="og:title"
+          content="Digital Transformation Company: AI & ML Solutions | Appz Global Tech"
+        />
+        <meta
+          property="og:description"
+          content="Elevate your business with Appz Global Tech’s AI, ML, App and eCommerce powered digital transformation services."
+        />
+        <meta property="og:type" content="website" />
+      </Helmet>
+
       <Navbar />
       <Navbar2 />
+      {/* <Navbar3 /> */}
+      {/* <HeroSection /> */}
       <Home1 />
       <HomeSlider />
       <HomeCounter />

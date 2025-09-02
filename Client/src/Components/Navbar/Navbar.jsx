@@ -22,8 +22,6 @@ const Navbar = () => {
           info@appzglobaltech.com
         </a>
       </div>
-
-      {/* Logo */}
       <div className="mt-2 sm:mb-0 clip-bottom-edge bg-white shadow-2xl border-b border-gray-400">
         <Link to="/">
           <img
@@ -33,7 +31,6 @@ const Navbar = () => {
           />
         </Link>
       </div>
-
       {/* Social Media Links */}
       <div className="flex gap-4 sm:gap-6 hidden sm:flex">
         <a
