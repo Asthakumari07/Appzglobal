@@ -156,18 +156,18 @@ const Navbar2 = () => {
       title: "Cloud & DevOps",
       description: "Scalable cloud solutions for your growing business.",
     },
-    "/Software-dev": {
-      image: "/assets/ServiceNew.jpg",
-      title: "Software Development",
-      description: "Bespoke software development services to fit your needs.",
-    },
+    // "/Software-dev": {
+    //   image: "/assets/ServiceNew.jpg",
+    //   title: "Software Development",
+    //   description: "Bespoke software development services to fit your needs.",
+    // },
     "/digital-marketing": {
       image: "/assets/ServicesPage.jpg",
       title: "Digital Marketing Services",
       description:
         "Achieve top brand visibility with strategic digital marketing services in India. Appz Global Tech Pvt. Ltd., a trusted industry leader, offers a complete package of Digital Marketing—all in one place.",
     },
-    "/software/Development": {
+    "/software-dev": {
       image: "/assets/ServiceNew.jpeg",
       title: "SOFTWARE DEVELOPMENT SERVICES",
       description:

@@ -35,7 +35,7 @@ import Testing from "./Pages/Testing";
 import Database from "./Pages/Database";
 import Development from "./Pages/Development";
 import Cloud from "./Pages/Cloud";
-import Software from "./Pages/Software";
+// import Software from "./Pages/Software";
 import Digital from "./Pages/DigitalMarketing";
 import Oracle from "./Pages/Oracle";
 import SEO from "./Pages/SEO";
@@ -60,6 +60,7 @@ import Term from "./Components/TermCondition/Term";
 
 import Login from "./Components/Form";
 import Login2 from "./Components/Form2";
+import ThankYou from "./Components/Home/ThankYou";
 
 function App() {
   return (
@@ -98,7 +99,7 @@ function App() {
           <Route path="/database" element={<Database />} />
           <Route path="/development" element={<Development />} />
           <Route path="/cloud" element={<Cloud />} />
-          <Route path="/Software-dev" element={<Software />} />
+          {/* <Route path="/Software-dev" element={<Software />} /> */}
           <Route path="/digital-marketing" element={<Digital />} />
           <Route path="/oracle" element={<Oracle />} />
           <Route path="/seo" element={<SEO />} />
@@ -123,7 +124,8 @@ function App() {
           <Route path="/blogpara" element={<BlogPara />} />
           <Route path="/privacy" element={<Privacy />} />
           <Route path="/term" element={<Term />} />
-          <Route path="/software/Development" element={<SoftwareNewPage />} />
+          <Route path="/software-dev" element={<SoftwareNewPage />} />
+          <Route path="/thank-you" element={<ThankYou />} />
         </Routes>
       </Router>
     </>

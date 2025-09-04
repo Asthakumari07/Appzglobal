@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Navbar from "../Navbar/Navbar";
 import Navbar2 from "../Navbar/Navbar2";
 import Footer from "../Footer/Footer";
@@ -17,8 +17,16 @@ import CustomWhatsAppButton from "../CustomWhatsAppButton";
 import { Helmet } from "react-helmet-async";
 import Navbar3 from "../Navbar/Navbar3";
 import HeroSection from "./HeroSection";
+import ContactFormPopup from "./contactFormPopup";
 
 const Home = () => {
+  // ✅ Ye state zaroor declare honi chahiye
+  const [showPopup, setShowPopup] = useState(false);
+
+  // ✅ Page load hone pe popup dikhana
+  useEffect(() => {
+    setShowPopup(true);
+  }, []);
   return (
     <>
       <Helmet>
@@ -57,6 +65,10 @@ const Home = () => {
       <HomeBlog />
       <HomeTestimonial />
       <ContactForm />
+      <CustomWhatsAppButton />
+      {/* 🔹 Popup form show/hide */}
+      {showPopup && <ContactFormPopup onClose={() => setShowPopup(false)} />}
+
       <CustomWhatsAppButton />
 
       <Footer />

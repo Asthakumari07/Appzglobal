@@ -5,7 +5,7 @@ const industries = [
   { img: "/assets/Indo-2.jpg", title: "Healthcare" },
   { img: "/assets/Indo-3.jpg", title: "Finance & Banking" },
   { img: "/assets/Indo-4.jpg", title: "Manufacturing" },
-  { img: "/assets/Indo-5.jpg", title: "Education & e-learning" },
+  { img: "/assets/Indo-5.jpg", title: "Education & e-Learning" },
   { img: "/assets/Indo-6.jpg", title: "Automotive" },
 ];
 

@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import axios from "axios";
 import "./form.css";
+import { useNavigate } from "react-router-dom"; // ✅ import navigate
 
 const ContactForm: React.FC = () => {
+  const navigate = useNavigate();
   const [Values, setValue] = useState({
     name: "",
     email: "",
@@ -38,8 +40,9 @@ const ContactForm: React.FC = () => {
         Values
       );
 
-      // Handle successful response
-      alert(response.data.message); // Should show "User registered successfully!"
+      // alert(response.data.message); // Should show "User registered successfully!"
+      console.log(response.data);
+      navigate("/thank-you");
     } catch (error: any) {
       // Handle errors
       console.error(error);

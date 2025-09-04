@@ -146,28 +146,30 @@ const Footer = () => {
                 <Link to={"/mobile-app"}>Mobile Development Services</Link>
               </li>
               <li>
-                <Link to={"/services"}>Digital Marketing Services</Link>
+                <Link to={"/digital-marketing"}>
+                  Digital Marketing Services
+                </Link>
               </li>
               <li>
-                <Link to={"/digital-marketing"}>CRM Software Development</Link>
+                <Link to={"/crm"}>CRM Software Development</Link>
               </li>
               <li>
-                <Link to={"/services"}>ERP Software Development</Link>
+                <Link to={"/erpservice"}>ERP Software Development</Link>
               </li>
               <li>
-                <Link to={"/software-dev"}>Software Development</Link>
+                <Link to={"/software/Development"}>Software Development</Link>
               </li>
               <li>
                 <Link to={"/game"}>Game Development</Link>
               </li>
-              <li>
+              {/* <li>
                 <Link to={"/testing"}>Software Testing</Link>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <Link to={"/digital-marketing"}>
                   Affiliate Marketing Services
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link to={"/oracle"}>Oracle SQL Development</Link>
               </li>

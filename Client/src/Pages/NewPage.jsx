@@ -10,7 +10,8 @@ import ContactForm from "../Components/Home/ContactForm";
 import Footer3 from "../Components/About/Footer3";
 import BlogFAQSection from "./BlogFAQSection";
 import { Helmet } from "react-helmet-async";
-import HomeStages from "../Components/Home/HomeStages";
+import Stages from "./Stages";
+import BlogPage from "./BlogPage";
 
 const points = [
   {
@@ -50,7 +51,9 @@ const NewPage = () => {
     <>
       {/* SEO Meta Tags */}
       <Helmet>
-        <title>Software Development Services | Appz Global Tech</title>
+        <title>
+          Custome Software Development Company | Software Development Services
+        </title>
         <meta
           name="description"
           content="Appz Global Tech offers scalable and secure software development services, including enterprise solutions, web apps, mobile apps, and consulting to help businesses grow globally."
@@ -62,7 +65,7 @@ const NewPage = () => {
         <meta name="author" content="Appz Global Tech" />
         <meta
           property="og:title"
-          content="Software Development Services | Appz Global Tech"
+          content="Custome Software Development Company | Software Development Services"
         />
         <meta
           property="og:description"
@@ -123,11 +126,11 @@ const NewPage = () => {
           </h2>
 
           <p className="text-xl text-gray-600 leading-relaxed mb-6">
-            Yes! We can say, <strong>Appz Global Technology</strong> provides{" "}
-            <strong>end-to-end software development solutions</strong> for
-            businesses of all sizes and industries. From strategy to deployment,
-            our team ensures seamless integration of technology into your
-            operations.
+            Yes! We can say, <strong>Appz Global Tech Pvt. Ltd.,</strong>{" "}
+            provides <strong>end-to-end software development solutions</strong>{" "}
+            for businesses of all sizes and industries. From strategy to
+            deployment, our team ensures seamless integration of technology into
+            your operations.
           </p>
         </div>
       </div>
@@ -312,6 +315,11 @@ const NewPage = () => {
               </li>
             ))}
           </ul>
+          <p className="mt-10 ml-9 text-xl">
+            We understand the client-first approach that not only understands
+            your business to offer you software that is not only technically
+            enriched but also result-oriented.
+          </p>
         </div>
 
         {/* Right Image */}
@@ -331,8 +339,9 @@ const NewPage = () => {
           className="rounded-2xl shadow-lg w-full max-w-6xl"
         />
       </div> */}
-      <HomeStages />
+      <Stages />
       <Benefits />
+      <BlogPage />
       <BlogFAQSection />
       <ContactForm />
 

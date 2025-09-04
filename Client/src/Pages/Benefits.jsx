@@ -4,8 +4,8 @@ import { TrendingUp, Scale, Users, Globe, Workflow } from "lucide-react";
 const benefits = [
   {
     icon: <TrendingUp className="w-10 h-10 text-white" />,
-    title: "Increased Efficiency",
-    desc: "Automate workflows and reduce operational costs.",
+    title: "Increased Result",
+    desc: "Automate workflows and deduct operational costs.",
   },
   {
     icon: <Scale className="w-10 h-10 text-white" />,
@@ -20,12 +20,12 @@ const benefits = [
   {
     icon: <Globe className="w-10 h-10 text-white" />,
     title: "Global Reach",
-    desc: "Expand your business across India, USA, and globally.",
+    desc: "Increase your business across India, USA, and more.",
   },
   {
     icon: <Workflow className="w-10 h-10 text-white" />,
     title: "Future-Oriented Solutions",
-    desc: "AI, cloud, and automation integrated for long-term success.",
+    desc: "AI, cloud, and automation integrated for long-going success.",
   },
 ];
 
