@@ -4,12 +4,9 @@ logs
 
 # Dependency directories
 node_modules/
-
 # Build output
-/dist
-/build
-!Client/dist
-!Server/dist
+dist 
+build
 
 
 # OS files
