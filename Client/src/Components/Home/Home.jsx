@@ -37,6 +37,11 @@ const Home = () => {
           name="description"
           content="Discover top-notch digital transformation solutions. Our company leverages AI, ML, App and eCommerce strategies to elevate your business today!"
         />
+        <meta
+          name="keywords"
+          content="Digital transformation services, digital transformation consulting services, mobile app, digital marketing, IoT, Cloud, DevOps, AI, ML, Digital transformation company in Noida, India, USA"
+        />
+        <meta name="author" content="AGT" />
         <link rel="canonical" href="https://appzglobaltech.com/" />
         <meta property="og:url" content="https://appzglobaltech.com/" />
         <meta
