@@ -21,12 +21,12 @@ import ContactFormPopup from "./contactFormPopup";
 
 const Home = () => {
   // ✅ Ye state zaroor declare honi chahiye
-  const [showPopup, setShowPopup] = useState(false);
+  // const [showPopup, setShowPopup] = useState(false);
 
   // ✅ Page load hone pe popup dikhana
-  useEffect(() => {
-    setShowPopup(true);
-  }, []);
+  // useEffect(() => {
+  //   setShowPopup(true);
+  // }, []);
   return (
     <>
       <Helmet>
@@ -67,7 +67,7 @@ const Home = () => {
       <ContactForm />
       <CustomWhatsAppButton />
       {/* 🔹 Popup form show/hide */}
-      {showPopup && <ContactFormPopup onClose={() => setShowPopup(false)} />}
+{/*       {showPopup && <ContactFormPopup onClose={() => setShowPopup(false)} />} */}
 
       <CustomWhatsAppButton />
 
